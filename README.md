@@ -24,3 +24,6 @@
 
 - we just mod this application to make it available to all non-samsung devices.
 
+<h2>Follow US</h2>
+<p>• follow us on <a href="https://t.me/AndroidPortWorld">Telegram</a></p>
+<p>• join our <a href="https://t.me/AndroidPortWorldDiscussion">Community</a></p>
