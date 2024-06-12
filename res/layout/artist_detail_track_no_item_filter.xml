@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/filter"
+    android:background="?android:selectableItemBackground"
+    android:focusable="true"
+    android:visibility="gone"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16.0dip"
+    android:layout_marginStart="20.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:visibility="visible"
+        layout="@layout/sort_dropdown" />
+</FrameLayout>

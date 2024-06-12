@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:id="@id/nested_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/settings_content_space_bottom">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/folder_root"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/setting_description_font_size"
+                android:textColor="@color/basics_text_description"
+                android:id="@id/description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_manage_playlists_description"
+                android:lineSpacingExtra="@dimen/setting_description_line_space"
+                android:paddingStart="@dimen/settings_dcf_download_folder_side_padding"
+                android:paddingEnd="@dimen/settings_dcf_download_folder_side_padding"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                style="@style/Font.NewSEC.400" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/download_folder_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/settings_dcf_download_folder_header_top_margin"
+                android:paddingStart="@dimen/settings_dcf_download_folder_side_padding"
+                android:paddingEnd="@dimen/settings_dcf_download_folder_side_padding"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/description">
+                <TextView
+                    android:textSize="@dimen/setting_sub_header_font_size"
+                    android:textColor="@color/basics_text_subheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_manage_playlists_header"
+                    android:includeFontPadding="false"
+                    style="@style/Font.NewSEC.600" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/settings_sub_header_grouping_line"
+                    android:layout_weight="1.0"
+                    android:layerType="software"
+                    android:layout_marginStart="@dimen/settings_sub_header_grouping_line_left_margin" />
+            </LinearLayout>
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout
+                android:id="@id/folder_group"
+                android:paddingTop="@dimen/settings_dcf_download_folder_path_vertical_padding"
+                android:paddingBottom="@dimen/settings_dcf_download_folder_path_vertical_padding"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/settings_dcf_download_folder_path_top_margin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/download_folder_header"
+                app:roundCorner="all"
+                app:roundMode="music">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="@dimen/settings_dcf_download_folder_path_icon_size"
+                        android:layout_height="@dimen/settings_dcf_download_folder_path_icon_size"
+                        android:src="@drawable/ic_folder_ic"
+                        android:layout_marginStart="@dimen/settings_dcf_download_folder_path_icon_start_margin"
+                        android:layout_marginEnd="@dimen/settings_dcf_download_folder_path_icon_end_margin" />
+                    <TextView
+                        android:textSize="@dimen/settings_dcf_download_folder_path_font_size"
+                        android:textColor="@color/basics_text_main"
+                        android:id="@id/folder_path"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        style="@style/Font.NewSEC.400" />
+                </LinearLayout>
+            </com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout>
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+                android:textSize="@dimen/settings_dcf_download_folder_button_font_size"
+                android:id="@id/folder_button"
+                android:layout_width="@dimen/settings_dcf_download_folder_button_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/settings_dcf_download_folder_button_top_margin"
+                android:layout_marginBottom="@dimen/settings_dcf_download_folder_button_top_margin"
+                android:minHeight="@dimen/settings_dcf_download_folder_button_min_height"
+                android:text="@string/dcf_download_folder_select"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/folder_group"
+                style="@style/ContainedButton.Grey" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout
+            android:id="@id/settings_root"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

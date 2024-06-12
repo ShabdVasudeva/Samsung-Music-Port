@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:textSize="@dimen/edge_panel_text_size_big"
+    android:textColor="@color/edge_panel_text"
+    android:gravity="center"
+    android:paddingTop="@dimen/edge_panel_card_view_margin_vertical"
+    android:paddingBottom="@dimen/edge_panel_card_view_margin_vertical"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:text="@string/edge_playlist_will_be_shown"
+    android:textAlignment="viewStart"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

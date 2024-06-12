@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_widget_setting_preview_height">103.0dip</dimen>
+    <dimen name="app_widget_setting_preview_padding_horizontal">30.0dip</dimen>
+    <dimen name="ext_app_widget_setting_preview_content_height">103.0dip</dimen>
+    <item type="dimen" name="full_player_bottom_margin_percent">0.0</item>
+    <item type="dimen" name="app_widget_setting_land_preview_area_ratio">0.535</item>
+</resources>

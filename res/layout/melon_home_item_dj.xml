@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="@dimen/melon_home_item_width_tag"
+    android:layout_height="@dimen/melon_home_item_height_tag"
+    app:accessibilityClick="true"
+    app:clickableId="thumbnail"
+    app:clipIds="thumbnail"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/thumbnail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        style="@style/GridItem.Thumbnail.Mid" />
+    <View
+        android:id="@id/mask"
+        android:visibility="visible"
+        style="@style/GridItem.Thumbnail.Dim.Mid" />
+    <View
+        android:id="@id/thumbnail_stroke"
+        style="@style/GridItem.ThumbnailStoke.Mid" />' <TextView
+        android:textSize="15.0dip"
+        android:textColor="#ffffffff"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/thumbnail_text"
+        android:maxLines="1"
+        android:paddingStart="10.0dip"
+        android:paddingEnd="10.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/thumbnail_stroke"
+        app:layout_constraintEnd_toEndOf="@id/thumbnail_stroke"
+        app:layout_constraintStart_toStartOf="@id/thumbnail_stroke"
+        app:layout_constraintTop_toTopOf="@id/thumbnail_stroke"
+        style="@style/Font.NewSEC.600" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

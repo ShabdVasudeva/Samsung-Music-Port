@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/sub_title_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="@color/basics_text_subheader"
+        android:gravity="center"
+        android:id="@id/sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="36.0dip"
+        android:paddingStart="24.0dip"
+        style="@style/Font.NewSEC.600" />
+    <com.samsung.android.app.music.view.OvalDottedDash
+        android:id="@id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sub_header_dot_size"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="20.0dip" />
+</LinearLayout>

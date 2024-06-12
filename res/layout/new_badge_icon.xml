@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/badge_layout"
+    android:visibility="gone"
+    android:layout_width="@dimen/grid_item_badge_size"
+    android:layout_height="@dimen/grid_item_badge_size"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/badge_bg"
+        android:background="@drawable/tw_noti_badge_mtrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/action_bar_badge_bg_color" />
+    <TextView
+        android:textSize="@dimen/grid_item_badge_text_size"
+        android:textColor="@color/basics_icon_white"
+        android:gravity="center"
+        android:id="@id/badge"
+        android:layout_width="@dimen/grid_item_badge_size"
+        android:layout_height="@dimen/grid_item_badge_size"
+        android:text="@string/new_badge"
+        android:contentDescription="@string/new_badge_talkback"
+        style="@style/Font.NewSEC.600" />
+</FrameLayout>

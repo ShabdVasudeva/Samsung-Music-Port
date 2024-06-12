@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d альб.</item>
+        <item quantity="one">%d альбом</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Альбомы</item>
+        <item quantity="one">Альбом</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Трэкі</item>
+        <item quantity="one">Трэк</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">Трэкаў: %d</item>
+        <item quantity="one">%d трэк</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d секунд</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">Больш не паказваць на працягу %d дзён</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Больш не паказваць на працягу %d дня</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Больш не паказваць на працягу %d дзён</item>
+        <item quantity="many">Больш не паказваць на працягу %d дзён</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Вы можаце скарыстацца %1$s %2$d разы(-оў).</item>
+        <item quantity="one">Вы можаце скарыстацца %s 1 раз.</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">Будзе выдалена %d трэкаў, тэрмін якіх выйшаў. Вы можаце паглядзець гісторыю спампоўванняў у пункце «Інфармацыя пра Melon > Гісторыя пакупак».</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Будзе выдалены %d трэк, тэрмін якога выйшаў. Вы можаце паглядзець гісторыю спампоўванняў у пункце «Інфармацыя пра Melon > Гісторыя пакупак».</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Будуць выдалены %d трэкі, тэрмін якіх выйшаў. Вы можаце паглядзець гісторыю спампоўванняў у пункце «Інфармацыя пра Melon > Гісторыя пакупак».</item>
+        <item quantity="many">Будзе выдалена %d трэкаў, тэрмін якіх выйшаў. Вы можаце паглядзець гісторыю спампоўванняў у пункце «Інфармацыя пра Melon > Гісторыя пакупак».</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">Не атрымалася падоўжыць перыяд DCF для %d трэкаў. Вы можаце паўтарыць спробу або выдаліць файлы з ніжэйзгаданага спіса, перш чым зноў спампоўваць іх.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не атрымалася падоўжыць перыяд DCF для %d трэка. Вы можаце паўтарыць спробу або выдаліць файлы з ніжэйзгаданага спіса, перш чым зноў спампоўваць іх.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Не атрымалася падоўжыць перыяд DCF для %d трэкаў. Вы можаце паўтарыць спробу або выдаліць файлы з ніжэйзгаданага спіса, перш чым зноў спампоўваць іх.</item>
+        <item quantity="many">Не атрымалася падоўжыць перыяд DCF для %d трэкаў. Вы можаце паўтарыць спробу або выдаліць файлы з ніжэйзгаданага спіса, перш чым зноў спампоўваць іх.</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">Немагчыма імпартаваць больш за %d элементаў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма імпартаваць больш за %d элемент.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма імпартаваць больш за %d элементы.</item>
+        <item quantity="many">Немагчыма імпартаваць больш за %d элементаў.</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">Чаканне спампоўвання песень (%d)…</item>
+        <item quantity="one">Чаканне спампоўвання 1 песні…</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Выдаліць альбомы (%d) і ўсе трэкі ў іх з вашага тэлефона?</item>
+        <item quantity="one">Выдаліць 1 альбом і ўсе трэкі ў ім з вашага тэлефона?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Выдаліць усе трэкі гэтых выканаўцаў?</item>
+        <item quantity="one">Выдаліць усе трэкі гэтага выканаўцы?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Выдаліць усе трэкі гэтых кампазітараў?</item>
+        <item quantity="one">Выдаліць усе трэкі гэтага кампазітара?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">Папак: %d</item>
+        <item quantity="one">1 папка</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Выдаліць папкі (%d) і ўсе трэкі ў іх з вашага тэлефона?</item>
+        <item quantity="one">Выдаліць 1 папку і ўсе трэкі ў ёй з вашага тэлефона?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Выдаліць усе трэкі гэтых жанраў?</item>
+        <item quantity="one">Выдаліць усе трэкі гэтага жанру?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d схаваных папак таксама будзе выдалена.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d схаваная папка таксама будзе выдалена.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d схаваныя папкі таксама будуць выдалены.</item>
+        <item quantity="many">%d схаваных папак таксама будзе выдалена.</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Выдаліць элементы (%d)?</item>
+        <item quantity="one">Выдаліць 1 элемент?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш %d сімвала.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="many">Немагчыма ўвесці больш %d сімвалаў.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">Немагчыма дадаць больш за %d альбомаў. Дадайце менш альбомаў або выдаліце некаторыя з Упадабаных.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш за %d альбом. Дадайце менш альбомаў або выдаліце некаторыя з Упадабаных.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш за %d альбомы. Дадайце менш альбомаў або выдаліце некаторыя з Упадабаных.</item>
+        <item quantity="many">Немагчыма дадаць больш за %d альбомаў. Дадайце менш альбомаў або выдаліце некаторыя з Упадабаных.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">Немагчыма дадаць больш за %d выканаўцаў. Дадайце менш выканаўцаў або выдаліце некаторыя з Упадабаных.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш за %d выканаўца. Дадайце менш выканаўцаў або выдаліце некаторых з Упадабаных.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш за %d выканаўца. Дадайце менш выканаўцаў або выдаліце некаторыя з Упадабаных.</item>
+        <item quantity="many">Немагчыма дадаць больш за %d выканаўцаў. Дадайце менш выканаўцаў або выдаліце некаторых з Упадабаных.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">Вы можаце дадаць толькі да %d плэй-лістоў. Выдаліце некалькі плэй-лістоў з укладкі «Упадабаныя».</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы можаце дадаць не больш за %d плэй-ліст. Выдаліце некалькі плэй-лістоў з укладкі «Упадабаныя».</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы можаце дадаць толькі да %d плэй-лістоў. Выдаліце некалькі плэй-лістоў з укладкі «Упадабаныя».</item>
+        <item quantity="many">Вы можаце дадаць толькі да %d плэй-лістоў. Выдаліце некалькі плэй-лістоў з укладкі «Упадабаныя».</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">Немагчыма дадаць больш за %d трэкаў, што граюць плынню. Дадайце менш трэкаў або выдаліце некаторыя з Упадабаных трэкаў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш за %d трэк, што грае плынню. Дадайце менш трэкаў або выдаліце некаторыя з Упадабаных трэкаў.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш за %d трэкі, што граюць плынню. Дадайце менш трэкаў або выдаліце некаторыя з Упадабаных трэкаў.</item>
+        <item quantity="many">Немагчыма дадаць больш за %d трэкаў, што граюць плынню. Дадайце менш трэкаў або выдаліце некаторыя з Упадабаных трэкаў.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">Немагчыма дадаць больш за %d трэкаў. Дадайце менш трэкаў або выдаліце некаторыя з Упадабаных трэкаў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш за %d трэк. Дадайце менш трэкаў або выдаліце некаторыя з Упадабаных трэкаў.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш за %d трэкі. Дадайце менш трэкаў або выдаліце некаторыя з Упадабаных трэкаў.</item>
+        <item quantity="many">Немагчыма дадаць больш за %d трэкаў. Дадайце менш трэкаў або выдаліце некаторыя з Упадабаных трэкаў.</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">Экспартавана %d плэй-лістоў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Экспартаваны %d плэй-ліст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Экспартаваны %d плэй-лісты.</item>
+        <item quantity="many">Экспартавана %d плэй-лістоў.</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">Імпартавана %d плэй-лістоў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Імпартаваны %d плэй-ліст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Імпартаваны %d плэй-лісты.</item>
+        <item quantity="many">Імпартавана %d плэй-лістоў.</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">Немагчыма выбраць больш за %d плэйлістоў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма выбраць больш за %d плэйліст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма выбраць больш за %d плэйлісты.</item>
+        <item quantity="many">Немагчыма выбраць больш за %d плэйлістоў.</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Выдаліць плэйлісты (%d)?</item>
+        <item quantity="one">Выдаліць 1 плэйліст?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">Трэкаў: %d</item>
+        <item quantity="one">1 трэк</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">Толькі %d трэкаў было дададзена да Ўпадабаных. Астатнія ўжо былі ва Ўпадабаных.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Толькі %d трэк быў дададзены да Ўпадабаных. Астатнія ўжо былі ва Ўпадабаных.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Толькі %d трэкі былі дададзены да Ўпадабаных. Астатнія ўжо былі ва Ўпадабаных.</item>
+        <item quantity="many">Толькі %d трэкаў было дададзена да Ўпадабаных. Астатнія ўжо былі ва Ўпадабаных.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">Трэкі (%d шт.) дададзены ва ўпадабаныя.</item>
+        <item quantity="one">1 трэк дададзены ва ўпадабаныя.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">У плэйліст дададзены трэкі (%d шт.).</item>
+        <item quantity="one">1 трэк дададзены ў плэйліст.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d трэкаў дададзена ў чаргу.</item>
+        <item quantity="one">%d трэк дададзены ў чаргу.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Выдаліць %d трэкаў?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d трэк?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d трэкі?</item>
+        <item quantity="many">Выдаліць %d трэкаў?</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Час сну: %d гадзін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d гадзіна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d гадзіны</item>
+        <item quantity="many">Час сну: %d гадзін</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Час сну: %d хвілін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d хвіліны</item>
+        <item quantity="many">Час сну: %d хвілін</item>
+    </plurals>
+</resources>

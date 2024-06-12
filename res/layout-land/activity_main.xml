@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/guideline_fit_start"
+            style="@style/Guideline.Fit.Start" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/guideline_fit_top"
+            style="@style/Guideline.Fit.Top" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/guideline_fit_end"
+            style="@style/Guideline.Fit.End" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/guideline_fit_bottom"
+            style="@style/Guideline.Fit.Bottom" />
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+            android:id="@id/main_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_constrainedHeight="true"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toBottomOf="@id/guideline_fit_bottom"
+            app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+            app:layout_constraintStart_toStartOf="@id/guideline_fit_start"
+            app:layout_constraintTop_toTopOf="parent">
+            <FrameLayout
+                android:id="@id/fragment_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:layout_constrainedHeight="true"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <View
+                android:id="@id/guide_view_list_bottom"
+                android:layout_width="0.0dip"
+                android:layout_height="0.100000024dip"
+                app:layout_constraintBottom_toBottomOf="@id/mini_player_root"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="horizontal"
+                android:id="@id/guideline_bottom_top"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                app:layout_constraintGuide_end="@dimen/mu_bottom_container_height" />
+            <View
+                android:id="@id/bottom_tab_background"
+                android:background="@color/basics_system_background_209_4_1"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/mu_bottom_container_height"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <include
+                android:id="@id/mini_player_root"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/mu_bottom_container_height"
+                android:layout_marginStart="@dimen/bottom_tab_space"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/bottom_tab_layout"
+                app:layout_goneMarginStart="0.0dip"
+                layout="@layout/mini_player" />
+            <com.google.android.material.tabs.TabLayout
+                android:id="@id/bottom_tab_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                app:layout_constrainedHeight="true"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHeight_min="@dimen/mu_bottom_container_height"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintWidth_percent="0.45" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/bottom_bar_container"
+                android:background="@color/basics_system_background_209_4_1"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/mu_bottom_button_space"
+                app:layout_constrainedHeight="true"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="@dimen/mu_bottom_container_height"
+                app:layout_constraintStart_toStartOf="parent" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+        <View
+            android:id="@id/navigation_bar_bg"
+            android:background="@color/basics_system_background_209_4_1"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/guideline_fit_bottom" />
+    </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+</merge>

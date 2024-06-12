@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/sleep_visual_edit_outer_circle_container"
+        android:clipChildren="false"
+        android:layout_width="@dimen/sesl_sleep_visual_edit_outer_circle_size"
+        android:layout_height="@dimen/sesl_sleep_visual_edit_outer_circle_size">
+        <FrameLayout
+            android:id="@id/sleep_visual_edit_inner_circle_container"
+            android:layout_width="@dimen/sesl_sleep_visual_edit_inner_circle_dimens"
+            android:layout_height="@dimen/sesl_sleep_visual_edit_inner_circle_dimens"
+            android:layout_centerInParent="true">
+            <TextView
+                android:textSize="@dimen/sesl_sleep_record_clock_dimen"
+                android:textColor="@color/sesl_clock_dial_number_color"
+                android:layout_gravity="bottom|center"
+                android:id="@id/sleep_record_clock_time_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sesl_sleep_picker_numeric_12"
+                android:importantForAccessibility="no"
+                android:fontFamily="roboto-num3L" />
+            <TextView
+                android:textSize="@dimen/sesl_sleep_record_clock_dimen"
+                android:textColor="@color/sesl_clock_dial_number_color"
+                android:layout_gravity="center|top"
+                android:id="@id/sleep_record_clock_time_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sesl_sleep_picker_numeric_0"
+                android:importantForAccessibility="no"
+                android:fontFamily="roboto-num3L" />
+            <TextView
+                android:textSize="@dimen/sesl_sleep_record_clock_dimen"
+                android:textColor="@color/sesl_clock_dial_number_color"
+                android:layout_gravity="center|right"
+                android:id="@id/sleep_record_clock_time_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/sesl_sleep_picker_margin_numeric_18_6"
+                android:text="@string/sesl_sleep_picker_numeric_6"
+                android:importantForAccessibility="no"
+                android:fontFamily="roboto-num3L" />
+            <TextView
+                android:textSize="@dimen/sesl_sleep_record_clock_dimen"
+                android:textColor="@color/sesl_clock_dial_number_color"
+                android:layout_gravity="center|left"
+                android:id="@id/sleep_record_clock_time_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sesl_sleep_picker_margin_numeric_18_6"
+                android:text="@string/sesl_sleep_picker_numeric_18"
+                android:importantForAccessibility="no"
+                android:fontFamily="roboto-num3L" />
+        </FrameLayout>
+        <androidx.picker.widget.SeslCircularSeekBarView
+            android:id="@id/circular_seekbar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:csCircleColor="@color/sesl_circular_seekbar_color"
+            app:csCircleGridMediumColor="@color/sesl_grid_medium_size_color"
+            app:csCircleGridSmallColor="@color/sesl_grid_small_size_color"
+            app:csCircleStrokeWidth="@dimen/sesl_circular_seekbar_circle_stroke_width"
+            app:csCircleXRadius="@dimen/sesl_sleep_visual_edit_inner_circle_size"
+            app:csCircleYRadius="@dimen/sesl_sleep_visual_edit_inner_circle_size"
+            app:csFirstPointerColor="?colorPrimary"
+            app:csFirstPointerHaloColor="?colorPrimary"
+            app:csIconWidth="@dimen/sesl_circular_bar_icon_width"
+            app:csMiddleColor="?colorPrimary"
+            app:csPointerHaloWidth="@dimen/sesl_sleep_time_icon_touch_width"
+            app:csPointerStrokeWidth="@dimen/sesl_sleep_time_pointer_size"
+            app:csSecondPointerColor="?colorPrimary"
+            app:csSecondPointerHaloColor="?colorPrimary" />
+        <RelativeLayout
+            android:clipChildren="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@id/sleep_record_center_bedtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/sleep_center_icon_bedtime"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/sesl_sleep_record_bed_image_icon_size"
+                    android:layout_height="@dimen/sesl_sleep_record_bed_image_icon_size"
+                    android:layout_marginRight="@dimen/sesl_sleep_record_bed_image_margin_right"
+                    android:src="@drawable/sesl_bedtime_solid" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/bedtime_center_am_pm_left"
+                    android:visibility="gone"
+                    android:text="am"
+                    style="@style/BedTimePicker_AMPM" />
+                <TextView
+                    android:textSize="@dimen/sesl_sleep_time_text_size"
+                    android:textColor="@color/sesl_bed_wakeup_time_color"
+                    android:id="@id/sleep_center_duration_bedtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11:00 PM"
+                    style="@style/BedTimeWakeUpTimeText" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/bedtime_center_am_pm_right"
+                    android:visibility="gone"
+                    android:text="am"
+                    style="@style/BedTimePicker_AMPM" />
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/sleep_center_icon_bedtime_right"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/sesl_sleep_record_bed_image_icon_size"
+                    android:layout_height="@dimen/sesl_sleep_record_bed_image_icon_size"
+                    android:layout_marginLeft="@dimen/sesl_sleep_record_bed_image_margin_right"
+                    android:src="@drawable/sesl_bedtime_solid" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@id/sleep_record_center_wakeuptime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/sleep_center_icon_wakeuptime"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/sesl_sleep_record_bed_image_icon_size"
+                    android:layout_height="@dimen/sesl_sleep_record_bed_image_icon_size"
+                    android:layout_marginRight="@dimen/sesl_sleep_record_bed_image_margin_right"
+                    android:src="@drawable/sesl_wakeup_solid" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/wakeuptime_center_am_pm_left"
+                    android:visibility="gone"
+                    android:text="am"
+                    style="@style/WakeUpTimePicker_AMPM" />
+                <TextView
+                    android:textSize="@dimen/sesl_sleep_time_text_size"
+                    android:textColor="@color/sesl_bed_wakeup_time_color"
+                    android:id="@id/sleep_center_duration_wakeuptime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11:00 PM"
+                    style="@style/BedTimeWakeUpTimeText" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/wakeuptime_center_am_pm_right"
+                    android:visibility="gone"
+                    android:text="am"
+                    style="@style/WakeUpTimePicker_AMPM" />
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/sleep_center_icon_wakeuptime_right"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/sesl_sleep_record_bed_image_icon_size"
+                    android:layout_height="@dimen/sesl_sleep_record_bed_image_icon_size"
+                    android:layout_marginLeft="@dimen/sesl_sleep_record_bed_image_margin_right"
+                    android:src="@drawable/sesl_wakeup_solid" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

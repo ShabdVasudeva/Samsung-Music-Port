@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_widget_album">81.0dip</dimen>
+    <dimen name="app_widget_album_radius">12.0dip</dimen>
+    <dimen name="app_widget_land_album">81.0dip</dimen>
+    <dimen name="deprecated_list_item_section_padding_top">10.0dip</dimen>
+    <dimen name="deprecated_list_item_two_line_text_layout_margin_vertical">10.0dip</dimen>
+    <dimen name="ext_app_widget_container_height">154.0dip</dimen>
+    <item type="dimen" name="help_frame_margin_end_percent">0.9</item>
+    <item type="dimen" name="help_frame_margin_start_percent">0.1</item>
+    <dimen name="help_permission_icon_margin_start">100.0dip</dimen>
+    <dimen name="help_permission_optional_description_margin">108.0dip</dimen>
+    <dimen name="help_text_margin">108.0dip</dimen>
+    <item type="dimen" name="help_text_top_margin_percent">0.21</item>
+    <item type="dimen" name="help_title_bottom_space_percent">0.1</item>
+    <dimen name="help_tnc_icon_margin_start">100.0dip</dimen>
+    <dimen name="list_item_playlist_padding_end_kt">15.0dip</dimen>
+    <dimen name="sub_header_divider_height_kt">1.0px</dimen>
+    <dimen name="sub_header_text_size_kt">13.0sp</dimen>
+    <dimen name="winset_dialog_edit_text_layout_padding_bottom_kt">12.0dip</dimen>
+    <dimen name="winset_dialog_edit_text_layout_padding_left_kt">30.0dip</dimen>
+    <dimen name="winset_dialog_edit_text_layout_padding_top_kt">24.0dip</dimen>
+    <dimen name="winset_dialog_slider_text">17.0dip</dimen>
+</resources>

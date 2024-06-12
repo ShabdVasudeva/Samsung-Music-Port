@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:id="@id/item_view"
+    android:background="?android:selectableItemBackground"
+    android:focusable="true"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:clickableId="@id/item_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:gravity="center_vertical"
+        android:id="@id/text1"
+        android:focusable="false"
+        android:layout_marginTop="@dimen/mu_list_item_text_space_top_winset"
+        android:layout_marginBottom="@dimen/mu_list_item_text_space_bottom_winset"
+        android:layout_marginStart="@dimen/mu_list_item_subheader_space_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/delete_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.Text.Line1" />
+    <ImageView
+        android:id="@id/delete_button"
+        android:background="@drawable/ripple_button_oval"
+        android:paddingTop="15.0dip"
+        android:paddingBottom="15.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:src="@drawable/music_list_ic_delete"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/menu_delete"
+        android:paddingStart="15.0dip"
+        android:paddingEnd="15.0dip"
+        android:layout_marginStart="5.0dip"
+        android:layout_marginEnd="5.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/text1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/basics_text_main" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

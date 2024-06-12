@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline_fit_top"
+        style="@style/Toolbar" />
+    <View
+        android:id="@id/highlight_item_guide"
+        android:background="@drawable/melon_vertical_tab_selected"
+        android:visibility="gone"
+        android:layout_width="@dimen/default_vertical_tab_highlight_item_width"
+        android:layout_height="@dimen/default_vertical_tab_highlight_item_height"
+        app:layout_constraintBottom_toBottomOf="@id/tabLayout"
+        app:layout_constraintEnd_toEndOf="@id/tabLayout"
+        app:layout_constraintStart_toStartOf="@id/tabLayout"
+        app:layout_constraintTop_toTopOf="@id/tabLayout" />
+    <com.samsung.android.app.music.widget.VerticalScrollTabLayout
+        android:id="@id/tabLayout"
+        android:layout_width="@dimen/default_vertical_tab_width"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/mu_actionbar_space_bottom"
+        app:defaultTextColor="@color/melon_item_vertical_tab_text_color"
+        app:focusedItemHeight="@dimen/default_vertical_tab_item_height"
+        app:highlightTextColor="@color/melon_item_vertical_tab_text_color_selected"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_bottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:tabSpacing="@dimen/default_vertical_tab_item_spacing" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout
+        android:id="@id/content"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/mu_actionbar_space_bottom"
+        app:chunkingBackground="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tabLayout"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:roundCorner="top"
+        app:roundMode="music" />
+    <FrameLayout
+        android:id="@id/no_network_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <include
+        layout="@layout/list_loading_container" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_top"
+        style="@style/Guideline.Fit.Top" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_bottom"
+        app:layout_constraintGuide_end="@dimen/mu_list_spacing_bottom"
+        style="@style/Guideline.Fit.Bottom" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

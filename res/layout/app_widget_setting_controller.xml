@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <ImageButton
+        android:id="@id/shuffle_btn"
+        android:tag="layout/app_widget_setting_controller_0"
+        android:clickable="false"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintHorizontal_chainStyle="spread_inside"
+        bind:layout_constraintLeft_toLeftOf="parent"
+        bind:layout_constraintRight_toLeftOf="@id/prev_btn"
+        bind:layout_constraintTop_toTopOf="parent"
+        style="@style/AppWidget.ImageButton.Small" />
+    <ImageButton
+        android:id="@id/prev_btn"
+        android:tag="layout/app_widget_setting_controller_1"
+        android:clickable="false"
+        android:contentDescription="@string/tts_previous"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintLeft_toRightOf="@id/shuffle_btn"
+        bind:layout_constraintRight_toLeftOf="@id/play_pause_btn"
+        bind:layout_constraintTop_toTopOf="parent"
+        style="@style/AppWidget.ImageButton" />
+    <ImageButton
+        android:id="@id/play_pause_btn"
+        android:tag="layout/app_widget_setting_controller_2"
+        android:clickable="false"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintLeft_toRightOf="@id/prev_btn"
+        bind:layout_constraintRight_toLeftOf="@id/next_btn"
+        bind:layout_constraintTop_toTopOf="parent"
+        style="@style/AppWidget.ImageButton" />
+    <ImageButton
+        android:id="@id/next_btn"
+        android:tag="layout/app_widget_setting_controller_3"
+        android:clickable="false"
+        android:contentDescription="@string/tts_next"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintLeft_toRightOf="@id/play_pause_btn"
+        bind:layout_constraintRight_toLeftOf="@id/repeat_btn"
+        bind:layout_constraintTop_toTopOf="parent"
+        style="@style/AppWidget.ImageButton" />
+    <ImageButton
+        android:id="@id/repeat_btn"
+        android:tag="layout/app_widget_setting_controller_4"
+        android:clickable="false"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintHorizontal_chainStyle="spread_inside"
+        bind:layout_constraintLeft_toRightOf="@id/next_btn"
+        bind:layout_constraintRight_toRightOf="parent"
+        bind:layout_constraintTop_toTopOf="parent"
+        style="@style/AppWidget.ImageButton.Small" />
+</merge>

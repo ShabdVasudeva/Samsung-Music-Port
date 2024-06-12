@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edge_panel_album_art_default_icon_padding">48.0dip</dimen>
+    <dimen name="edge_panel_album_art_default_icon_size">42.0dip</dimen>
+    <dimen name="edge_panel_album_art_size">138.0dip</dimen>
+    <dimen name="media_info_default_text2">17.0sp</dimen>
+    <dimen name="meta_edit_layout_padding_vertical">16.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_day_height">32.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_height">36.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_width">36.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_height">36.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_view_height">192.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_week_height">32.0dip</dimen>
+    <dimen name="sesl_date_picker_gap_between_header_and_weekend">10.0dip</dimen>
+    <dimen name="sesl_date_picker_gap_between_weekend_and_calender">8.0dip</dimen>
+    <dimen name="sesl_date_picker_selected_day_circle_radius">14.0dip</dimen>
+    <dimen name="sesl_number_picker_spinner_edit_text_height">54.0dip</dimen>
+    <dimen name="sesl_picker_spinner_height">164.0dip</dimen>
+    <dimen name="sesl_spinning_date_picker_height">278.0dip</dimen>
+    <dimen name="sesl_spinning_date_picker_height_dialog">278.0dip</dimen>
+    <dimen name="winset_dialog_body_padding_vertical">24.0dip</dimen>
+    <dimen name="winset_dialog_slider_text">15.0dip</dimen>
+    <dimen name="winset_spinner_margin_horizontal">6.0dip</dimen>
+    <dimen name="list_item_private_folder_selection_icon_margin_left">0.0dip</dimen>
+    <dimen name="list_item_private_folder_selection_icon_margin_right">16.0dip</dimen>
+</resources>

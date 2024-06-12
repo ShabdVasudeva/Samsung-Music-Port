@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@android:color/transparent" />
+    <corners
+        android:radius="8.5dip" />
+    <stroke
+        android:width="@dimen/mu_list_item_explicit_stroke"
+        android:color="@color/basics_track_ad_tag" />
+    <size
+        android:height="15.0dip" />
+    <size
+        android:width="25.0dip" />
+</shape>

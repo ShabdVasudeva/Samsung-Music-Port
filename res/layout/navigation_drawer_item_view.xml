@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/wearable_support_navigation_drawer_item_icon"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:textColor="?android:textColorPrimary"
+        android:gravity="center_horizontal"
+        android:id="@id/wearable_support_navigation_drawer_item_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="6.0dip"
+        android:layout_below="@id/wearable_support_navigation_drawer_item_icon" />
+</RelativeLayout>

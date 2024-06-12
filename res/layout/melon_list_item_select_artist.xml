@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:orientation="vertical"
+    android:background="@drawable/basics_ripple_list"
+    android:layout_width="fill_parent"
+    android:layout_height="56.0dip"
+    app:clipIds="thumbnail, thumbnail_stroke"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/thumbnail"
+        android:background="@drawable/basics_list_thumbnail_circle_mask"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/thumbnail_stroke"
+        app:layout_constraintEnd_toEndOf="@id/thumbnail_stroke"
+        app:layout_constraintStart_toStartOf="@id/thumbnail_stroke"
+        app:layout_constraintTop_toTopOf="@id/thumbnail_stroke" />
+    <View
+        android:id="@id/thumbnail_stroke"
+        android:background="@drawable/basics_list_thumbnail_circle_stroke"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:textSize="17.0dip"
+        android:textColor="@color/basics_text_main"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/text"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:maxLines="1"
+        android:layout_marginStart="16.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/thumbnail_stroke"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Font.NewSEC.400" />
+    <View
+        android:id="@id/divider"
+        android:background="@color/basics_list_divider"
+        android:layout_width="0.0dip"
+        android:layout_height="1.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/text" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

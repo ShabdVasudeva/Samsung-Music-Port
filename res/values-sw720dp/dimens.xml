@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_widget_icon">38.0dip</dimen>
+    <dimen name="app_widget_icon_small">32.0dip</dimen>
+</resources>

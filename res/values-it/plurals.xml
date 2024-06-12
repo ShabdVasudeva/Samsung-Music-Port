@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Album</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Brani</item>
+        <item quantity="one">Brano</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d brani</item>
+        <item quantity="one">%d brano</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d secondi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d secondo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">Non mostrare per %d giorni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non mostrare per %d giorno</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">È possibile utilizzare %1$s %2$d volte.</item>
+        <item quantity="one">È possibile utilizzare %s 1 volta.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Avanti di %d secondi</item>
+        <item quantity="one">Avanti di %d secondo</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Indietro di %d secondi</item>
+        <item quantity="one">Indietro di %d secondo</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">%d brani scaduti verranno eliminati. Potete verificare la cronologia dei download in Informazioni su Melon > Cronologia acquisti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d brano scaduto verrà eliminato. Potete verificare la cronologia dei download in Informazioni su Melon > Cronologia acquisti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">Impossibile prolungare il periodo DCF per %d brani. Potete riprovare o eliminare i file dall’elenco seguente prima di scaricarli di nuovo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile prolungare il periodo DCF per %d brano. Potete riprovare o eliminare i file dall’elenco seguente prima di scaricarli di nuovo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">Impossibile importare più di %d elementi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile importare più di %d elemento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">In attesa del download di %d canzoni…</item>
+        <item quantity="one">In attesa del download di 1 canzone…</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Eliminare %d album e tutti i brani in essi contenuti dal telefono?</item>
+        <item quantity="one">Eliminare 1 album e tutti i brani in esso contenuti dal telefono?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Eliminare tutti i brani di questi artisti?</item>
+        <item quantity="one">Eliminare tutti i brani di questo artista?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Eliminare tutti i brani di questi compositori?</item>
+        <item quantity="one">Eliminare tutti i brani di questo compositore?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d cartelle</item>
+        <item quantity="one">1 cartella</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Eliminare %d cartelle e tutti i brani in esse contenuti dal telefono?</item>
+        <item quantity="one">Eliminare 1 cartella e tutti i brani in essa contenuti dal telefono?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Eliminare tutti i brani di questi generi?</item>
+        <item quantity="one">Eliminare tutti i brani di questo genere?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">Verranno eliminate anche %d cartelle nascoste.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Verrà eliminata anche %d cartella nascosta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Eliminare %d elementi?</item>
+        <item quantity="one">Eliminare 1 elemento?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">Impossibile inserire più di %d caratteri.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile inserire più di %d carattere.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">Impossibile aggiungere più di %d album. Aggiungete un numero inferiore di album o rimuovetene alcuni dai preferiti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile aggiungere più di %d album. Aggiungete un numero inferiore di album o rimuovetene alcuni dai preferiti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">Impossibile aggiungere più di %d artisti. Aggiungete un numero inferiore di artisti o rimuovetene alcuni dai preferiti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile aggiungere più di %d artista. Aggiungete un numero inferiore di artisti o rimuovetene alcuni dai preferiti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">Potete aggiungere fino a %d playlist. Rimuovete alcune playlist dalla scheda Preferiti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Potete aggiungere fino a %d playlist. Rimuovete alcune playlist dalla scheda Preferiti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">Impossibile aggiungere più di %d brani in streaming. Aggiungete un numero inferiore di brani o rimuovetene alcuni da Brani preferiti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile aggiungere più di %d brano in streaming. Aggiungete un numero inferiore di brani o rimuovetene alcuni da Brani preferiti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">Impossibile aggiungere più di %d brani. Aggiungete un numero inferiore di brani o rimuovetene alcuni da Brani preferiti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile aggiungere più di %d brano. Aggiungete un numero inferiore di brani o rimuovetene alcuni da Brani preferiti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">%d playlist esportate.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d playlist esportata.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">%d playlist importate.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d playlist importata.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">Impossibile selezionare più di %d playlist.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile selezionare più di %d playlist.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Eliminare %d playlist?</item>
+        <item quantity="one">Eliminare 1 playlist?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d brani</item>
+        <item quantity="one">1 brano</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">Solo %d brani aggiunti ai preferiti. Gli altri erano già presenti nei preferiti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Solo %d brano aggiunto ai preferiti. Gli altri erano già presenti nei preferiti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">%d brani sono stati aggiunti ai preferiti.</item>
+        <item quantity="one">1 brano è stato aggiunto ai preferiti.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">%d brani aggiunti alla playlist.</item>
+        <item quantity="one">1 brano è stato aggiunto alla playlist.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d brani aggiunti alla coda.</item>
+        <item quantity="one">%d brano aggiunto alla coda.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Eliminare %d brani?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eliminare %d brano?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Durata sonno: %d ore</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durata sonno: %d ora</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Durata sonno: %d minuti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durata sonno: %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d g</item>
+        <item quantity="one">%d g</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d giorni</item>
+        <item quantity="one">%d giorno</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d ora</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+</resources>

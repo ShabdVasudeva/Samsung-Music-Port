@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:focusable="false"
+    android:layout_width="@dimen/melon_home_item_width_small"
+    android:layout_height="wrap_content"
+    app:accessibilityClick="true"
+    app:clickableId="thumbnail"
+    app:clipIds="thumbnail"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/thumbnail"
+        style="@style/GridItem.Thumbnail.Mid" />
+    <View
+        android:id="@id/thumbnail_stroke"
+        style="@style/GridItem.ThumbnailStoke.Mid" />
+    <View
+        android:id="@id/text_container"
+        android:layout_width="0.0dip"
+        android:layout_height="45.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/thumbnail_stroke" />
+    <TextView
+        android:id="@id/text1"
+        android:layout_marginTop="@dimen/melon_home_item_text_space_top"
+        app:layout_constraintEnd_toEndOf="@id/text_container"
+        app:layout_constraintStart_toStartOf="@id/text_container"
+        app:layout_constraintTop_toTopOf="@id/text_container"
+        style="@style/GridItem.Text.Line1" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

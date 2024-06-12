@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albumia</item>
+        <item quantity="one">%d albumi</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumit</item>
+        <item quantity="one">Albumi</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Kappaleet</item>
+        <item quantity="one">Kappale</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d kappaletta</item>
+        <item quantity="one">%d kappale</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">Älä näytä %d päivään</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Älä näytä %d päivään</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Voit käyttää kohdetta %1$s %2$d kertaa.</item>
+        <item quantity="one">Voit käyttää kohdetta %s 1 kerran.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Siirry eteenpäin %d sekuntia</item>
+        <item quantity="one">Siirry eteenpäin %d sekunti</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Siirry taaksepäin %d sekuntia</item>
+        <item quantity="one">Siirry taaksepäin %d sekunti</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">%d vanhentunutta kappaletta poistetaan. Voit seurata lataushistoriaasi kohdassa Melonin tiedot > Ostohistoria.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vanhentunut kappale poistetaan. Voit seurata lataushistoriaasi kohdassa Melonin tiedot > Ostohistoria.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">%d kappaleen DCF-jaksoa ei voitu pidentää. Voit yrittää uudelleen tai poistaa tiedostoja alla olevasta luettelosta, ennen kuin lataat ne uudelleen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kappaleen DCF-jaksoa ei voitu pidentää. Voit yrittää uudelleen tai poistaa tiedostoja alla olevasta luettelosta, ennen kuin lataat ne uudelleen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">Yli %d kohdetta ei voi tuoda.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d kohdetta ei voi tuoda.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">Odotetaan %d kappaleen latautumista…</item>
+        <item quantity="one">Odotetaan 1 kappaleen latautumista…</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Poistetaanko %d albumia ja kaikki niissä olevat kappaleet puhelimesta?</item>
+        <item quantity="one">Poistetaanko 1 albumi ja kaikki siinä olevat kappaleet puhelimesta?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Poistetaanko kaikki näiden esittäjien kappaleet?</item>
+        <item quantity="one">Poistetaanko kaikki tämän esittäjän kappaleet?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Poistetaanko kaikki näiden säveltäjien kappaleet?</item>
+        <item quantity="one">Poistetaanko kaikki tämän säveltäjän kappaleet?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d kansiota</item>
+        <item quantity="one">1 kansio</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Poistetaanko %d kansiota ja kaikki niissä olevat kappaleet puhelimesta?</item>
+        <item quantity="one">Poistetaanko 1 kansio ja kaikki siinä olevat kappaleet puhelimesta?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Poistetaanko kaikki näihin tyylilajeihin kuuluvat kappaleet?</item>
+        <item quantity="one">Poistetaanko kaikki tähän tyylilajiin kuuluvat kappaleet?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d piilotettua kansiota poistetaan myös.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d piilotettu kansio poistetaan myös.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Poistetaanko %d kohdetta?</item>
+        <item quantity="one">Poistetaanko 1 kohde?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">Yli %d merkkiä ei voi kirjoittaa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d merkkiä ei voi kirjoittaa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">Yli %d albumia ei voi lisätä. Lisää vähemmän albumeita tai poista joitakin albumeita suosikeista.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d albumia ei voi lisätä. Lisää vähemmän albumeita tai poista joitakin albumeita suosikeista.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">Yli %d esittäjää ei voi lisätä. Lisää vähemmän esittäjiä tai poista joitakin esittäjiä suosikeista.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d esittäjää ei voi lisätä. Lisää vähemmän esittäjiä tai poista joitakin esittäjiä suosikeista.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">Voit lisätä vain %d soittolistaa. Poista joitakin soittolistoja Suosikit-välilehdestä.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Voit lisätä vain %d soittolistan. Poista joitakin soittolistoja Suosikit-välilehdestä.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">Yli %d suoratoistokappaletta ei voi lisätä. Lisää vähemmän kappaleita tai poista joitakin kappaleita suosikkikappaleista.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d suoratoistokappaletta ei voi lisätä. Lisää vähemmän kappaleita tai poista joitakin kappaleita suosikkikappaleista.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">Yli %d kappaletta ei voi lisätä. Lisää vähemmän kappaleita tai poista joitakin kappaleita suosikkikappaleista.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d kappaletta ei voi lisätä. Lisää vähemmän kappaleita tai poista joitakin kappaleita suosikkikappaleista.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">%d soittolistaa viety.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soittolista viety.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">%d soittolistaa tuotu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soittolista tuotu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">Yli %d soittolistaa ei voi valita.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d soittolistaa ei voi valita.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Poistetaanko %d soittolistaa?</item>
+        <item quantity="one">Poistetaanko 1 soittolista?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d kappaletta</item>
+        <item quantity="one">1 kappale</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">Vain %d kappaletta lisättiin suosikkeihin. Loput olivat jo suosikeissa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vain %d kappale lisättiin suosikkeihin. Loput olivat jo suosikeissa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">%d kappaletta lisätty suosikkeihin.</item>
+        <item quantity="one">1 kappale lisätty suosikkeihin.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">%d kappaletta lisätty soittolistaan.</item>
+        <item quantity="one">1 kappale lisätty soittolistaan.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d kappaletta lisätty jonoon.</item>
+        <item quantity="one">%d kappale lisätty jonoon.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Poistetaanko %d kappaletta?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poistetaanko %d kappale?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Uniaika: %d tuntia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uniaika: %d tunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Uniaika: %d minuuttia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uniaika: %d minuutti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dp</item>
+        <item quantity="one">%dp</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dt</item>
+        <item quantity="one">%dt</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d pv</item>
+        <item quantity="one">%d pv</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d t</item>
+        <item quantity="one">%d t</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+</resources>

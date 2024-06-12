@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/milk_player_message_layout"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/milk_player_message_description_container"
+        android:background="@drawable/milk_player_message_bg"
+        android:paddingLeft="@dimen/milk_one_minute_trial_description_margin_left"
+        android:paddingTop="@dimen/milk_one_minute_trial_description_margin_top"
+        android:paddingRight="@dimen/milk_one_minute_trial_description_margin_right"
+        android:paddingBottom="@dimen/milk_one_minute_trial_description_margin_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+            android:textSize="@dimen/milk_one_minute_trial_title_text_size"
+            android:textColor="@color/dialog_message_text_color"
+            android:gravity="center"
+            android:id="@id/bottom_dialog_main_text"
+            android:paddingLeft="@dimen/milk_one_minute_trial_description_padding_right_left"
+            android:paddingRight="@dimen/milk_one_minute_trial_description_padding_right_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8.0dip"
+            android:fontFamily="sans-serif-light"
+            app:maxFontLevel="large" />
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+            android:textSize="@dimen/milk_one_minute_trial_button_text_size"
+            android:textColor="@color/basics_info_title_209_10_6"
+            android:gravity="center"
+            android:id="@id/bottom_positive"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_below="@id/bottom_dialog_main_text"
+            app:maxFontLevel="large"
+            style="@style/Font.NewSEC.600" />
+    </RelativeLayout>
+    <FrameLayout
+        android:gravity="center|right|top"
+        android:id="@id/bottom_negative"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="@dimen/milk_one_minute_trial_exit_view_width"
+        android:layout_height="@dimen/milk_one_minute_trial_exit_view_width"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/tts_close">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/bottom_negative_image"
+            android:layout_width="@dimen/milk_one_minute_trial_exit_width"
+            android:layout_height="@dimen/milk_one_minute_trial_exit_width"
+            android:src="@drawable/pop_ic_cancel_small_b"
+            android:importantForAccessibility="no"
+            app:tint="@color/basics_text_main" />
+    </FrameLayout>
+</RelativeLayout>

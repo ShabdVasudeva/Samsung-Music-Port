@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="20.0sp"
+        android:textColor="@color/help_permission_title_text_color"
+        android:id="@id/benefit_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/Font.NewSEC.600" />
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="@color/help_permission_desc_text_color"
+        android:id="@id/benefit_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        style="@style/Font.NewSEC.400" />
+</LinearLayout>

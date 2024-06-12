@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/listContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiRecyclerView
+        android:layout_gravity="center"
+        android:id="@id/recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:chunkingBackground="true"
+        app:roundCorner="top" />
+</FrameLayout>

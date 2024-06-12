@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:radius="@dimen/app_widget_album_radius" />
+            <size
+                android:height="@dimen/app_widget_land_album"
+                android:width="@dimen/app_widget_land_album" />
+            <solid
+                android:color="#4facacac" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/$widget_land_album_cover_default__0"
+        xmlns:aapt="http://schemas.android.com/aapt" />
+</layer-list>

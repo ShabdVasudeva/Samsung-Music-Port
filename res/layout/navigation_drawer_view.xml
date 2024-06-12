@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@id/wearable_support_navigation_drawer_view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <android.support.wearable.view.drawer.PageIndicatorView
+        android:layout_gravity="bottom|center"
+        android:id="@id/wearable_support_navigation_drawer_page_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/peek_view_icon_size"
+        android:layout_marginBottom="@dimen/peek_view_bottom_padding"
+        app:pageIndicatorDotFadeWhenIdle="false" />
+</FrameLayout>

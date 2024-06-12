@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RadioGroup
+        android:orientation="vertical"
+        android:id="@id/widget_setting_color"
+        android:tag="layout/app_widget_setting_color_layout_0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/app_widget_setting_color_text_padding"
+        android:layout_marginEnd="@dimen/app_widget_setting_color_text_padding"
+        app:layout_constraintBottom_toTopOf="@id/widget_setting_alpha_seek_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+            android:id="@id/white_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:theme="@style/AppWidget.Setting.RadioButton"
+                android:id="@id/widget_setting_color_white"
+                android:tag="binding_1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_widget_setting_list_height"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/white_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:textSize="@dimen/app_widget_setting_text"
+                android:textColor="@color/basics_text_main"
+                android:id="@id/white_text"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_config_background_color_white"
+                android:layout_marginStart="18.0dip"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toEndOf="@id/widget_setting_color_white"
+                app:layout_constraintTop_toTopOf="parent" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+        <View
+            android:background="@color/basics_list_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginStart="44.0dip" />
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+            android:id="@id/black_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:theme="@style/AppWidget.Setting.RadioButton"
+                android:id="@id/widget_setting_color_black"
+                android:tag="binding_2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_widget_setting_list_height"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/white_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:textSize="@dimen/app_widget_setting_text"
+                android:textColor="@color/basics_text_main"
+                android:id="@id/black_text"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_config_background_color_black"
+                android:layout_marginStart="18.0dip"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toEndOf="@id/widget_setting_color_black"
+                app:layout_constraintTop_toTopOf="parent" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+    </RadioGroup>
+</merge>

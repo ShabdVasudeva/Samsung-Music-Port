@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThemeMetaData>
+    <AppMetaData
+        Name="SamsungMusic"
+        TargetApi="30"
+        TargetPackageName="com.sec.android.app.music">
+        <Include
+            RefName="SESL" />
+        <Property
+            Comment="App widget > BG > inside BG"
+            DestAttribName="app_widget_inside_background_209_1_1, app_widget_inside_background_night_209_1_1"
+            UID="209-1-1"
+            ValueRef="8-13-1"
+            ValueType="BgColor" />
+        <Property
+            Comment="App widget > Button icon > main primary text, icon"
+            DestAttribName="app_widget_list_title_playing_209_2_1, app_widget_list_title_playing_night_209_2_1"
+            UID="209-2-1"
+            ValueRef="24-E"
+            ValueType="Color" />
+        <Property
+            Comment="App widget > Button icon > sub primary text"
+            DestAttribName="app_widget_list_artist_playing_209_2_2, app_widget_list_artist_playing_night_209_2_2"
+            UID="209-2-2"
+            ValueType="Color" />
+        <Property
+            Comment="App widget > Button icon > sub primary text"
+            DestAttribName="app_widget_list_playing_icon_209_2_3"
+            UID="209-2-3"
+            ValueRef="1-A"
+            ValueType="Color" />
+        <Property
+            Comment="Content area > BG color"
+            DestAttribName="app_widget_setting_background_209_4_1, basics_system_background_209_4_1, about_activity_background_209_4_1"
+            UID="209-4-1"
+            ValueRef="1-1-1"
+            ValueType="BgColor" />
+        <Property
+            Comment="Primary dark color"
+            DestAttribName="basics_primary_dark_209_4_4"
+            UID="209-4-4"
+            ValueRef="24-E"
+            ValueType="Color" />
+        <Property
+            Comment="Primary color"
+            DestAttribName="basics_primary_209_4_7"
+            UID="209-4-7"
+            ValueRef="1-A"
+            ValueType="Color" />
+        <Property
+            Comment="Primary dark sub"
+            DestAttribName="basics_primary_dark_sub_209_4_9"
+            UID="209-4-9"
+            ValueRef="24-E"
+            ValueType="Color" />
+        <Property
+            Comment="Sound player seek bar background color"
+            DestAttribName="legacy_sound_player_seekbar_background_winset"
+            Opacity="40"
+            UID="209-7-4"
+            ValueRef="1-22-1"
+            ValueType="BgColor" />
+        <Property
+            Comment="Sound player seek bar progress color"
+            DestAttribName="legacy_sound_player_seekbar_progress_winset"
+            UID="209-7-5"
+            ValueRef="1-22-2"
+            ValueType="Color" />
+        <Property
+            Comment="Sound player seek bar thumb normal color"
+            DestAttribName="legacy_sound_player_seekbar_thumb_winset"
+            UID="209-7-6"
+            ValueRef="1-22-5"
+            ValueType="TintColor" />
+        <Property
+            Comment="About page > main text"
+            DestAttribName="about_main_text_209_9_1"
+            UID="209-9-1"
+            ValueRef="1-1-3"
+            ValueType="TextColor" />
+        <Property
+            Comment="About page > sub text"
+            DestAttribName="about_sub_text_209_9_2"
+            UID="209-9-2"
+            ValueRef="1-1-4"
+            ValueType="TextColor" />
+        <Property
+            Comment="About page > update button background"
+            DestAttribName="about_update_button_background_209_9_3"
+            UID="209-9-3"
+            ValueRef="1-A"
+            ValueType="BgColor" />
+        <Property
+            Comment="About page > button background"
+            DestAttribName="about_grey_button_background_209_9_5"
+            UID="209-9-5"
+            ValueRef="1-7-1-D"
+            ValueType="BgColor" />
+        <Property
+            Comment="About page > info icon tint"
+            DestAttribName="about_info_icon_209_9_7"
+            UID="209-9-7"
+            ValueRef="1-1-3"
+            ValueType="TintColor" />
+        <Property
+            Comment="ActionBar > logo > icon tint"
+            DestAttribName="music_logo_209_10_1"
+            UID="209-10-1"
+            ValueRef="1-11-3"
+            ValueType="TintColor" />
+        <Property
+            Comment="ActionBar > Menu > menu item"
+            DestAttribName="basics_action_bar_item_209_10_2"
+            UID="209-10-2"
+            ValueRef="1-11-1"
+            ValueType="Color" />
+        <Property
+            Comment="Main > Tab > selected text"
+            DestAttribName="main_tab_text_selected_209_10_4"
+            UID="209-10-4"
+            ValueRef="1-13-3"
+            ValueType="Color" />
+        <Property
+            Comment="Main > Tab > unselected text"
+            DestAttribName="main_tab_text_normal_209_10_5"
+            UID="209-10-5"
+            ValueRef="1-13-2"
+            ValueType="Color" />
+        <Property
+            Comment="Detail > Info > title text"
+            DestAttribName="basics_info_title_209_10_6"
+            UID="209-10-6"
+            ValueRef="1-1-3"
+            ValueType="Color" />
+        <Property
+            Comment="Detail > Info > sub text"
+            DestAttribName="basics_info_sub_text_209_10_7"
+            UID="209-10-7"
+            ValueRef="1-1-4"
+            ValueType="Color" />
+        <Property
+            Comment="ActionBar > title text"
+            DestAttribName="basics_action_bar_title_text_209_10_8, basics_select_all_title_209_10_8, basics_select_all_check_box_blow_text_209_10_8"
+            UID="209-10-8"
+            ValueRef="1-1-3"
+            ValueType="Color" />
+        <Property
+            Comment="ActionBar > title sub text"
+            DestAttribName="basics_action_bar_title_sub_text_209_10_9"
+            UID="209-10-9"
+            ValueRef="1-1-4"
+            ValueType="Color" />
+        <Property
+            Comment="No item > text"
+            DestAttribName="basics_no_item_text_209_11_1"
+            UID="209-11-1"
+            ValueRef="1-53-1"
+            ValueType="Color" />
+        <Property
+            Comment="No item > sub text"
+            DestAttribName="basics_no_item_sub_text_209_11_2"
+            UID="209-11-2"
+            ValueRef="1-53-2"
+            ValueType="Color" />
+        <Property
+            Comment="Sub Tab > unselected text"
+            DestAttribName="melon_browse_tab_layout_normal_text_209_15_2"
+            UID="209-15-2"
+            ValueRef="1-13-2"
+            ValueType="Color" />
+        <Property
+            Comment="Sub Tab > selected text"
+            DestAttribName="melon_browse_tab_layout_selected_text_209_15_3"
+            UID="209-15-3"
+            ValueRef="1-13-3"
+            ValueType="Color" />
+        <Property
+            Comment="Sub Tab > selected mark tint"
+            DestAttribName="melon_browse_tab_layout_indicator_209_15_4"
+            UID="209-15-4"
+            ValueRef="1-13-4"
+            ValueType="TintColor" />
+        <Property
+            Comment="Bottom Menu > menu icon"
+            DestAttribName="basics_bottom_menu_icon_209_17_1"
+            UID="209-17-1"
+            ValueRef="1-14-3"
+            ValueType="TintColor" />
+        <Property
+            Comment="Bottom Menu > Text color"
+            DestAttribName="basics_bottom_menu_text_209_17_2"
+            UID="209-17-2"
+            ValueRef="1-14-2"
+            ValueType="TextColor" />
+        <Property
+            Comment="Permissions > Description text color"
+            DestAttribName="permission_description_209_17_3, melon_download_manager_description_209_17_3"
+            UID="209-17-3"
+            ValueRef="1-1-3"
+            ValueType="TextColor" />
+        <Property
+            Comment="Permissions > Icon color"
+            DestAttribName="permission_item_icon_209_17_4"
+            UID="209-17-4"
+            ValueRef="1-1-3"
+            ValueType="TextColor" />
+        <Property
+            Comment="Bottom Bar > Bottom Text color"
+            DestAttribName="bottom_bar_text_color_209_17_8"
+            UID="209-17-8"
+            ValueRef="1-14-2"
+            ValueType="TextColor" />
+    </AppMetaData>
+</ThemeMetaData>

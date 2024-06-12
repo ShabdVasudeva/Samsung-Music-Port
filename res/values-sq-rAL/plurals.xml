@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albume</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albume</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Pjesët</item>
+        <item quantity="one">Pjesa</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d tituj</item>
+        <item quantity="one">%d pistë</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d sekonda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekondë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">Mos e trego për %d ditë</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mos e trego për %d ditë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Mund ta përdorësh %1$s %2$d herë.</item>
+        <item quantity="one">Mund ta përdorësh %s 1 herë.</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">%d pista të skaduara do të hiqen. Mund ta shohësh historinë e shkarkimeve te Informacion për Melon > Historia e blerjeve.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pistë e skaduar do të hiqet. Mund ta shohësh historinë e shkarkimeve te Informacion për Melon > Historia e blerjeve.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">Nuk e zgjata dot periudhën DCF për %d pista. Mund të provosh sërish, ose t’i heqësh skedarët nga lista më poshtë, para se t’i shkarkosh sërish.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nuk e zgjata dot periudhën DCF për %d pistë. Mund të provosh sërish, ose t’i heqësh skedarët nga lista më poshtë, para se t’i shkarkosh sërish.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">S’mund të importohen më shumë se %d gjëra.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të importohet më shumë se %d gjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">Duke pritur që të shkarkohen %d këngë…</item>
+        <item quantity="one">Duke pritur që të shkarkohet 1 këngë…</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Të heq %d albume dhe të gjitha pistat që përmbajnë ato nga telefoni?</item>
+        <item quantity="one">Të heq 1 album dhe të gjitha pistat që përmban ai nga telefoni?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">T’i heq të gjitha pistat nga këta artistë?</item>
+        <item quantity="one">T’i heq të gjitha pistat nga ky artist?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">T’i heq të gjitha pistat nga këta kompozitorë?</item>
+        <item quantity="one">T’i heq të gjitha pistat nga ky kompozitor?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d regjistra</item>
+        <item quantity="one">1 dosje</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Të heq %d dosje dhe të gjitha pistat që përmbajnë ato nga telefoni?</item>
+        <item quantity="one">Të heq 1 dosje dhe të gjitha pistat që përmban ajo nga telefoni?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">T’i heq të gjitha pistat në këto zhanre?</item>
+        <item quantity="one">T’i heq të gjitha pistat në këtë zhanër?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">Edhe %d dosje të fshehura do të hiqen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Edhe %d dosje e fshehur do të hiqet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Të heq %d objekte?</item>
+        <item quantity="one">Ta heq 1 objekt?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">S’mund të futësh më shumë se %d shenja.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të futësh më shumë se %d shenjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">S’mund të shtosh më shumë se %d albume. Shto më pak albume ose hiq ndonjë nga Të preferuarat.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të shtosh më shumë se %d album. Shto më pak albume ose hiq ndonjë nga Të preferuarat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">S’mund të shtosh më shumë se %d artistë. Shto më pak artistë ose hiq ndonjë nga Të preferuarit.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të shtosh më shumë se %d artist. Shto më pak artistë ose hiq ndonjë nga Të preferuarat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">Mund të shtosh vetëm deri %d lista leximesh. Hiq ndonjë listë leximesh nga skeda Të preferuarat.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mund të shtosh vetëm deri %d listë leximesh. Hiq ndonjë listë leximesh nga skeda Të preferuarat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">S’mund të shtosh më shumë se %d pista për streaming. Shto më pak pista ose hiq ndonjë nga Pistat e preferuara.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të shtosh më shumë se %d pistë për streaming. Shto më pak pista ose hiq ndonjë nga Pistat e preferuara.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">S’mund të shtosh më shumë se %d pista. Shto më pak pista ose hiq ndonjë nga Pistat e preferuara.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të shtosh më shumë se %d pistë. Shto më pak pista ose hiq ndonjë nga Pistat e preferuara.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">U eksportuan %d lista leximesh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U eksportua %d listë leximesh.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">U importuan %d lista leximesh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U importua %d listë leximesh.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">S’mund të përzgjedhësh më shumë se %d lista leximesh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të përzgjedhësh më shumë se %d listë leximesh.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Të heq %d lista leximesh?</item>
+        <item quantity="one">Të heq 1 listë leximesh?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d tituj</item>
+        <item quantity="one">1 titull</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">Vetëm %d pista u shtuan tek Të preferuarat. Pjesa tjetër ishin tashmë tek Të preferuarat.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vetëm %d pistë u shtua tek Të preferuarat. Pjesa tjetër ishin tashmë tek Të preferuarat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">%d pista u shtuan tek të preferuarat.</item>
+        <item quantity="one">1 pistë u shtua tek të preferuarat.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">%d tinguj u shtuan te lista e leximeve.</item>
+        <item quantity="one">1 pistë u shtua te lista e leximeve.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d pista u shtuan te radha e pritjes.</item>
+        <item quantity="one">%d pistë u shtua te radha e pritjes.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Të hiqen %d pista?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të hiqet %d pistë?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Koha e gjumit: %d orë</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Koha e gjumit: %d orë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Koha e gjumit: %d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Koha e gjumit: %d minutë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

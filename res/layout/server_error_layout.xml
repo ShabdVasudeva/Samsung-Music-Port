@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/basics_system_background_209_4_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:textSize="14.0dip"
+        android:textColor="@color/legacy_basics_no_item_sub_text"
+        android:gravity="center"
+        android:id="@id/server_error_msg"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/server_error_msg"
+        app:layout_constraintBottom_toTopOf="@id/server_error_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_percent="0.75" />
+    <TextView
+        android:textSize="14.0dip"
+        android:textColor="@color/legacy_basics_no_item_sub_text"
+        android:gravity="center"
+        android:id="@id/server_error_detail"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        app:layout_constraintBottom_toTopOf="@id/retry_button"
+        app:layout_constraintEnd_toEndOf="@id/server_error_msg"
+        app:layout_constraintStart_toStartOf="@id/server_error_msg"
+        app:layout_constraintTop_toBottomOf="@id/server_error_msg"
+        app:layout_constraintWidth_percent="0.75" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="15.0dip"
+        android:id="@id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mu_no_item_sub_text_margin_top"
+        android:minWidth="180.0dip"
+        android:minHeight="37.0dip"
+        android:text="@string/try_again"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/server_error_detail"
+        style="@style/RaisedButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

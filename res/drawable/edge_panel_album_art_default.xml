@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle">
+            <size
+                android:height="@dimen/edge_panel_album_art_size"
+                android:width="@dimen/edge_panel_album_art_size" />
+            <solid
+                android:color="#4facacac" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/$edge_panel_album_art_default__0"
+        xmlns:aapt="http://schemas.android.com/aapt" />
+</layer-list>

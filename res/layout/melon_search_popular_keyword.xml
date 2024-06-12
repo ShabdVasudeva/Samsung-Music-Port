@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="56.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="@dimen/search_popular_keywords_rank_text_size"
+        android:textColor="@color/basics_text_main"
+        android:gravity="center"
+        android:id="@id/track_number"
+        android:visibility="visible"
+        android:layout_width="24.0dip"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="20.0dip"
+        app:flexible_margin="start"
+        app:layout_constraintBottom_toTopOf="@id/rank"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        style="@style/Font.NewSEC.400" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:gravity="center_vertical"
+        android:id="@id/text1"
+        android:layout_marginTop="@dimen/mu_list_item_text_space_top_winset"
+        android:layout_marginBottom="@dimen/mu_list_item_text_space_bottom_winset"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="10.0dip"
+        app:flexible_margin="start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/track_number"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.Text.Line1" />
+    <com.samsung.android.app.music.milk.store.widget.RankView
+        android:textSize="10.0dip"
+        android:id="@id/rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_popular_keywords_rank_view_space_top"
+        android:includeFontPadding="false"
+        android:drawablePadding="2.0dip"
+        android:importantForAccessibility="no"
+        android:fontFamily="roboto-regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/track_number"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/track_number"
+        app:layout_constraintTop_toBottomOf="@id/track_number" />
+    <com.samsung.android.app.musiclibrary.ui.widget.AccessibilityView
+        android:id="@id/click_area"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:contentDescriptionIds="track_number,text1,rank"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

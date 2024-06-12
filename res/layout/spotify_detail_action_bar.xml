@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/custom_action_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:alpha="0.0"
+    android:paddingEnd="20.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/action_bar_ic"
+        android:background="@drawable/unbounded_ripple_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/music_oobb_ic_spotify"
+        android:layout_centerVertical="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/basics_text_main" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="15.0sp"
+        android:textColor="@color/basics_text_main"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/action_title"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:minWidth="2.0dip"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/action_bar_ic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.600" />
+</androidx.constraintlayout.widget.ConstraintLayout>

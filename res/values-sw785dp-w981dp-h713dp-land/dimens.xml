@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_widget_album">50.0dip</dimen>
+    <dimen name="app_widget_album_radius">8.0dip</dimen>
+    <dimen name="ext_app_widget_container_height">100.0dip</dimen>
+</resources>

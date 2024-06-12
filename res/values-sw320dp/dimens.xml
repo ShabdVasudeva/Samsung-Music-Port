@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edge_panel_album_art_default_icon_padding">41.0dip</dimen>
+    <dimen name="edge_panel_album_art_default_icon_size">41.0dip</dimen>
+    <dimen name="edge_panel_album_art_size">123.0dip</dimen>
+</resources>

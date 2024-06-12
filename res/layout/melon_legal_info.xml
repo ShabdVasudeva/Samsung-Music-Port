@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="17.0sp"
+        android:textColor="@color/basics_text_main"
+        android:ellipsize="end"
+        android:gravity="start|bottom|center"
+        android:id="@id/sub_header"
+        android:paddingBottom="4.0dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:layout_marginStart="@dimen/browse_list_start_space"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.400" />
+    <ImageView
+        android:id="@id/sub_header_arrow"
+        android:padding="2.0dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4.0dip"
+        android:src="@drawable/store_list_more_btn"
+        app:layout_constraintStart_toEndOf="@id/sub_header"
+        app:tint="@color/basics_text_main" />
+    <TextView
+        android:textSize="@dimen/melon_legal_info_text1"
+        android:textColor="@color/melon_legal_info_text1"
+        android:gravity="center_horizontal"
+        android:id="@id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8.0dip"
+        android:paddingStart="@dimen/company_information_space_horizontal_kt"
+        android:paddingEnd="@dimen/company_information_space_horizontal_kt"
+        app:layout_constraintBottom_toTopOf="@id/text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sub_header"
+        style="@style/Font.NewSEC.400" />
+    <TextView
+        android:textSize="@dimen/melon_legal_info_text2"
+        android:textColor="@color/melon_legal_info_text2"
+        android:gravity="center_horizontal"
+        android:id="@id/text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:paddingStart="45.5dip"
+        android:paddingEnd="45.5dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        style="@style/Font.NewSEC.400" />
+</androidx.constraintlayout.widget.ConstraintLayout>

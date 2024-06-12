@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:id="@id/item_view"
+    android:background="@drawable/basics_ripple_list"
+    android:focusable="true"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="52.0dip"
+    app:clickableId="item_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox
+        android:id="@id/checkbox"
+        android:layout_marginStart="@dimen/melon_import_dialog_list_item_check_box_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.Checkbox" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="@dimen/melon_import_dialog_list_item_text1_size"
+        android:id="@id/text1"
+        android:layout_marginTop="@dimen/mu_list_item_text_space_top_winset"
+        android:layout_marginStart="@dimen/melon_import_dialog_list_item_check_box_space"
+        android:layout_marginEnd="@dimen/melon_import_dialog_list_item_text1_space_end"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@id/message"
+        app:layout_constraintEnd_toStartOf="@id/text2"
+        app:layout_constraintStart_toEndOf="@id/checkbox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_goneMarginBottom="@dimen/mu_list_item_text_space_bottom_winset"
+        style="@style/ListItem.Text.Line1" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="@dimen/melon_import_dialog_list_item_text2_size"
+        android:textColor="@color/basics_text_sub"
+        android:id="@id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mu_list_item_text_space_top_winset"
+        android:layout_marginBottom="@dimen/mu_list_item_text_space_bottom_winset"
+        android:layout_marginEnd="@dimen/melon_import_dialog_list_item_space_end"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Font.NewSEC.400" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="@dimen/melon_import_dialog_list_item_message_size"
+        android:textColor="#ffb00020"
+        android:id="@id/message"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/melon_import_dialog_list_item_message_space_top"
+        android:layout_marginBottom="@dimen/mu_list_item_text_space_bottom_winset"
+        android:layout_marginStart="@dimen/melon_import_dialog_list_item_check_box_space"
+        android:layout_marginEnd="@dimen/melon_import_dialog_list_item_message_space_end"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/text2"
+        app:layout_constraintStart_toEndOf="@id/checkbox"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        style="@style/ListItem.Text" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

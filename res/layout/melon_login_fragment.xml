@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Toolbar" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="@dimen/melon_login_start_space" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_end="@dimen/melon_login_start_space" />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:id="@id/kakao_login"
+        android:paddingBottom="30.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20.0dip"
+        android:paddingEnd="20.0dip"
+        app:layout_constraintBottom_toTopOf="@id/join_us"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintVertical_chainStyle="packed">
+        <RelativeLayout
+            android:id="@id/login_button_talk"
+            android:background="@drawable/login_kakaotalk_background"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/melon_kakaotalk_login"
+                android:drawablePadding="4.0dip"
+                android:layout_centerInParent="true"
+                android:drawableStart="@drawable/ic_login_kakaotalk"
+                style="@style/ListItem.Login.Text.KakaoTalk" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@id/login_button"
+            android:background="@drawable/login_kakao_background"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="10.0dip">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/melon_kakao_login"
+                android:drawablePadding="4.0dip"
+                android:layout_centerInParent="true"
+                style="@style/ListItem.Login.Text.Kakao" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:id="@id/join_us"
+        android:text="@string/melon_join_us"
+        app:layout_constraintBottom_toTopOf="@id/desc"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/kakao_login"
+        style="@style/ListItem.Login.Text" />
+    <TextView
+        android:gravity="center"
+        android:id="@id/desc"
+        android:visibility="gone"
+        android:layout_marginBottom="60.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        style="@style/ListItem.Login.Text.Desc" />
+    <include
+        android:id="@id/progressContainer"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        layout="@layout/basics_progress_container" />
+    <androidx.constraintlayout.widget.Group
+        android:id="@id/no_item_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="kakao_login, join_us, desc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

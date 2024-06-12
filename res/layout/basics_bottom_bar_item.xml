@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.HandledHoverFrameLayout
+    android:background="@drawable/basics_ripple_bottom_button"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="0.0dip"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.0"
+    android:layout_marginStart="@dimen/mu_bottom_button_space"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@id/bottom_bar_item_icon"
+            android:layout_width="@dimen/bottom_bar_icon"
+            android:layout_height="@dimen/bottom_bar_icon"
+            app:layout_constraintBottom_toTopOf="@id/bottom_bar_item_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:tint="@color/basics_bottom_menu_icon_209_17_1" />
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+            android:textSize="@dimen/bottom_bar_text"
+            android:textColor="@color/basics_bottom_menu_text_209_17_2"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/bottom_bar_item_title"
+            android:paddingTop="2.0dip"
+            android:paddingBottom="4.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:includeFontPadding="false"
+            android:paddingStart="6.0dip"
+            android:paddingEnd="6.0dip"
+            app:layout_constrainedHeight="true"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bottom_bar_item_icon"
+            app:maxFontLevel="large"
+            style="@style/Font.NewSEC.400" />
+    </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+</com.samsung.android.app.musiclibrary.ui.widget.HandledHoverFrameLayout>

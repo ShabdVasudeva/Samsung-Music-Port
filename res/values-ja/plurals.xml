@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d枚のアルバム</item>
+        <item quantity="one">%d枚のアルバム</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">アルバム</item>
+        <item quantity="one">アルバム</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">曲</item>
+        <item quantity="one">曲</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d曲</item>
+        <item quantity="one">%d曲</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d秒</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">%d日間表示しない</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$sを%2$d回使用できます。</item>
+        <item quantity="one">%sは1回使用できます。</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d 秒早送り</item>
+        <item quantity="one">%d 秒早送り</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d 秒巻き戻し</item>
+        <item quantity="one">%d 秒巻き戻し</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">有効期限切れの%d曲を削除します。[Melonの情報] > [購入履歴]でダウンロード履歴を確認できます。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">%d曲のDCF期間を延長できませんでした。再度実行するか、以下のリストからファイルを削除してから、再ダウンロードできます。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">インポートできるアイテムは%d件までです。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">%d曲のダウンロードを待機中…</item>
+        <item quantity="one">1曲のダウンロードを待機中…</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d件のアルバムと、その中の全ての曲を端末から削除しますか？</item>
+        <item quantity="one">1件のアルバムと、その中の全ての曲を端末から削除しますか？</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">選択したアーティストの曲を全て削除しますか？</item>
+        <item quantity="one">このアーティストの全ての曲を削除しますか？</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">選択した作曲者の曲を全て削除しますか？</item>
+        <item quantity="one">この作曲者の曲を全て削除しますか？</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d件のフォルダ</item>
+        <item quantity="one">1件のフォルダ</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d件のフォルダと、その中の全ての曲を端末から削除しますか？</item>
+        <item quantity="one">1件のフォルダと、その中の全ての曲を端末から削除しますか？</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">選択したジャンルの曲を全て削除しますか？</item>
+        <item quantity="one">このジャンルの曲を全て削除しますか？</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d件の非表示フォルダも削除します。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">%d件のアイテムを削除しますか？</item>
+        <item quantity="one">1件のアイテムを削除しますか？</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">%d文字以内で入力してください。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">%d件を超えるアルバムを追加することはできません。追加するアルバムを減らすか、お気に入りから不要なアルバムを削除してください。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">%d件を超えるアーティストを追加することはできません。追加するアーティストを減らすか、お気に入りから不要なアーティストを削除してください。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">追加できるプレイリストは%d件までです。お気に入りタブから不要なプレイリスト削除してください。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">%d件を超えるストリーミングの曲を追加することはできません。追加する曲を減らすか、お気に入りから不要な曲を削除してください。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">%d件を超える曲を追加することはできません。追加する曲を減らすか、お気に入りから不要な曲を削除してください。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">%d件のプレイリストをエクスポートしました。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">%d件のプレイリストをインポートしました。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">プレイリストは%d件まで選択できます。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d件のプレイリストを削除しますか？</item>
+        <item quantity="one">1件のプレイリストを削除しますか？</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d曲</item>
+        <item quantity="one">1曲</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">%d曲のみをお気に入りに追加しました。残りの曲は既にお気に入りに登録されています。</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">お気に入りに%d曲を追加しました。</item>
+        <item quantity="one">お気に入りに1曲を追加しました。</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">プレイリストに%d曲追加しました。</item>
+        <item quantity="one">プレイリストに1曲追加しました。</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">再生中リストに%d曲追加しました。</item>
+        <item quantity="one">再生中リストに%d曲追加しました。</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d曲削除しますか？</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">睡眠時間: %d時間</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">睡眠時間: %d分</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d日</item>
+        <item quantity="one">%d日</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">%d時間</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d日</item>
+        <item quantity="one">%d日</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">%d時間</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+</resources>

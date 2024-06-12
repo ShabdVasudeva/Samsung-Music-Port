@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/button_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/app_widget_icon_small"
+        android:layout_weight="1.0">
+        <ImageButton
+            android:id="@id/shuffle_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music_player_ic_control_shuffle_on"
+            android:scaleType="fitCenter"
+            app:tint="@color/dark_gray_opacity_100"
+            style="@style/AppWidget.ImageButton.Small" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/app_widget_icon"
+        android:layout_weight="1.0">
+        <ImageButton
+            android:id="@id/prev_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music_player_ic_control_back"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/tts_previous"
+            app:tint="@color/dark_gray_opacity_100"
+            style="@style/AppWidget.ImageButton" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/app_widget_icon"
+        android:layout_weight="1.0">
+        <ImageButton
+            android:id="@id/play_pause_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_widget_play"
+            android:scaleType="fitCenter"
+            app:tint="@color/dark_gray_opacity_100"
+            style="@style/AppWidget.ImageButton" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/app_widget_icon"
+        android:layout_weight="1.0">
+        <ImageButton
+            android:id="@id/next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music_player_ic_control_forward"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/tts_next"
+            app:tint="@color/dark_gray_opacity_100"
+            style="@style/AppWidget.ImageButton" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/app_widget_icon_small"
+        android:layout_weight="1.0">
+        <ImageButton
+            android:id="@id/repeat_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music_player_ic_control_repeat_all"
+            android:scaleType="fitCenter"
+            app:tint="@color/dark_gray_opacity_100"
+            style="@style/AppWidget.ImageButton.Small" />
+    </FrameLayout>
+</LinearLayout>

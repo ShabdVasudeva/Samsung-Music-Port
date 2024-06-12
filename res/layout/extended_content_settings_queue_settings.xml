@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:id="@id/nested_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/settings_content_space_bottom">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/playback_mode_text_frame"
+            android:paddingLeft="@dimen/audio_quality_side_padding"
+            android:paddingRight="@dimen/audio_quality_side_padding"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16.0dip">
+            <LinearLayout
+                style="@style/Settings.DetailSubHeader">
+                <TextView
+                    android:textSize="@dimen/setting_sub_header_font_size"
+                    android:textColor="@color/basics_text_subheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/playback_mode"
+                    android:includeFontPadding="false"
+                    style="@style/Font.NewSEC.600" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/settings_sub_header_grouping_line_left_margin"
+                    android:src="@drawable/settings_sub_header_grouping_line"
+                    android:layout_weight="1.0"
+                    android:layerType="software" />
+            </LinearLayout>
+            <TextView
+                android:textSize="@dimen/setting_description_font_size"
+                android:textColor="@color/basics_text_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/settings_sub_description_line_space"
+                android:text="@string/playback_mode_description_1"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="@dimen/settings_sub_description_line_space"
+                style="@style/Font.NewSEC.400" />
+            <TextView
+                android:textSize="@dimen/setting_description_font_size"
+                android:textColor="@color/basics_text_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/playback_mode_description_2"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="@dimen/settings_sub_description_line_space"
+                style="@style/Font.NewSEC.400" />
+        </LinearLayout>
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:roundCorner="all"
+            app:roundMode="music">
+            <include
+                android:id="@id/playback_mode_option_frame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/settings_three_option_single_text_layout" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/add_order_text_frame"
+            android:paddingLeft="@dimen/audio_quality_side_padding"
+            android:paddingRight="@dimen/audio_quality_side_padding"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16.0dip">
+            <LinearLayout
+                style="@style/Settings.DetailSubHeader">
+                <TextView
+                    android:textSize="@dimen/setting_sub_header_font_size"
+                    android:textColor="@color/basics_text_subheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_order"
+                    android:includeFontPadding="false"
+                    style="@style/Font.NewSEC.600" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/settings_sub_header_grouping_line_left_margin"
+                    android:src="@drawable/settings_sub_header_grouping_line"
+                    android:layout_weight="1.0"
+                    android:layerType="software" />
+            </LinearLayout>
+            <TextView
+                android:textSize="@dimen/setting_description_font_size"
+                android:textColor="@color/basics_text_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_order_description"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="@dimen/settings_sub_description_line_space"
+                style="@style/Font.NewSEC.400" />
+        </LinearLayout>
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:roundCorner="all"
+            app:roundMode="music">
+            <include
+                android:id="@id/add_order_option_frame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/settings_three_option_single_text_layout" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

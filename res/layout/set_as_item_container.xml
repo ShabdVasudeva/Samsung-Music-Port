@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:tag="layout/set_as_item_container_0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+        android:id="@id/highlight_group"
+        android:tag="binding_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:roundCorner="all"
+        app:roundMode="music">
+        <include
+            android:id="@id/highlight_begin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            layout="@layout/set_as_item" />
+        <View
+            android:id="@id/highlight_divider1"
+            android:background="@color/basics_list_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mu_list_divider_height_winset"
+            android:layout_marginTop="2.0dip"
+            android:layout_marginBottom="2.0dip"
+            android:layout_marginStart="@dimen/set_as_divider_margin_start"
+            android:layout_marginEnd="@dimen/set_as_divider_margin_end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highlight_begin" />
+        <include
+            android:id="@id/highlight_recommend"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highlight_begin"
+            layout="@layout/set_as_item" />
+        <include
+            android:id="@id/recommend_progress"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/set_as_progress_layout_margin_top"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highlight_recommend"
+            layout="@layout/set_as_progress_content" />
+        <View
+            android:id="@id/highlight_divider2"
+            android:background="@color/basics_list_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mu_list_divider_height_winset"
+            android:layout_marginTop="2.0dip"
+            android:layout_marginBottom="2.0dip"
+            android:layout_marginStart="@dimen/set_as_divider_margin_start"
+            android:layout_marginEnd="@dimen/set_as_divider_margin_end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recommend_progress" />
+        <include
+            android:id="@id/highlight_select"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recommend_progress"
+            layout="@layout/set_as_item" />
+        <include
+            android:id="@id/select_seek"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/set_as_progress_text_margin_top"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highlight_select"
+            layout="@layout/set_as_seekbar_content" />
+    </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/middle_header_group"
+        android:paddingTop="@dimen/set_as_sub_header_padding_top"
+        android:paddingBottom="@dimen/set_as_sub_header_padding_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/set_as_sub_header_padding"
+        android:paddingEnd="@dimen/set_as_sub_header_padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/highlight_group">
+        <TextView
+            android:textColor="@color/basics_text_subheader"
+            android:ellipsize="none"
+            android:gravity="center_vertical"
+            android:id="@id/middle_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/legacy_set_as"
+            android:singleLine="true"
+            android:textDirection="locale"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/Font.NewSEC.600" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+        android:id="@id/tone_group"
+        android:tag="binding_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/middle_header_group"
+        app:roundCorner="all"
+        app:roundMode="music">
+        <include
+            android:id="@id/tone_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            layout="@layout/set_as_item" />
+        <View
+            android:id="@id/tone_divider1"
+            android:background="@color/basics_list_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mu_list_divider_height_winset"
+            android:layout_marginTop="2.0dip"
+            android:layout_marginBottom="2.0dip"
+            android:layout_marginStart="@dimen/set_as_divider_margin_start"
+            android:layout_marginEnd="@dimen/set_as_divider_margin_end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tone_phone" />
+        <include
+            android:id="@id/tone_caller"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tone_divider1"
+            layout="@layout/set_as_item" />
+        <View
+            android:id="@id/tone_divider2"
+            android:background="@color/basics_list_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mu_list_divider_height_winset"
+            android:layout_marginTop="2.0dip"
+            android:layout_marginBottom="2.0dip"
+            android:layout_marginStart="@dimen/set_as_divider_margin_start"
+            android:layout_marginEnd="@dimen/set_as_divider_margin_end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tone_caller" />
+        <include
+            android:id="@id/tone_alarm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tone_divider2"
+            layout="@layout/set_as_item" />
+    </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

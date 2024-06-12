@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/widget_background"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_extendable_0"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintEnd_toEndOf="parent"
+        bind:layout_constraintStart_toStartOf="parent"
+        bind:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/content_root"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_extendable_1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ext_app_widget_setting_preview_content_height"
+        bind:layout_constraintBottom_toTopOf="@id/widget_inside_background"
+        bind:layout_constraintEnd_toEndOf="parent"
+        bind:layout_constraintStart_toStartOf="parent"
+        bind:layout_constraintTop_toTopOf="parent">
+        <include
+            layout="@layout/app_widget_setting_preview_content" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@id/widget_inside_background"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_extendable_2"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginBottom="@dimen/ext_app_widget_setting_preview_list_bottom_space"
+        android:layout_marginStart="@dimen/ext_app_widget_setting_preview_list_start_space"
+        android:layout_marginEnd="@dimen/ext_app_widget_setting_preview_list_end_space"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintEnd_toEndOf="parent"
+        bind:layout_constraintStart_toStartOf="parent"
+        bind:layout_constraintTop_toBottomOf="@id/content_root" />
+    <TextView
+        android:textSize="@dimen/ext_app_widget_setting_preview_list_title"
+        android:textColor="@color/app_widget_list_title_playing_209_2_1"
+        android:id="@id/list_first_title"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_extendable_3"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ext_app_widget_setting_preview_list_text_vertical_space"
+        android:text="@string/track"
+        android:layout_marginStart="@dimen/ext_app_widget_setting_preview_list_text_space"
+        bind:layout_constraintBottom_toTopOf="@id/list_first_artist"
+        bind:layout_constraintEnd_toStartOf="@id/now_playing"
+        bind:layout_constraintStart_toStartOf="@id/widget_inside_background"
+        bind:layout_constraintTop_toTopOf="@id/widget_inside_background"
+        style="@style/Font.NewSEC.600.Marquee" />
+    <TextView
+        android:textSize="@dimen/ext_app_widget_setting_preview_list_artist"
+        android:textColor="@color/app_widget_list_artist_playing_209_2_2"
+        android:id="@id/list_first_artist"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_extendable_4"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ext_app_widget_setting_preview_list_text_vertical_space"
+        android:text="@string/artist"
+        android:layout_below="@id/widget_list_title"
+        android:layout_marginStart="@dimen/ext_app_widget_setting_preview_list_text_space"
+        bind:layout_constraintBottom_toTopOf="@id/list_second_title"
+        bind:layout_constraintEnd_toEndOf="@id/list_first_title"
+        bind:layout_constraintStart_toStartOf="@id/widget_inside_background"
+        bind:layout_constraintTop_toBottomOf="@id/list_first_title"
+        style="@style/Font.NewSEC.400.Marquee" />
+    <ImageView
+        android:id="@id/now_playing"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_extendable_5"
+        android:background="@drawable/ic_music_list_now_playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10.0dip"
+        android:layout_marginEnd="10.0dip"
+        android:backgroundTint="@color/app_widget_list_playing_icon_209_2_3"
+        bind:layout_constraintBottom_toBottomOf="@id/list_first_artist"
+        bind:layout_constraintEnd_toEndOf="@id/widget_inside_background"
+        bind:layout_constraintStart_toEndOf="@id/list_first_title"
+        bind:layout_constraintTop_toTopOf="@id/list_first_title" />
+    <TextView
+        android:textSize="@dimen/ext_app_widget_setting_preview_list_title"
+        android:id="@id/list_second_title"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_extendable_6"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ext_app_widget_setting_preview_list_text_vertical_space"
+        android:text="@string/track"
+        android:layout_marginStart="@dimen/ext_app_widget_setting_preview_list_text_space"
+        android:layout_marginEnd="@dimen/ext_app_widget_setting_preview_list_text_space"
+        bind:layout_constraintBottom_toTopOf="@id/list_second_artist"
+        bind:layout_constraintEnd_toEndOf="@id/widget_inside_background"
+        bind:layout_constraintStart_toStartOf="@id/widget_inside_background"
+        bind:layout_constraintTop_toBottomOf="@id/list_first_artist"
+        style="@style/Font.NewSEC.600.Marquee" />
+    <TextView
+        android:textSize="@dimen/ext_app_widget_setting_preview_list_artist"
+        android:id="@id/list_second_artist"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_extendable_7"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ext_app_widget_setting_preview_list_text_vertical_space"
+        android:text="@string/artist"
+        android:layout_marginStart="@dimen/ext_app_widget_setting_preview_list_text_space"
+        android:layout_marginEnd="@dimen/ext_app_widget_setting_preview_list_text_space"
+        bind:layout_constraintBottom_toBottomOf="@id/widget_inside_background"
+        bind:layout_constraintEnd_toEndOf="@id/widget_inside_background"
+        bind:layout_constraintStart_toStartOf="@id/widget_inside_background"
+        bind:layout_constraintTop_toBottomOf="@id/list_second_title"
+        style="@style/Font.NewSEC.400.Marquee" />
+</merge>

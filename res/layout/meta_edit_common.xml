@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:tag="layout/meta_edit_common_0"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/meta_edit_toolbar_frame_height"
+        android:layout_marginBottom="@dimen/meta_edit_toolbar_frame_margin_bottom">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/toolbar"
+            android:layout_width="fill_parent"
+            style="@style/Toolbar" />
+    </FrameLayout>
+    <com.samsung.android.app.musiclibrary.ui.widget.round.RoundedScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/meta_edit_toolbar_frame_height"
+        android:layout_marginBottom="@dimen/winset_bottom_bar_height">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/meta_edit_view"
+            android:paddingTop="@dimen/meta_edit_layout_padding_vertical"
+            android:paddingBottom="@dimen/meta_edit_layout_padding_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@id/encoding_type_header"
+                android:text="@string/encoding_type"
+                android:layout_marginStart="@dimen/winset_description_margin_horizontal"
+                android:layout_marginEnd="@dimen/winset_description_margin_horizontal"
+                style="@style/Font.NewSEC.400.HintLabel" />
+            <Spinner
+                android:id="@id/encoding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/mu_edittext_margin_start"
+                android:layout_marginEnd="@dimen/winset_spinner_margin_horizontal" />
+            <com.samsung.android.app.music.widget.ButtonEditTextView
+                android:id="@id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                bind:editTextId="@id/title_edit_text"
+                bind:hint="@string/title"
+                bind:nextImeFocus="@id/artist">
+                <requestFocus />
+            </com.samsung.android.app.music.widget.ButtonEditTextView>
+            <com.samsung.android.app.music.widget.ButtonEditTextView
+                android:id="@id/artist"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                bind:editTextId="@id/artist_edit_text"
+                bind:hint="@string/artist"
+                bind:nextImeFocus="@id/album" />
+            <com.samsung.android.app.music.widget.ButtonEditTextView
+                android:id="@id/album"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                bind:editTextId="@id/album_edit_text"
+                bind:hint="@string/album"
+                bind:nextImeFocus="@id/album_artist" />
+            <com.samsung.android.app.music.widget.ButtonEditTextView
+                android:id="@id/album_artist"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                bind:editTextId="@id/album_artist_edit_text"
+                bind:hint="@string/album_artist"
+                bind:nextImeFocus="@id/genre" />
+            <com.samsung.android.app.music.widget.ButtonEditTextView
+                android:id="@id/genre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                bind:editTextId="@id/genre_edit_text"
+                bind:hint="@string/genre"
+                bind:nextImeFocus="@id/recording_date" />
+            <com.samsung.android.app.music.widget.ButtonEditTextView
+                android:id="@id/recording_date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                bind:editTextId="@id/recording_date_edit_text"
+                bind:hint="@string/recording_date"
+                bind:inputType="number"
+                bind:maxLength="8"
+                bind:nextImeFocus="@id/track_number" />
+            <com.samsung.android.app.music.widget.ButtonEditTextView
+                android:id="@id/track_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                bind:editTextId="@id/track_number_edit_text"
+                bind:hint="@string/track_number"
+                bind:inputType="number"
+                bind:maxLength="3"
+                bind:nextImeFocus="@id/disc_number" />
+            <com.samsung.android.app.music.widget.ButtonEditTextView
+                android:id="@id/disc_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                bind:editTextId="@id/disc_number_edit_text"
+                bind:hint="@string/disc_number_text"
+                bind:inputType="number"
+                bind:maxLength="1" />
+        </LinearLayout>
+    </com.samsung.android.app.musiclibrary.ui.widget.round.RoundedScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_gravity="bottom"
+        android:id="@id/bottom_navigation"
+        android:tag="binding_1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/winset_bottom_bar_height"
+        bind:menu="@menu/meta_edit_common"
+        style="@style/BottomBarStyle" />
+</FrameLayout>

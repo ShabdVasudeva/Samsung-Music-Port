@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:textSize="@dimen/melon_home_now_chart_item_title"
+        android:textColor="@color/basics_text_main"
+        android:gravity="center"
+        android:id="@id/rank_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="24.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/rank_title"
+        app:layout_constraintEnd_toStartOf="@id/rank_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/rank_title"
+        style="@style/Font.NewSEC.400" />
+    <com.samsung.android.app.music.melon.list.chart.RankView
+        android:textSize="10.0dip"
+        android:gravity="center"
+        android:id="@id/gap"
+        android:layout_width="wrap_content"
+        android:layout_height="13.0dip"
+        android:includeFontPadding="false"
+        android:drawablePadding="2.0dip"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="@id/rank_artist"
+        app:layout_constraintEnd_toEndOf="@id/rank_num"
+        app:layout_constraintStart_toStartOf="@id/rank_num"
+        app:layout_constraintTop_toTopOf="@id/rank_artist"
+        style="@style/Font.NewSEC.400" />
+    <TextView
+        android:textSize="@dimen/melon_home_now_chart_item_title"
+        android:textColor="@color/basics_text_main"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:id="@id/rank_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        app:layout_constraintBottom_toTopOf="@id/rank_artist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/rank_num"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Font.NewSEC.400" />
+    <TextView
+        android:textSize="@dimen/melon_home_now_chart_item_artist"
+        android:textColor="@color/melon_item_chart_artist"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:id="@id/rank_artist"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/rank_title"
+        app:layout_constraintStart_toStartOf="@id/rank_title"
+        app:layout_constraintTop_toBottomOf="@id/rank_title"
+        style="@style/Font.NewSEC.400" />
+</merge>

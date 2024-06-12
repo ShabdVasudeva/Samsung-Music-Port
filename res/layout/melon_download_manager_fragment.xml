@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        app:layout_constraintBottom_toTopOf="@id/download_count_indicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Toolbar" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/toolbar_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="?actionBarSize" />
+    <TextView
+        android:textSize="@dimen/download_manager_count_indicator_text"
+        android:textColor="@color/melon_download_manager_description_209_17_3"
+        android:gravity="center"
+        android:id="@id/download_count_indicator"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/download_manager_count_indicator_margin_bottom"
+        android:minHeight="@dimen/download_manager_count_indicator_height"
+        app:layout_constraintBottom_toTopOf="@id/recycler_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_guideline"
+        style="@style/Font.NewSEC.400" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiRecyclerView
+        android:id="@id/recycler_view"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:chunkingBackground="true"
+        app:fillBottom="true"
+        app:layout_constraintBottom_toTopOf="@id/pause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/download_count_indicator"
+        app:roundCorner="all" />
+    <TextView
+        android:textSize="@dimen/download_manager_bottom_button_text"
+        android:textColor="@color/bottom_bar_text_color_209_17_8"
+        android:gravity="center"
+        android:id="@id/pause"
+        android:background="?android:selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/winset_bottom_bar_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/delete_all"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recycler_view"
+        style="@style/Font.NewSEC.600" />
+    <TextView
+        android:textSize="@dimen/download_manager_bottom_button_text"
+        android:textColor="@color/bottom_bar_text_color_209_17_8"
+        android:gravity="center"
+        android:id="@id/delete_all"
+        android:background="?android:selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:text="@string/delete_all"
+        app:layout_constraintBottom_toBottomOf="@id/pause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pause"
+        app:layout_constraintTop_toTopOf="@id/pause"
+        style="@style/Font.NewSEC.600" />
+    <androidx.constraintlayout.widget.Group
+        android:id="@id/in_progress_group"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="download_count_indicator,recycler_view,pause,delete_all" />
+    <TextView
+        android:textSize="@dimen/mu_no_item_download_manager_text"
+        android:textColor="@color/basics_no_item_text_209_11_1"
+        android:id="@id/no_item"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_downloads_in_progress"
+        android:paddingStart="45.599976dip"
+        android:paddingEnd="45.599976dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_guideline"
+        style="@style/Font.NewSEC.400" />
+    <ProgressBar
+        android:id="@id/loading_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_guideline"
+        style="?android:progressBarStyleLarge" />
+</androidx.constraintlayout.widget.ConstraintLayout>

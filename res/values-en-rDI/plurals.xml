@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">IDS_MUSIC_BODY_PD_ALBUMS</item>
+        <item quantity="one">IDS_MUSIC_BODY_PD_ALBUM_M_SINGULAR</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">IDS_MUSIC_HEADER_ALBUMS</item>
+        <item quantity="one">IDS_MUSIC_HEADER_ALBUM</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">IDS_MUSIC_BODY_TRACKS</item>
+        <item quantity="one">IDS_MUSIC_BODY_TRACK</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">IDS_MUSIC_BODY_PD_TRACKS_ABB</item>
+        <item quantity="one">IDS_MUSIC_MBODY_PD_TRACK</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_PD_SECONDS %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_PD_SECONDS %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_PD_SECONDS %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_PD_SECONDS %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_PD_SECONDS %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_PD_SECONDS %d</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">PLURAL_OTHER_MUSIC_OPT_DONT_SHOW_FOR_PD_DAYS %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_OPT_DONT_SHOW_FOR_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_OPT_DONT_SHOW_FOR_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_OPT_DONT_SHOW_FOR_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_OPT_DONT_SHOW_FOR_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_OPT_DONT_SHOW_FOR_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">IDS_COM_POP_RENDER_INFO_CAN_USE_N_TIMES</item>
+        <item quantity="one">IDS_COM_POP_RENDER_INFO_CAN_USE_1_TIME</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_PD_EXPIRED_TRACKS_WILL_BE_DELETED_YOU_CAN_CHECK_YOUR_DOWNLOAD_HISTORY_IN_MELON_INFORMATION_PURCHASE_HISTORY %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_PD_EXPIRED_TRACKS_WILL_BE_DELETED_YOU_CAN_CHECK_YOUR_DOWNLOAD_HISTORY_IN_MELON_INFORMATION_PURCHASE_HISTORY %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_PD_EXPIRED_TRACKS_WILL_BE_DELETED_YOU_CAN_CHECK_YOUR_DOWNLOAD_HISTORY_IN_MELON_INFORMATION_PURCHASE_HISTORY %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_PD_EXPIRED_TRACKS_WILL_BE_DELETED_YOU_CAN_CHECK_YOUR_DOWNLOAD_HISTORY_IN_MELON_INFORMATION_PURCHASE_HISTORY %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_PD_EXPIRED_TRACKS_WILL_BE_DELETED_YOU_CAN_CHECK_YOUR_DOWNLOAD_HISTORY_IN_MELON_INFORMATION_PURCHASE_HISTORY %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_PD_EXPIRED_TRACKS_WILL_BE_DELETED_YOU_CAN_CHECK_YOUR_DOWNLOAD_HISTORY_IN_MELON_INFORMATION_PURCHASE_HISTORY %d</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_COULDNT_EXTEND_THE_DCF_PERIOD_FOR_PD_TRACKS_YOU_CAN_TRY_AGAIN_OR_DELETE_FILES_FROM_THE_LIST_BELOW_BEFORE_RE_DOWNLOADING_THEM %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_COULDNT_EXTEND_THE_DCF_PERIOD_FOR_PD_TRACKS_YOU_CAN_TRY_AGAIN_OR_DELETE_FILES_FROM_THE_LIST_BELOW_BEFORE_RE_DOWNLOADING_THEM %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_COULDNT_EXTEND_THE_DCF_PERIOD_FOR_PD_TRACKS_YOU_CAN_TRY_AGAIN_OR_DELETE_FILES_FROM_THE_LIST_BELOW_BEFORE_RE_DOWNLOADING_THEM %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_COULDNT_EXTEND_THE_DCF_PERIOD_FOR_PD_TRACKS_YOU_CAN_TRY_AGAIN_OR_DELETE_FILES_FROM_THE_LIST_BELOW_BEFORE_RE_DOWNLOADING_THEM %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_COULDNT_EXTEND_THE_DCF_PERIOD_FOR_PD_TRACKS_YOU_CAN_TRY_AGAIN_OR_DELETE_FILES_FROM_THE_LIST_BELOW_BEFORE_RE_DOWNLOADING_THEM %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_COULDNT_EXTEND_THE_DCF_PERIOD_FOR_PD_TRACKS_YOU_CAN_TRY_AGAIN_OR_DELETE_FILES_FROM_THE_LIST_BELOW_BEFORE_RE_DOWNLOADING_THEM %d</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_CANT_IMPORT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_CANT_IMPORT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_CANT_IMPORT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_CANT_IMPORT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_CANT_IMPORT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_CANT_IMPORT_MORE_THAN_PD_ITEMS %d</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">DREAM_MUSIC_BODY_WAITING_TO_DOWNLOAD_PD_SONGS_ING %d</item>
+        <item quantity="one">DREAM_MUSIC_BODY_WAITING_TO_DOWNLOAD_1_SONG_ING</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">DREAM_MUSIC_POP_DELETE_PD_ALBUMS_AND_ALL_THE_TRACKS_IN_THEM_FROM_YOUR_PHONE_Q %d</item>
+        <item quantity="one">DREAM_MUSIC_POP_DELETE_1_ALBUM_AND_ALL_THE_TRACKS_IN_IT_FROM_YOUR_PHONE_Q</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">DREAM_MUSIC_POP_DELETE_ALL_TRACKS_BY_THESE_ARTISTS_Q</item>
+        <item quantity="one">DREAM_MUSIC_POP_DELETE_ALL_TRACKS_BY_THIS_ARTIST_Q</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">DREAM_MUSIC_POP_DELETE_ALL_TRACKS_BY_THESE_COMPOSERS_Q</item>
+        <item quantity="one">DREAM_MUSIC_POP_DELETE_ALL_TRACKS_BY_THIS_COMPOSER_Q</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">IDS_MUSIC_BODY_PD_FOLDERS %d</item>
+        <item quantity="one">IDS_MUSIC_BODY_1_FOLDER</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">DREAM_MUSIC_POP_DELETE_PD_FOLDERS_AND_ALL_THE_TRACKS_IN_THEM_FROM_YOUR_PHONE_Q %d</item>
+        <item quantity="one">DREAM_MUSIC_POP_DELETE_1_FOLDER_AND_ALL_THE_TRACKS_IN_IT_FROM_YOUR_PHONE_Q</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">DREAM_MUSIC_POP_DELETE_ALL_TRACKS_IN_THESE_GENRES_Q</item>
+        <item quantity="one">DREAM_MUSIC_POP_DELETE_ALL_TRACKS_IN_THIS_GENRE_Q</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_PD_HIDDEN_FOLDERS_WILL_ALSO_BE_DELETED %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_PD_HIDDEN_FOLDERS_WILL_ALSO_BE_DELETED %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_PD_HIDDEN_FOLDERS_WILL_ALSO_BE_DELETED %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_PD_HIDDEN_FOLDERS_WILL_ALSO_BE_DELETED %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_PD_HIDDEN_FOLDERS_WILL_ALSO_BE_DELETED %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_PD_HIDDEN_FOLDERS_WILL_ALSO_BE_DELETED %d</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">DREAM_MUSIC_POP_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="one">DREAM_MUSIC_POP_DELETE_1_ITEM_Q</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ALBUMS_ADD_FEWER_ALBUMS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ALBUMS_ADD_FEWER_ALBUMS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ALBUMS_ADD_FEWER_ALBUMS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ALBUMS_ADD_FEWER_ALBUMS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ALBUMS_ADD_FEWER_ALBUMS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ALBUMS_ADD_FEWER_ALBUMS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ARTISTS_ADD_FEWER_ARTISTS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ARTISTS_ADD_FEWER_ARTISTS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ARTISTS_ADD_FEWER_ARTISTS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ARTISTS_ADD_FEWER_ARTISTS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ARTISTS_ADD_FEWER_ARTISTS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_ARTISTS_ADD_FEWER_ARTISTS_OR_REMOVE_SOME_FROM_FAVORITES %d</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_YOU_CAN_ONLY_ADD_UP_TO_PD_PLAYLISTS_REMOVE_SOME_PLAYLISTS_FROM_THE_FAVORITES_TAB %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_YOU_CAN_ONLY_ADD_UP_TO_PD_PLAYLISTS_REMOVE_SOME_PLAYLISTS_FROM_THE_FAVORITES_TAB %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_YOU_CAN_ONLY_ADD_UP_TO_PD_PLAYLISTS_REMOVE_SOME_PLAYLISTS_FROM_THE_FAVORITES_TAB %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_YOU_CAN_ONLY_ADD_UP_TO_PD_PLAYLISTS_REMOVE_SOME_PLAYLISTS_FROM_THE_FAVORITES_TAB %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_YOU_CAN_ONLY_ADD_UP_TO_PD_PLAYLISTS_REMOVE_SOME_PLAYLISTS_FROM_THE_FAVORITES_TAB %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_YOU_CAN_ONLY_ADD_UP_TO_PD_PLAYLISTS_REMOVE_SOME_PLAYLISTS_FROM_THE_FAVORITES_TAB %d</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_STREAMING_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_STREAMING_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_STREAMING_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_STREAMING_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_STREAMING_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_STREAMING_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_CANT_ADD_MORE_THAN_PD_TRACKS_ADD_FEWER_TRACKS_OR_REMOVE_SOME_FROM_FAVORITE_TRACKS %d</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">PLURAL_OTHER_MUSIC_TPOP_EXPORTED_PD_PLAYLISTS %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_TPOP_EXPORTED_PD_PLAYLISTS %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_TPOP_EXPORTED_PD_PLAYLISTS %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_TPOP_EXPORTED_PD_PLAYLISTS %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_TPOP_EXPORTED_PD_PLAYLISTS %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_TPOP_EXPORTED_PD_PLAYLISTS %d</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">PLURAL_OTHER_MUSIC_TPOP_IMPORTED_PD_PLAYLISTS %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_TPOP_IMPORTED_PD_PLAYLISTS %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_TPOP_IMPORTED_PD_PLAYLISTS %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_TPOP_IMPORTED_PD_PLAYLISTS %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_TPOP_IMPORTED_PD_PLAYLISTS %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_TPOP_IMPORTED_PD_PLAYLISTS %d</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">PLURAL_OTHER_MUSIC_TPOP_CANT_SELECT_MORE_THAN_PD_PLAYLISTS %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_TPOP_CANT_SELECT_MORE_THAN_PD_PLAYLISTS %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_TPOP_CANT_SELECT_MORE_THAN_PD_PLAYLISTS %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_TPOP_CANT_SELECT_MORE_THAN_PD_PLAYLISTS %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_TPOP_CANT_SELECT_MORE_THAN_PD_PLAYLISTS %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_TPOP_CANT_SELECT_MORE_THAN_PD_PLAYLISTS %d</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">DREAM_MUSIC_POP_DELETE_PD_PLAYLISTS_Q %d</item>
+        <item quantity="one">DREAM_MUSIC_POP_DELETE_1_PLAYLIST_Q</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">IDS_MUSIC_BODY_PD_TRACKS_ABB %d</item>
+        <item quantity="one">IDS_MUSIC_BODY_1_TRACK</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">PLURAL_OTHER_MUSIC_BODY_ONLY_PD_TRACKS_WERE_ADDED_TO_FAVORITES_THE_REST_WERE_ALREADY_IN_FAVORITES %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_BODY_ONLY_PD_TRACKS_WERE_ADDED_TO_FAVORITES_THE_REST_WERE_ALREADY_IN_FAVORITES %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_BODY_ONLY_PD_TRACKS_WERE_ADDED_TO_FAVORITES_THE_REST_WERE_ALREADY_IN_FAVORITES %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_BODY_ONLY_PD_TRACKS_WERE_ADDED_TO_FAVORITES_THE_REST_WERE_ALREADY_IN_FAVORITES %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_BODY_ONLY_PD_TRACKS_WERE_ADDED_TO_FAVORITES_THE_REST_WERE_ALREADY_IN_FAVORITES %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_BODY_ONLY_PD_TRACKS_WERE_ADDED_TO_FAVORITES_THE_REST_WERE_ALREADY_IN_FAVORITES %d</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">IDS_MUSIC_TPOP_PD_TRACKS_ADDED_TO_QUEUE %d</item>
+        <item quantity="one">IDS_MUSIC_TPOP_PD_TRACK_ADDED_TO_QUEUE_M_SINGULAR %d</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">PLURAL_OTHER_MUSIC_PHEADER_DELETE_PD_TRACKS_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_MUSIC_PHEADER_DELETE_PD_TRACKS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MUSIC_PHEADER_DELETE_PD_TRACKS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MUSIC_PHEADER_DELETE_PD_TRACKS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MUSIC_PHEADER_DELETE_PD_TRACKS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MUSIC_PHEADER_DELETE_PD_TRACKS_Q %d</item>
+    </plurals>
+</resources>

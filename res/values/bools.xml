@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="action_choose_expand_selected">true</bool>
+    <bool name="action_choose_symmetrical_dimen">false</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="music_core_support_skip_silence">true</bool>
+    <bool name="one_ui_large_screen_dialog_enabled">false</bool>
+    <bool name="sesl_action_bar_text_item_mode">false</bool>
+    <bool name="sesl_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="sesl_config_desktop_mode">false</bool>
+    <bool name="sesl_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="sesl_seekbar_sliding_animation">true</bool>
+    <bool name="small_screen_ui_enabled">true</bool>
+    <bool name="tablet_ui_enabled">false</bool>
+    <bool name="windowFullScreen">false</bool>
+    <bool name="windowLightNavigationBar">true</bool>
+    <bool name="windowLightStatusBar">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

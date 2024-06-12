@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/settings_radio_button_list_item_start_margin"
+    android:layout_marginEnd="@dimen/settings_radio_button_list_item_end_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/help_text_guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="@dimen/settings_radio_button_list_item_text_guide_begin" />
+    <RadioButton
+        android:id="@id/settings_option_radio_button"
+        android:background="@null"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="@dimen/settings_radio_button_size"
+        android:layout_height="@dimen/settings_radio_button_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+    <Space
+        android:id="@id/space_top"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/settings_list_item_2line_top_bottom_margin"
+        app:layout_constraintBottom_toTopOf="@id/option_main_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/option_main_text"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:textSize="@dimen/setting_option_font_size"
+        android:textColor="@color/basics_text_main"
+        android:id="@id/option_main_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toTopOf="@id/option_sub_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/help_text_guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/space_top"
+        app:layout_goneMarginBottom="@dimen/settings_list_item_1line_top_bottom_margin"
+        app:layout_goneMarginTop="@dimen/settings_list_item_1line_top_bottom_margin"
+        style="@style/Font.NewSEC.400" />
+    <TextView
+        android:textSize="@dimen/setting_option_sub_description_font_size"
+        android:textColor="@color/basics_text_sub"
+        android:id="@id/option_sub_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toTopOf="@id/space_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/option_main_text"
+        app:layout_constraintTop_toBottomOf="@id/option_main_text"
+        style="@style/Font.NewSEC.400" />
+    <Space
+        android:id="@id/space_bottom"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/settings_list_item_2line_top_bottom_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/option_main_text"
+        app:layout_constraintTop_toBottomOf="@id/option_sub_text" />
+    <androidx.constraintlayout.widget.Group
+        android:id="@id/option_sub_text_group"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:constraint_referenced_ids="space_top, space_bottom, option_sub_text" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

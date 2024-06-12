@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:clipIds="thumbnail, thumbnail_stroke"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_division"
+        app:layout_constraintGuide_percent="0.45"
+        style="@style/Guideline" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+        android:id="@id/info_view_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/guideline_bottom"
+        app:layout_constraintEnd_toEndOf="@id/guideline_division"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <ImageView
+            android:id="@id/thumbnail"
+            android:layout_marginTop="0.0dip"
+            android:contentDescription="@string/tts_view_image_details"
+            app:layout_constraintBottom_toTopOf="@id/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            style="@style/InfoView.Thumbnail" />
+        <View
+            android:id="@id/thumbnail_stroke"
+            style="@style/InfoView.ThumbnailStroke" />
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+            android:id="@id/title"
+            android:layout_marginTop="12.0dip"
+            android:layout_marginStart="40.0dip"
+            android:layout_marginEnd="40.0dip"
+            app:layout_constraintBottom_toTopOf="@id/description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/thumbnail"
+            style="@style/InfoView.Title" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/description"
+            android:layout_marginTop="2.0dip"
+            android:layout_marginStart="24.0dip"
+            app:layout_constraintBottom_toTopOf="@id/tag_view"
+            app:layout_constraintEnd_toStartOf="@id/refresh"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_goneMarginEnd="24.0dip"
+            style="@style/InfoView.description" />
+        <View
+            android:id="@id/refresh_click"
+            android:layout_width="25.0dip"
+            android:layout_height="25.0dip"
+            android:layout_marginEnd="24.0dip"
+            app:layout_constraintBottom_toBottomOf="@id/refresh"
+            app:layout_constraintEnd_toEndOf="@id/refresh"
+            app:layout_constraintStart_toStartOf="@id/refresh"
+            app:layout_constraintTop_toTopOf="@id/refresh" />
+        <ProgressBar
+            android:id="@id/progress_bar"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:layout_constraintBottom_toBottomOf="@id/refresh"
+            app:layout_constraintEnd_toEndOf="@id/refresh"
+            app:layout_constraintStart_toStartOf="@id/refresh"
+            app:layout_constraintTop_toTopOf="@id/refresh" />
+        <ImageView
+            android:id="@id/refresh"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/description"
+            app:layout_constraintTop_toTopOf="@id/description"
+            style="@style/InfoView.Refresh" />
+        <com.samsung.android.app.music.melon.widget.MusicTagView
+            android:id="@id/tag_view"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/info_view_tag_height"
+            android:layout_marginTop="20.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description"
+            app:selectable="false"
+            app:tagLine="1" />
+    </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+    <include
+        android:id="@id/listContainer"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guideline_division"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        layout="@layout/basics_list_container" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        android:layout_width="0.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_fit_top"
+        style="@style/Toolbar">
+        <TextView
+            android:id="@id/toolbar_title"
+            android:alpha="0.0"
+            style="@style/ActionBar.Title" />
+    </androidx.appcompat.widget.Toolbar>
+    <include
+        layout="@layout/basics_progress_container_2" />
+    <FrameLayout
+        android:id="@id/no_network_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_top"
+        style="@style/Guideline.Fit.Top" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_bottom"
+        app:layout_constraintGuide_end="@dimen/mu_list_spacing_bottom"
+        style="@style/Guideline.Fit.Bottom" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

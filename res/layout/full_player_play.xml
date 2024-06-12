@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.MusicAnimationButton
+    android:accessibilityTraversalBefore="@id/next_btn"
+    app:image_height="@dimen/full_player_play_pause_icon_size"
+    app:image_width="@dimen/full_player_play_pause_icon_size"
+    style="@style/Player.ImageButton.Animation"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

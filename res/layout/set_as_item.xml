@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:tag="layout/set_as_item_0"
+    android:background="?android:listChoiceBackgroundIndicator"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/set_as_item_height"
+    android:paddingStart="@dimen/set_as_item_padding_horizontal"
+    android:paddingEnd="@dimen/set_as_item_padding_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RadioButton
+        android:id="@id/radio"
+        android:background="@null"
+        android:focusable="false"
+        android:clickable="false"
+        android:saveEnabled="false"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+    <TextView
+        android:textColor="@color/basics_text_main"
+        android:id="@id/radio_text"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/set_as_item_radio_margin_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/radio"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        style="@style/Font.NewSEC.400.ListItem.Line1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout
+    android:background="@color/basics_system_background_209_4_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/basics_progress_container" />
+    <include
+        layout="@layout/basics_list_container" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout>

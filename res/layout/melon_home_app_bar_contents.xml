@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.MusicViewPager
+        android:id="@id/app_bar_contents_view_pager"
+        android:clipToPadding="false"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@id/text1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintHeight_min="@dimen/melon_home_mix_grid_item_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:offscreenPageLimit="3"
+        app:pageMargin="@dimen/melon_home_app_bar_contents_viewpager_page_margin" />
+    <TextView
+        android:textSize="@dimen/melon_home_mix_grid_text1_height"
+        android:textColor="@color/melon_home_mix_item_text1"
+        android:gravity="center"
+        android:id="@id/text1"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/melon_home_mix_grid_text1_space_top"
+        android:layout_marginStart="@dimen/melon_home_app_bar_text_space_horizontal"
+        android:layout_marginEnd="@dimen/melon_home_app_bar_text_space_horizontal"
+        app:layout_constraintBottom_toTopOf="@id/text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_bar_contents_view_pager"
+        style="@style/GridItem.Text.Line1" />
+    <TextView
+        android:textSize="@dimen/melon_home_mix_grid_text2_height"
+        android:textColor="@color/melon_home_mix_item_text2"
+        android:id="@id/text2"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/melon_home_mix_grid_text2_space_top"
+        android:layout_marginStart="@dimen/melon_home_app_bar_text_space_horizontal"
+        android:layout_marginEnd="@dimen/melon_home_app_bar_text_space_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        style="@style/GridItem.Text.Line2" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

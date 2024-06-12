@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:tag="layout/set_as_seekbar_content_0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/set_as_progress_text_margin_top"
+    android:layoutDirection="ltr"
+    android:paddingStart="@dimen/set_as_seekbar_layout_padding_start"
+    android:paddingEnd="@dimen/set_as_progress_layout_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.MusicSeekBar
+        android:id="@id/seek_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:thumbTint="@drawable/basic_thumb_selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:seslSeekBarMode="expand" />
+    <TextView
+        android:textSize="@dimen/set_as_progress_time_text"
+        android:textColor="@color/basics_text_sub"
+        android:id="@id/current_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/set_as_progress_text_margin_top"
+        android:layout_marginBottom="@dimen/set_as_progress_text_margin_top"
+        android:layout_marginStart="@dimen/set_as_progress_text_margin_top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/seek_bar" />
+    <TextView
+        android:textSize="@dimen/set_as_progress_time_text"
+        android:textColor="@color/basics_text_sub"
+        android:id="@id/duration_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/set_as_progress_text_margin_top"
+        android:layout_marginBottom="@dimen/set_as_progress_text_margin_top"
+        android:layout_marginEnd="@dimen/set_as_item_radio_margin_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/seek_bar" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/duration_time" />
+</androidx.constraintlayout.widget.ConstraintLayout>

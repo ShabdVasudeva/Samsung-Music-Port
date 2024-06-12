@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.RecyclerViewItemLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:fitHeight="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:id="@id/no_item_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/no_playlist_create_playlist"
+        app:layout_constraintBottom_toTopOf="@id/no_item_import"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.400.NoItem.Sub" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:id="@id/no_item_import"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/no_playlist_import"
+        app:layout_constraintBottom_toTopOf="@id/import_playlists"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/no_item_text"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.400.NoItem.Sub" />
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/import_playlists"
+        android:layout_marginTop="24.0dip"
+        android:layout_marginBottom="24.0dip"
+        android:text="@string/import_playlists"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/no_item_import"
+        style="@style/ListItem.Header.Button" />
+</com.samsung.android.app.musiclibrary.ui.widget.RecyclerViewItemLayout>

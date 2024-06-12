@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:background="@drawable/basics_ripple_list"
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:dividerAnchor="text1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:orientation="vertical"
+        android:id="@id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="@dimen/mu_list_item_space_outer_default" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:orientation="vertical"
+        android:id="@id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_end="@dimen/mu_list_item_space_outer_default" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiRadioButton
+        android:id="@id/radio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.Checkbox" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:id="@id/text1"
+        android:layout_marginTop="@dimen/settings_list_item_1line_top_bottom_margin"
+        android:layout_marginBottom="@dimen/settings_list_item_1line_top_bottom_margin"
+        android:layout_marginStart="@dimen/mu_list_item_checkbox_space_outer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/radio"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.400.ListItem.Line1" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

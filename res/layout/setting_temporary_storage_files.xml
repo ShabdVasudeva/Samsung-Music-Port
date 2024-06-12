@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/setting_cache_side_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/setting_cache_list_item_height_line"
+        android:layout_weight="1.0">
+        <TextView
+            android:textSize="@dimen/setting_option_font_size"
+            android:textColor="?android:textColorPrimary"
+            android:id="@id/temporary_storage_files_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/setting_cache_list_item_margin_left"
+            style="@style/Font.NewSEC.400" />
+    </LinearLayout>
+    <TextView
+        android:textSize="@dimen/setting_cache_clear_button_font_size"
+        android:textColor="@color/basics_text_main"
+        android:gravity="center"
+        android:id="@id/cache_clear"
+        android:background="@drawable/settings_cache_clear_button"
+        android:layout_width="@dimen/setting_cache_clear_button_width"
+        android:layout_height="@dimen/setting_cache_clear_button_height"
+        android:text="@string/menu_clear"
+        android:includeFontPadding="false"
+        style="@style/Font.NewSEC.600" />
+</LinearLayout>

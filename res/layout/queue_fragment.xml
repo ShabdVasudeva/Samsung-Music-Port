@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:background="@android:color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+        android:id="@id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/full_player_queue_header_margin_top"
+        app:layout_constraintEnd_toStartOf="@id/count"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.samsung.android.app.musiclibrary.ui.widget.MusicSpinner
+            android:layout_gravity="end|center"
+            android:id="@id/spinner"
+            android:background="@drawable/basics_ripple_list"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:layout_marginStart="@dimen/full_player_queue_header_margin_start"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/count"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:textSize="@dimen/full_player_nowplaying_count_text"
+            android:textColor="@color/basics_text_main"
+            android:gravity="end|center"
+            android:id="@id/count"
+            android:focusable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/list_header_box_height"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_marginEnd="@dimen/full_player_queue_header_margin_end"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/spinner"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/Font.NewSEC.600" />
+    </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+    <include
+        android:id="@id/list"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        layout="@layout/recycler_view_queue" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

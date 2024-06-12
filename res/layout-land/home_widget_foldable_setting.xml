@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:id="@id/setting_root"
+    android:tag="layout-land/home_widget_foldable_setting_0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/flex_outer_top_background"
+        android:background="@color/app_widget_setting_background_209_4_1"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        bind:layout_constraintBottom_toTopOf="@id/flex_content_root"
+        bind:layout_constraintEnd_toEndOf="parent"
+        bind:layout_constraintStart_toStartOf="parent"
+        bind:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:id="@id/flex_outer_bottom_background"
+        android:background="@color/app_widget_setting_background_209_4_1"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintEnd_toEndOf="parent"
+        bind:layout_constraintStart_toStartOf="parent"
+        bind:layout_constraintTop_toBottomOf="@id/flex_content_root" />
+    <View
+        android:id="@id/flex_outer_start_background"
+        android:background="@color/app_widget_setting_background_209_4_1"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintEnd_toStartOf="@id/flex_content_root"
+        bind:layout_constraintStart_toStartOf="parent"
+        bind:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:id="@id/flex_outer_end_background"
+        android:background="@color/app_widget_setting_background_209_4_1"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintEnd_toEndOf="parent"
+        bind:layout_constraintStart_toEndOf="@id/flex_content_root"
+        bind:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        android:layout_marginBottom="@dimen/app_widget_setting_actionbar_bottom"
+        bind:layout_constraintBottom_toTopOf="@id/flex_content_root"
+        bind:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        bind:layout_constraintStart_toStartOf="@id/guideline_fit_start"
+        bind:layout_constraintTop_toTopOf="@id/guideline_fit_top"
+        bind:layout_constraintVertical_chainStyle="packed"
+        style="@style/Toolbar" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+        android:id="@id/flex_content_root"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        bind:layout_constraintBottom_toTopOf="@id/guideline_fit_bottom"
+        bind:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        bind:layout_constraintStart_toStartOf="@id/guideline_fit_start"
+        bind:layout_constraintTop_toBottomOf="@id/toolbar">
+        <View
+            android:id="@id/preview_outer_top_background"
+            android:background="@color/app_widget_setting_background_209_4_1"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            bind:layout_constraintBottom_toTopOf="@id/preview"
+            bind:layout_constraintEnd_toEndOf="parent"
+            bind:layout_constraintStart_toStartOf="parent"
+            bind:layout_constraintTop_toTopOf="parent" />
+        <View
+            android:id="@id/preview_outer_bottom_background"
+            android:background="@color/app_widget_setting_background_209_4_1"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            bind:layout_constraintBottom_toBottomOf="parent"
+            bind:layout_constraintEnd_toEndOf="parent"
+            bind:layout_constraintStart_toStartOf="parent"
+            bind:layout_constraintTop_toTopOf="@id/guideline_preview_bottom" />
+        <View
+            android:id="@id/preview_outer_start_background"
+            android:background="@color/app_widget_setting_background_209_4_1"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            bind:layout_constraintBottom_toTopOf="@id/preview_outer_bottom_background"
+            bind:layout_constraintEnd_toStartOf="@id/preview"
+            bind:layout_constraintStart_toStartOf="parent"
+            bind:layout_constraintTop_toBottomOf="@id/preview_outer_top_background" />
+        <View
+            android:id="@id/preview_outer_end_background"
+            android:background="@color/app_widget_setting_background_209_4_1"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            bind:layout_constraintBottom_toTopOf="@id/preview_outer_bottom_background"
+            bind:layout_constraintEnd_toEndOf="parent"
+            bind:layout_constraintStart_toEndOf="@id/preview"
+            bind:layout_constraintTop_toBottomOf="@id/preview_outer_top_background" />
+        <android.widget.Space
+            android:id="@id/guideline_preview_bottom"
+            android:layout_width="0.0dip"
+            android:layout_height="16.0dip"
+            bind:layout_constraintBottom_toBottomOf="parent"
+            bind:layout_constraintEnd_toEndOf="parent"
+            bind:layout_constraintStart_toStartOf="parent" />
+        <com.samsung.android.app.music.service.v3.observers.widget.AppWidgetConstraintLayout
+            android:id="@id/preview"
+            android:background="@android:color/transparent"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_marginEnd="12.0dip"
+            bind:layout_constraintBottom_toTopOf="@id/guideline_preview_bottom"
+            bind:layout_constraintEnd_toStartOf="@id/guideline_preview"
+            bind:layout_constraintStart_toStartOf="@id/flex_content_root"
+            bind:layout_constraintTop_toTopOf="parent" />
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+            android:id="@id/preview_container"
+            android:tag="binding_1"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/app_widget_setting_foldable_preview_height"
+            android:layout_marginStart="@dimen/app_widget_setting_preview_padding_horizontal"
+            android:layout_marginEnd="@dimen/app_widget_setting_preview_padding_horizontal"
+            bind:layout_constraintBottom_toBottomOf="@id/preview"
+            bind:layout_constraintEnd_toEndOf="@id/preview"
+            bind:layout_constraintStart_toStartOf="@id/preview"
+            bind:layout_constraintTop_toTopOf="@id/preview">
+            <android.widget.Space
+                android:id="@id/content_space"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                android:layout_marginStart="@dimen/app_widget_setting_preview_start_space"
+                android:layout_marginEnd="@dimen/app_widget_setting_preview_end_space"
+                bind:layout_constraintBottom_toBottomOf="parent"
+                bind:layout_constraintEnd_toEndOf="parent"
+                bind:layout_constraintStart_toStartOf="parent"
+                bind:layout_constraintTop_toTopOf="parent" />
+            <ImageView
+                android:id="@id/widget_background"
+                android:tag="binding_2"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                bind:layout_constraintBottom_toBottomOf="parent"
+                bind:layout_constraintEnd_toEndOf="parent"
+                bind:layout_constraintStart_toStartOf="parent"
+                bind:layout_constraintTop_toTopOf="parent" />
+            <include
+                bind:layout_constraintBottom_toBottomOf="parent"
+                bind:layout_constraintEnd_toEndOf="parent"
+                bind:layout_constraintStart_toStartOf="parent"
+                bind:layout_constraintTop_toTopOf="parent"
+                layout="@layout/app_widget_setting_foldable_preview_content" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+        <ScrollView
+            android:orientation="vertical"
+            android:id="@id/scroll_container"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:fillViewport="true"
+            bind:layout_constraintBottom_toTopOf="@id/guideline_preview_bottom"
+            bind:layout_constraintEnd_toEndOf="@id/flex_content_root"
+            bind:layout_constraintStart_toEndOf="@id/guideline_preview"
+            bind:layout_constraintTop_toTopOf="parent">
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="@dimen/app_widget_setting_header_text"
+                    android:textColor="@color/basics_text_subheader"
+                    android:id="@id/widget_setting_text"
+                    android:paddingTop="@dimen/app_widget_setting_header_top"
+                    android:paddingBottom="@dimen/app_widget_setting_header_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/app_widget_setting_header"
+                    android:text="@string/widget_config_background_color"
+                    android:layout_marginStart="@dimen/app_widget_setting_header_start"
+                    bind:layout_constraintBottom_toTopOf="@id/widget_setting_control"
+                    bind:layout_constraintEnd_toEndOf="parent"
+                    bind:layout_constraintHorizontal_bias="0.0"
+                    bind:layout_constraintStart_toStartOf="parent"
+                    bind:layout_constraintTop_toTopOf="parent"
+                    bind:layout_constraintVertical_bias="0.0"
+                    bind:layout_constraintVertical_chainStyle="packed"
+                    style="@style/Font.NewSEC.600" />
+                <com.samsung.android.app.music.service.v3.observers.widget.AppWidgetConstraintLayout
+                    android:id="@id/widget_setting_control"
+                    android:tag="binding_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    bind:chunkingBackground="true"
+                    bind:layout_constraintBottom_toTopOf="@id/widget_setting_night_theme_container"
+                    bind:layout_constraintEnd_toEndOf="parent"
+                    bind:layout_constraintStart_toStartOf="parent"
+                    bind:layout_constraintTop_toBottomOf="@id/widget_setting_text">
+                    <include
+                        android:id="@id/color_setting_container"
+                        layout="@layout/app_widget_setting_color_layout" />
+                    <View
+                        android:id="@id/divider"
+                        android:background="@color/basics_list_divider"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginStart="20.0dip"
+                        android:layout_marginEnd="20.0dip"
+                        bind:layout_constraintTop_toBottomOf="@id/widget_setting_color" />
+                    <TextView
+                        android:textSize="@dimen/app_widget_setting_text"
+                        android:textColor="@color/basics_text_main"
+                        android:gravity="center"
+                        android:id="@id/widget_setting_alpha_seek_info"
+                        android:tag="binding_4"
+                        android:layout_width="@dimen/app_widget_setting_alpha_text_width"
+                        android:layout_height="52.0dip"
+                        android:layout_marginStart="17.0dip"
+                        bind:layout_constraintEnd_toStartOf="@id/widget_setting_alpha_seek"
+                        bind:layout_constraintStart_toStartOf="parent"
+                        bind:layout_constraintTop_toBottomOf="@id/divider" />
+                    <com.samsung.android.app.musiclibrary.ui.widget.MusicSeekBar
+                        android:id="@id/widget_setting_alpha_seek"
+                        android:tag="binding_5"
+                        android:layout_width="0.0dip"
+                        android:layout_height="52.0dip"
+                        android:maxHeight="@dimen/winset_progress_seekbar_height"
+                        android:max="10"
+                        android:minHeight="@dimen/winset_progress_seekbar_height"
+                        android:layout_marginStart="10.0dip"
+                        android:layout_marginEnd="11.0dip"
+                        bind:layout_constraintEnd_toEndOf="parent"
+                        bind:layout_constraintStart_toEndOf="@id/widget_setting_alpha_seek_info"
+                        bind:layout_constraintTop_toBottomOf="@id/divider" />
+                </com.samsung.android.app.music.service.v3.observers.widget.AppWidgetConstraintLayout>
+                <com.samsung.android.app.music.service.v3.observers.widget.AppWidgetConstraintLayout
+                    android:gravity="center"
+                    android:id="@id/widget_setting_night_theme_container"
+                    android:tag="binding_6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="52.0dip"
+                    android:layout_marginTop="16.0dip"
+                    bind:chunkingBackground="true"
+                    bind:layout_constraintBottom_toBottomOf="parent"
+                    bind:layout_constraintEnd_toEndOf="parent"
+                    bind:layout_constraintStart_toStartOf="parent"
+                    bind:layout_constraintTop_toBottomOf="@id/widget_setting_control">
+                    <TextView
+                        android:textSize="@dimen/app_widget_setting_text"
+                        android:textColor="@color/basics_text_main"
+                        android:gravity="center_vertical"
+                        android:id="@id/widget_setting_night_theme_text"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="@string/widget_config_match_with_dark_mode"
+                        android:layout_marginStart="24.0dip"
+                        bind:layout_constraintBottom_toBottomOf="parent"
+                        bind:layout_constraintEnd_toStartOf="@id/widget_setting_night_theme_switch"
+                        bind:layout_constraintHorizontal_chainStyle="spread_inside"
+                        bind:layout_constraintStart_toStartOf="parent"
+                        bind:layout_constraintTop_toTopOf="parent" />
+                    <Switch
+                        android:id="@id/widget_setting_night_theme_switch"
+                        android:tag="binding_7"
+                        android:layout_width="@dimen/app_widget_setting_switch_width"
+                        android:layout_height="@dimen/app_widget_setting_switch_height"
+                        android:layout_marginEnd="22.0dip"
+                        android:layout_alignParentEnd="true"
+                        bind:layout_constraintBottom_toBottomOf="parent"
+                        bind:layout_constraintEnd_toEndOf="parent"
+                        bind:layout_constraintStart_toEndOf="@id/widget_setting_night_theme_text"
+                        bind:layout_constraintTop_toTopOf="parent" />
+                </com.samsung.android.app.music.service.v3.observers.widget.AppWidgetConstraintLayout>
+            </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+        </ScrollView>
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/guideline_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            bind:layout_constraintGuide_percent="0.5" />
+    </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_start"
+        style="@style/Guideline.Fit.Start" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_top"
+        style="@style/Guideline.Fit.Top" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_end"
+        style="@style/Guideline.Fit.End" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_bottom"
+        style="@style/Guideline.Fit.Bottom" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

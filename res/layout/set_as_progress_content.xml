@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:tag="layout/set_as_progress_content_0"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/set_as_progress_layout_height"
+    android:layout_marginTop="@dimen/set_as_progress_layout_margin_top"
+    android:layoutDirection="ltr"
+    android:paddingStart="@dimen/set_as_progress_layout_padding_start"
+    android:paddingEnd="@dimen/set_as_progress_layout_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:id="@id/progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/set_as_progress_height"
+        android:max="1000"
+        android:paddingEnd="@dimen/set_as_progress_layout_padding_end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="?android:progressBarStyleHorizontal" />
+    <TextView
+        android:textSize="@dimen/set_as_progress_time_text"
+        android:textColor="@color/basics_text_sub"
+        android:id="@id/current_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/set_as_progress_text_margin_top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progress_bar" />
+    <TextView
+        android:textSize="@dimen/set_as_progress_time_text"
+        android:textColor="@color/basics_text_sub"
+        android:id="@id/duration_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/set_as_progress_text_margin_top"
+        android:layout_marginEnd="@dimen/set_as_progress_layout_padding_end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progress_bar" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/duration_time" />
+</androidx.constraintlayout.widget.ConstraintLayout>

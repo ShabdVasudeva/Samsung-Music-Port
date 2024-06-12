@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/background"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@id/background_mask"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/background"
+        app:layout_constraintEnd_toEndOf="@id/background"
+        app:layout_constraintStart_toStartOf="@id/background"
+        app:layout_constraintTop_toTopOf="@id/background" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/coordinator_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiAppBarLayout
+            android:id="@id/app_bar_layout"
+            style="@style/AppbarLayout.UseCustom">
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiCollapsingToolbarLayout
+                android:id="@id/collapsing_toolbar_layout"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed|noScrollHold"
+                style="@style/CollapsingToolbarLayout.UseCustom">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/app_bar_contents_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/melon_home_app_bar_space_bottom">
+                    <ViewStub
+                        android:id="@id/tip_card_stub"
+                        android:layout="@layout/melon_home_tip_card"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8.0dip" />
+                    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+                        android:textSize="@dimen/melon_home_app_bar_title_text_size"
+                        android:textColor="@color/white_opacity_90"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:id="@id/app_bar_contents_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/melon_home_app_bar_title_space_bottom"
+                        android:minHeight="@dimen/melon_home_app_bar_title_min_height"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_marginStart="@dimen/melon_home_app_bar_text_space_horizontal"
+                        android:layout_marginEnd="@dimen/melon_home_app_bar_text_space_horizontal"
+                        app:maxFontLevel="large"
+                        style="@style/Font.NewSEC.600" />
+                    <include
+                        android:id="@id/app_bar_contents_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/melon_home_app_bar_contents" />
+                </LinearLayout>
+            </com.samsung.android.app.musiclibrary.ui.widget.OneUiCollapsingToolbarLayout>
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiAppBarLayout>
+        <FrameLayout
+            android:id="@id/listContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiRecyclerView
+                android:id="@id/recycler_view_melon_home"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:chunkingBackground="true"
+                app:roundCorner="top"
+                app:roundMode="music" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout
+        android:id="@id/no_network_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/bottom_guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/bottom_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_end="@dimen/mu_list_spacing_bottom" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline_fit_top"
+        style="@style/Toolbar">
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            layout="@layout/music_logo_melon" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_top"
+        style="@style/Guideline.Fit.Top" />
+    <androidx.constraintlayout.widget.Group
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="main_text, sub_text" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

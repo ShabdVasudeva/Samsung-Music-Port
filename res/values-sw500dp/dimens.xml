@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="app_widget_album_ratio">0.6</item>
+    <item type="dimen" name="app_widget_album_vertical_space_ratio">0.2</item>
+    <item type="dimen" name="app_widget_land_album_ratio">0.6</item>
+    <item type="dimen" name="app_widget_land_album_vertical_space_ratio">0.2</item>
+    <dimen name="bottom_dialog_go_to_text">21.0dip</dimen>
+    <dimen name="bottom_dialog_main_text">23.0dip</dimen>
+    <dimen name="card_view_container_space_bottom">10.0dip</dimen>
+    <dimen name="card_view_container_space_horizontal">24.0dip</dimen>
+    <dimen name="card_view_container_space_top">0.0dip</dimen>
+    <dimen name="card_view_space_inner_most_played_kt">24.0dip</dimen>
+    <dimen name="card_view_space_outer_most_played_kt">24.0dip</dimen>
+    <dimen name="company_info_group_space_bottom_kt">12.0dip</dimen>
+    <dimen name="company_info_group_space_top_kt">30.0dip</dimen>
+    <dimen name="company_information_space_horizontal_kt">24.0dip</dimen>
+    <dimen name="cover_clear_control_button_size">75.0dip</dimen>
+    <dimen name="cover_clear_control_margin">19.0dip</dimen>
+    <dimen name="default_playlist_space_inner_kt">24.0dip</dimen>
+    <dimen name="default_playlist_space_outer_kt">24.0dip</dimen>
+    <dimen name="default_vertical_tab_highlight_item_height">40.0dip</dimen>
+    <dimen name="default_vertical_tab_highlight_item_radius">20.0dip</dimen>
+    <dimen name="default_vertical_tab_highlight_item_width">180.0dip</dimen>
+    <dimen name="default_vertical_tab_width">236.0dip</dimen>
+    <dimen name="deprecated_list_item_one_line_min_height_winset">53.0dip</dimen>
+    <dimen name="deprecated_list_item_section_divider_text1_winset">16.0sp</dimen>
+    <dimen name="deprecated_list_item_section_height_winset">40.0dip</dimen>
+    <dimen name="deprecated_list_item_section_padding_bottom">8.0dip</dimen>
+    <dimen name="deprecated_list_item_section_padding_top">24.0dip</dimen>
+    <dimen name="deprecated_list_item_two_line_height_winset">71.0dip</dimen>
+    <dimen name="deprecated_list_item_two_line_min_height_winset">71.0dip</dimen>
+    <dimen name="deprecated_list_item_two_line_text_layout_margin_vertical">3.0dip</dimen>
+    <dimen name="dialog_body_checkbox_body_padding_horizontal">30.0dip</dimen>
+    <dimen name="dialog_body_checkbox_body_padding_vertical">32.0dip</dimen>
+    <dimen name="dialog_body_checkbox_title_margin_bottom">32.0dip</dimen>
+    <dimen name="dialog_list_item_icon_margin_right">12.0dip</dimen>
+    <dimen name="dialog_list_layout_margin_bottom">36.0dip</dimen>
+    <dimen name="dialog_multi_choice_list_padding_horizontal_winset_kt">32.0dip</dimen>
+    <dimen name="dialog_multi_choice_summary_padding_vertical_winset_kt">12.0dip</dimen>
+    <dimen name="flat_button_height_kt">56.0dip</dimen>
+    <dimen name="full_player_adult_icon_size">25.0dip</dimen>
+    <dimen name="full_player_adult_icon_text_size">18.0dip</dimen>
+    <item type="dimen" name="full_player_album_max_height_percent">0.36</item>
+    <item type="dimen" name="full_player_album_small_area_percent">0.25</item>
+    <dimen name="full_player_album_top_margin_nonplayback">30.0dip</dimen>
+    <item type="dimen" name="full_player_album_vertical_bias">0.0</item>
+    <item type="dimen" name="full_player_album_width_percent">0.38</item>
+    <dimen name="full_player_artist_margin_top">0.0dip</dimen>
+    <item type="dimen" name="full_player_bottom_margin_percent">0.037</item>
+    <dimen name="full_player_button_image_size">36.0dip</dimen>
+    <dimen name="full_player_button_ripple_size">54.0dip</dimen>
+    <dimen name="full_player_controller_height">72.0dip</dimen>
+    <dimen name="full_player_lyric_layout_padding_horizontal">24.0dip</dimen>
+    <dimen name="full_player_lyric_layout_padding_top">40.0dip</dimen>
+    <dimen name="full_player_lyric_text_m2">20.0sp</dimen>
+    <dimen name="full_player_lyric_text_m3">26.0sp</dimen>
+    <dimen name="full_player_lyric_text_padding_horizontal">55.0dip</dimen>
+    <dimen name="full_player_lyric_text_padding_vertical">21.0dip</dimen>
+    <dimen name="full_player_lyric_title_main_text">30.0sp</dimen>
+    <dimen name="full_player_lyric_title_sub_text">18.0dip</dimen>
+    <dimen name="full_player_lyric_title_sub_text_margin_top">6.0dip</dimen>
+    <dimen name="full_player_multiwindow_max_height">700.0dip</dimen>
+    <dimen name="full_player_nowplaying_count_text">16.0dip</dimen>
+    <dimen name="full_player_play_pause_icon_size">60.0dip</dimen>
+    <item type="dimen" name="full_player_progress_scrubbing_popup_width_percent">0.68</item>
+    <dimen name="full_player_queue_header_margin_top">15.0dip</dimen>
+    <dimen name="full_player_recommend_button_image_height">11.5dip</dimen>
+    <dimen name="full_player_recommend_button_image_width">24.0dip</dimen>
+    <dimen name="full_player_recommend_button_size">36.0dip</dimen>
+    <dimen name="full_player_seekbar_time_default_width">70.0dip</dimen>
+    <dimen name="full_player_seekbar_time_margin_top">29.0dip</dimen>
+    <dimen name="full_player_tag_end_margin">28.0dip</dimen>
+    <dimen name="full_player_title_main_text">19.0sp</dimen>
+    <dimen name="full_player_title_main_text_height">29.0dip</dimen>
+    <item type="dimen" name="full_player_title_top_guideline_percent">0.24</item>
+    <item type="dimen" name="full_player_top_margin_percent">0.11</item>
+    <dimen name="heart_recommend_container_min_height">264.0dip</dimen>
+    <dimen name="help_benefits_margin_inner">48.0dip</dimen>
+    <dimen name="help_button_margin_bottom">48.0dip</dimen>
+    <dimen name="help_next_button_margin_top">48.0dip</dimen>
+    <dimen name="help_permission_icon_margin_start">88.0dip</dimen>
+    <dimen name="help_permission_optional_description_margin">95.0dip</dimen>
+    <dimen name="help_permission_title_text_size_kt">34.0sp</dimen>
+    <dimen name="help_text_margin">95.0dip</dimen>
+    <item type="dimen" name="help_text_top_margin_percent">0.14</item>
+    <item type="dimen" name="help_title_bottom_space_percent">0.08</item>
+    <dimen name="help_tnc_icon_margin_start">88.0dip</dimen>
+    <dimen name="legacy_sound_alive_eq_ext_dbscale_layout">100.0dip</dimen>
+    <dimen name="legacy_sound_alive_eq_line_width">410.0dip</dimen>
+    <dimen name="legacy_sound_alive_eq_seekbar_height">550.0dip</dimen>
+    <dimen name="legacy_sound_alive_ext_line_width">410.0dip</dimen>
+    <dimen name="legacy_sound_alive_ext_seekbar_height">500.0dip</dimen>
+    <dimen name="list_header_box_height">32.0dip</dimen>
+    <dimen name="list_header_padding_end_kt">24.0dip</dimen>
+    <dimen name="list_header_padding_start_kt">19.0dip</dimen>
+    <dimen name="list_header_space_top_most_played">37.0dip</dimen>
+    <dimen name="list_item_artist_album_detail_play_icon_padding_kt">3.0dip</dimen>
+    <dimen name="list_item_artist_album_detail_play_icon_size_kt">30.0dip</dimen>
+    <dimen name="list_item_heart_min_height_kt">171.0dip</dimen>
+    <dimen name="list_item_heart_spotify_space_inner">20.0dip</dimen>
+    <dimen name="list_item_heart_spotify_space_outer">24.0dip</dimen>
+    <dimen name="list_item_heart_text_outer_space_kt">150.0dip</dimen>
+    <dimen name="list_item_one_line_text_layout_margin_vertical">15.0dip</dimen>
+    <dimen name="list_item_playlist_padding_end_kt">15.0dip</dimen>
+    <dimen name="list_item_spotify_header_height">74.0dip</dimen>
+    <dimen name="list_item_spotify_text_space_top_kt">10.0dip</dimen>
+    <dimen name="list_item_spotify_thumbnail_size">157.0dip</dimen>
+    <item type="dimen" name="lock_player_album_area_percent">0.53</item>
+    <item type="dimen" name="lock_player_album_small_area_percent">0.35</item>
+    <item type="dimen" name="lock_player_album_top_ratio">0.18</item>
+    <dimen name="lock_player_close_right">28.0dip</dimen>
+    <dimen name="lock_player_control_bottom">66.0dip</dimen>
+    <item type="dimen" name="lock_player_control_play_touch_ratio">0.1</item>
+    <item type="dimen" name="lock_player_control_touch_ratio">0.1</item>
+    <item type="dimen" name="lock_player_control_width_ratio">0.5</item>
+    <item type="dimen" name="lock_player_option_bottom_guideline">0.876</item>
+    <item type="dimen" name="lock_player_option_width_ratio">0.78</item>
+    <dimen name="lock_player_shortcut_height">36.0dip</dimen>
+    <dimen name="lock_player_shortcut_padding_horizontal">21.0dip</dimen>
+    <dimen name="lock_player_shortcut_radius">21.0dip</dimen>
+    <dimen name="lock_player_shortcut_text">18.0dip</dimen>
+    <dimen name="lock_player_title_margin_bottom">6.0dip</dimen>
+    <dimen name="lock_player_title_margin_top">0.0dip</dimen>
+    <dimen name="lock_player_title_small_margin_top">0.0dip</dimen>
+    <dimen name="melon_grid_video_item_min_width">160.0dip</dimen>
+    <dimen name="meta_edit_layout_padding_vertical">32.0dip</dimen>
+    <dimen name="milk_lyric_header_artist_text">18.0dip</dimen>
+    <dimen name="milk_lyric_header_title_text">30.0sp</dimen>
+    <dimen name="milk_lyric_padding_vertical">20.0dip</dimen>
+    <dimen name="milk_ok_dialog_button_height">48.0dip</dimen>
+    <dimen name="milk_ok_dialog_button_margin_bottom">24.0dip</dimen>
+    <dimen name="milk_ok_dialog_content_margin_left">36.0dip</dimen>
+    <dimen name="milk_ok_dialog_content_margin_right">36.0dip</dimen>
+    <dimen name="milk_ok_dialog_content_margin_top_bottom">32.0dip</dimen>
+    <dimen name="mini_player_control_button_margin_horizontal">10.0dip</dimen>
+    <dimen name="mu_grid_item_min_width">120.0dip</dimen>
+    <dimen name="mu_grid_item_space_inner">24.0dip</dimen>
+    <dimen name="mu_grid_item_space_outer_horizontal">24.0dip</dimen>
+    <dimen name="music_core_ble_select_tv_icon_padding">24.0dip</dimen>
+    <dimen name="music_core_ble_turn_on_tv_padding_horizontal">36.0dip</dimen>
+    <dimen name="music_core_ble_turn_on_tv_padding_top">32.0dip</dimen>
+    <dimen name="music_core_ble_turn_on_tv_text">18.0sp</dimen>
+    <dimen name="music_logo_margin_start">24.0dip</dimen>
+    <dimen name="no_network_popup_background_margin_bottom">168.0dip</dimen>
+    <dimen name="no_network_popup_background_margin_horizontal">144.0dip</dimen>
+    <dimen name="preference_item_padding_vertical">15.0dip</dimen>
+    <dimen name="screen_off_music_artist_text">18.0dip</dimen>
+    <dimen name="screen_off_music_artist_text_height">24.0dip</dimen>
+    <dimen name="screen_off_music_control_space_horizontal">132.0dip</dimen>
+    <dimen name="screen_off_music_control_space_top">40.0dip</dimen>
+    <dimen name="screen_off_music_title_text">30.0dip</dimen>
+    <dimen name="screen_off_music_title_text_height">36.0dip</dimen>
+    <dimen name="screen_off_music_title_text_space_bottom">6.0dip</dimen>
+    <dimen name="scrollable_tab_view_text_padding">12.5dip</dimen>
+    <dimen name="sound_picker_auto_recommendation_height">80.0dip</dimen>
+    <dimen name="sound_picker_list_item_progress_margin_end">24.0dip</dimen>
+    <dimen name="winset_add_delete_button_margin_horizontal">32.0dip</dimen>
+    <dimen name="winset_dialog_body_checkbox_margin_bottom">32.0dip</dimen>
+    <dimen name="winset_dialog_body_checkbox_margin_horizontal">30.0dip</dimen>
+    <dimen name="winset_dialog_body_checkbox_margin_top">12.0dip</dimen>
+    <dimen name="winset_dialog_body_padding_horizontal">36.0dip</dimen>
+    <dimen name="winset_dialog_body_padding_vertical">32.0dip</dimen>
+    <dimen name="winset_dialog_body_text">15.0sp</dimen>
+    <dimen name="winset_dialog_edit_text_layout_padding_left_kt">36.0dip</dimen>
+    <dimen name="winset_dialog_edit_text_layout_padding_right_kt">36.0dip</dimen>
+    <dimen name="winset_dialog_title_height">48.0dip</dimen>
+    <dimen name="winset_raised_button_min_width">240.0dip</dimen>
+    <dimen name="winset_seekbar_height">40.0dip</dimen>
+    <dimen name="winset_spinner_margin_horizontal">18.0dip</dimen>
+    <dimen name="winset_tab_padding_start">18.0dip</dimen>
+    <dimen name="winset_tab_text">14.0sp</dimen>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@android:id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:minHeight="@dimen/diag_preferred_padding">
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@android:id/icon"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diag_icon_margin_top"
+                android:layout_marginBottom="8.0dip"
+                android:src="@null"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:maxWidth="24.0dip"
+                android:maxHeight="24.0dip" />
+        </FrameLayout>
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Material.Title"
+            android:gravity="center"
+            android:id="@android:id/title"
+            android:paddingLeft="@dimen/diag_preferred_padding"
+            android:paddingRight="@dimen/diag_preferred_padding"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip" />
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:gravity="center"
+            android:id="@android:id/message"
+            android:paddingLeft="@dimen/diag_preferred_padding"
+            android:paddingRight="@dimen/diag_preferred_padding"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip" />
+        <FrameLayout
+            android:id="@id/buttonPanel"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:gravity="center|top"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/diag_button_padding_horizontal"
+                android:paddingTop="8.0dip"
+                android:paddingRight="@dimen/diag_button_padding_horizontal"
+                android:paddingBottom="@dimen/diag_button_padding_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="?android:buttonBarStyle">
+                <ImageButton
+                    android:id="@android:id/button2"
+                    android:background="@drawable/accept_deny_dialog_negative_bg"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/diag_button_size"
+                    android:layout_height="@dimen/diag_button_size"
+                    android:src="@drawable/ic_cc_clear"
+                    android:contentDescription="@string/generic_cancel" />
+                <Space
+                    android:id="@id/spacer"
+                    android:visibility="gone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0" />
+                <ImageButton
+                    android:id="@android:id/button1"
+                    android:background="@drawable/accept_deny_dialog_positive_bg"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/diag_button_size"
+                    android:layout_height="@dimen/diag_button_size"
+                    android:src="@drawable/ic_cc_checkmark"
+                    android:contentDescription="@string/generic_yes" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

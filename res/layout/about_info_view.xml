@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="@dimen/about_app_name_text"
+        android:textColor="@color/about_main_text_209_9_1"
+        android:gravity="center"
+        android:id="@id/about_app_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:hyphenationFrequency="normal"
+        app:layout_constraintBottom_toTopOf="@id/about_version"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.700" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="@dimen/about_version_text"
+        android:textColor="@color/about_sub_text_209_9_2"
+        android:gravity="center"
+        android:id="@id/about_version"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/about_version_margin_top"
+        android:hyphenationFrequency="normal"
+        app:layout_constraintBottom_toTopOf="@id/about_detail_msg"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/about_app_name"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.400" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="@dimen/about_detail_msg_text"
+        android:textColor="@color/about_sub_text_209_9_2"
+        android:gravity="center"
+        android:id="@id/about_detail_msg"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/new_version_available_msg"
+        android:hyphenationFrequency="normal"
+        app:layout_constraintBottom_toTopOf="@id/about_update_button"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/about_version"
+        app:layout_goneMarginBottom="@dimen/about_update_button_margin_vertical"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.400" />
+    <androidx.appcompat.widget.SeslProgressBar
+        android:id="@id/about_loading_progress"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/about_msg_container_margin_top"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/about_version"
+        style="?android:progressBarStyle" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:id="@id/about_update_button"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:backgroundTint="@color/about_update_button_background_209_9_3"
+        android:hyphenationFrequency="normal"
+        android:layout_marginVertical="@dimen/about_update_button_margin_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/about_detail_msg"
+        style="@style/ContainedButton.Color" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="@dimen/about_guideline_horizontal" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_end="@dimen/about_guideline_horizontal" />
+</merge>

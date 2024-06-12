@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/privacy_permission_item_layout_padding_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginStart="@dimen/privacy_permission_layout_margin_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/text1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/permission_item_icon_209_17_4" />
+    <TextView
+        android:textSize="@dimen/privacy_permission_item_text1_text"
+        android:textColor="@color/basics_text_main"
+        android:id="@id/text1"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/privacy_permission_item_text1_min_height"
+        android:layout_marginStart="@dimen/privacy_permission_item_text_view_margin_start"
+        android:layout_marginEnd="@dimen/privacy_permission_layout_margin_horizontal"
+        app:layout_constraintBottom_toTopOf="@id/text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/icon"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Font.NewSEC.400" />
+    <TextView
+        android:textSize="@dimen/privacy_permission_item_text2_text"
+        android:textColor="@color/basics_text_sub"
+        android:id="@id/text2"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/privacy_permission_item_text2_min_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/text1"
+        app:layout_constraintStart_toStartOf="@id/text1"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        style="@style/Font.NewSEC.400" />
+</androidx.constraintlayout.widget.ConstraintLayout>

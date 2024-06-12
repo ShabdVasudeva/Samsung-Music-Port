@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/wearable_support_action_drawer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/action_drawer_item_icon_size"
+        style="@style/WearableActionDrawerTitleText" />
+</FrameLayout>

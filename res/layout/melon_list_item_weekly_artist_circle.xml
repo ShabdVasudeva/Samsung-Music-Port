@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:clickableId="thumbnail"
+    app:clipIds="thumbnail, hue_gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/thumbnail"
+        style="@style/GridItem.Thumbnail.Circle" />
+    <ImageView
+        android:id="@id/hue_gradient"
+        android:alpha="0.4"
+        app:layout_constraintBottom_toBottomOf="@id/thumbnail"
+        app:layout_constraintEnd_toEndOf="@id/thumbnail"
+        app:layout_constraintStart_toStartOf="@id/thumbnail"
+        app:layout_constraintTop_toTopOf="@id/thumbnail"
+        style="@style/GridItem.Thumbnail.Circle" />
+    <View
+        android:id="@id/thumbnail_stroke"
+        style="@style/GridItem.ThumbnailStoke.Circle" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/text_container"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/melon_list_weekly_artist_text_layout_height"
+        app:layout_constraintEnd_toEndOf="@id/thumbnail"
+        app:layout_constraintStart_toStartOf="@id/thumbnail"
+        app:layout_constraintTop_toBottomOf="@id/thumbnail">
+        <TextView
+            android:id="@id/text1"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="20.0dip"
+            style="@style/GridItem.Text.Line1" />
+    </LinearLayout>
+    <com.samsung.android.app.musiclibrary.ui.widget.AccessibilityView
+        android:id="@id/click_area"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:contentDescriptionIds="text1"
+        app:layout_constraintBottom_toBottomOf="@id/text_container"
+        app:layout_constraintEnd_toEndOf="@id/thumbnail"
+        app:layout_constraintStart_toStartOf="@id/thumbnail"
+        app:layout_constraintTop_toTopOf="@id/thumbnail" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

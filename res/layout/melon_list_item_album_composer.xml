@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="22.0dip"
+    android:paddingStart="24.0dip"
+    android:paddingEnd="24.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="12.0dip"
+        android:textColor="@color/basics_primary_dark_209_4_4"
+        android:ellipsize="end"
+        android:id="@id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:maxLines="1"
+        style="@style/Font.NewSEC.400" />
+</LinearLayout>

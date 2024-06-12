@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d албом</item>
+        <item quantity="one">%d албом</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Албомҳо</item>
+        <item quantity="one">Албом</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Сурудҳо</item>
+        <item quantity="one">Трек</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d суруд</item>
+        <item quantity="one">%d суруд</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d сония</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d сония</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">Давоми %d рӯз нишон дода нашавад</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Давоми %d рӯз нишон дода нашавад</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Шумо %1$s -ро %2$d маротиба истифода бурда метавонед.</item>
+        <item quantity="one">Шумо %s -ро 1 маротиба истифода бурда метавонед.</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">%d треки муҳлатгузашта нест карда мешавад. Таърихи боргириро дар Маълумот оиди Melon > Таърихи харидҳо дидан мумкин аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d треки муҳлатгузашта нест карда мешавад. Таърихи боргириро дар Маълумот оиди Melon > Таърихи харидҳо дидан мумкин аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">Тамдид додани муҳлат DCF барои %d трек барор наёфт. Шумо метавонед кӯшишро такрор кунед ё файлҳои дохили рӯйхати зеринро нест карда, онҳоро аз нав боргирӣ кунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Тамдид додани муҳлат DCF барои %d трек барор наёфт. Шумо метавонед кӯшишро такрор кунед ё файлҳои дохили рӯйхати зеринро нест карда, онҳоро аз нав боргирӣ кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">Беш аз %d ҷузъ ворид кардан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Беш аз %d ҷузъ ворид кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">Интизори боргирии %d суруд…</item>
+        <item quantity="one">Интизори боргирии 1 суруд…</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d албом ва ҳамаи трекҳоро аз телефони худ нест мекунед?</item>
+        <item quantity="one">1 албом ва ҳамаи трекҳои онро аз телефони худ нест мекунед?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Ҳамаи трекҳои ин ҳунармандонро нест кунем?</item>
+        <item quantity="one">Ҳамаи трекҳои ин ҳофизро нест кунем?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Ҳамаи трекҳои ин оҳангсозонро нест кунем?</item>
+        <item quantity="one">Ҳамаи трекҳои ин оҳангсозро нест кунем?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d ҷузвдон</item>
+        <item quantity="one">1 ҷузвдон</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d ҷузвдон ва ҳамаи трекҳоро аз телефони худ нест мекунед?</item>
+        <item quantity="one">1 ҷузвдон ва ҳамаи трекҳои онро аз телефони худ нест мекунед?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Ҳамаи трекҳои ин жанрҳоро нест кунем?</item>
+        <item quantity="one">Ҳамаи трекҳои ин жанрро нест мекунед?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d ҷузвдони пинҳон инчунин нест карда мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузвдони пинҳон инчунин нест карда мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">%d ҷузъро нест кунем?</item>
+        <item quantity="one">1 ҷузъро нест кунем?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">Аз %d аломат зиёдтар дохил кардан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d аломат дохил кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">Беш аз %d албом илова кардан ғайриимкон аст. Албомҳои камтар илова кунед ё якчанд албомро аз Писандидаҳо нест кунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Беш аз %d албом илова кардан ғайриимкон аст. Албомҳои камтар илова кунед ё якчанд албомро аз Писандидаҳо нест кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">Беш аз %d ҳунарманд илова кардан ғайриимкон аст. Ҳунармандони камтар илова кунед ё якчанд ҳунармандро аз Писандидаҳо нест кунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Беш аз %d ҳунарманд илова кардан ғайриимкон аст. Ҳунармандони камтар илова кунед ё якчанд ҳунармандро аз Писандидаҳо нест кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">Шумо метавонед танҳо то %d рӯйхати пахш илова кунед. Якчанд рӯйхати пахшро аз варақаи Писандидаҳо нест кунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шумо метавонед танҳо то %d рӯйхати пахш илова кунед. Якчанд рӯйхати пахшро аз варақаи Писандидаҳо нест кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">Беш аз %d треки ҷараёнӣ илова кардан ғайриимкон аст. Трекҳои ҷараёнии камтар илова кунед ё якчанд Трекҳои писандида нест кунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Беш аз %d треки ҷараёнӣ илова кардан ғайриимкон аст. Трекҳои ҷараёнии камтар илова кунед ё якчанд Трекҳои писандида нест кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">Илова кардани зиёда аз %d трек ғайриимкон аст. Трекҳои ҷараёнии камтар илова кунед ё якчанд Трекҳои писандида нест кунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Илова кардани зиёда аз %d трек ғайриимкон аст. Трекҳои ҷараёнии камтар илова кунед ё якчанд Трекҳои писандида нест кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">%d рӯйхати пахш содир карда шуд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйхати пахш содир карда шуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">%d рӯйхати пахш ворид карда шуд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйхати пахш ворид карда шуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">Зиёда аз %d рӯйхати пахш интихоб кардан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d рӯйхати пахш интихоб кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d рӯйхати пахшро нест кунем?</item>
+        <item quantity="one">1 феҳристи пахшро нест кунем?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d суруд</item>
+        <item quantity="one">1 суруд</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">Танҳо %d трек ба Писандидаҳо илова карда шуд. Трекҳои дигар аллакай дар Писандидаҳо буданд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Танҳо %d трек ба Писандидаҳо илова карда шуд. Трекҳои дигар аллакай дар Писандидаҳо буданд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">%d трекҳо аллакай ба писандидаҳо илова шуданд.</item>
+        <item quantity="one">1 трек ба писандидаҳо илова шуд.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">%d трекҳо аллакай ба рӯйхати пахш илова шудаанд.</item>
+        <item quantity="one">1 трек ба рӯйхати пахш илова шуд.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d трекҳо ба навбат илова шуданд.</item>
+        <item quantity="one">%d трек ба навбат илова шуд.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d трекро нест кунем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d трекро нест кунем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Давомнокии хоб: %d соат</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Давомнокии хоб: %d соат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Давомнокии хоб: %d дақиқа</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Давомнокии хоб: %d дақиқа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

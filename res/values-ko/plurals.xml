@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">앨범 %d개</item>
+        <item quantity="one">앨범 %d개</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">앨범</item>
+        <item quantity="one">앨범</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">곡</item>
+        <item quantity="one">곡</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">곡 %d개</item>
+        <item quantity="one">곡 %d개</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d초</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">%d일 동안 표시하지 않기</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s 파일을 %2$d회 사용할 수 있습니다.</item>
+        <item quantity="one">%s 파일을 1회 사용할 수 있습니다.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d초 빨리 감기</item>
+        <item quantity="one">%d초 빨리 감기</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d초 되감기</item>
+        <item quantity="one">%d초 되감기</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">만료된 곡 %d개를 삭제합니다. 다운로드 기록은 [멜론 정보 > 구매기록]에서 확인할 수 있습니다.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">곡 %d개의 DCF 기간을 연장할 수 없습니다. 다시 시도해 보거나, 아래 목록에서 파일을 삭제하고 다시 다운로드해 주세요.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">항목은 %d개까지 가져올 수 있습니다.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">%d곡 다운로드 대기 중…</item>
+        <item quantity="one">1곡 다운로드 대기 중…</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">휴대전화에서 앨범 %d개와 앨범 내 모든 곡을 삭제할까요?</item>
+        <item quantity="one">휴대전화의 앨범 1개와 앨범 내 모든 곡을 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">선택한 아티스트의 곡을 모두 삭제할까요?</item>
+        <item quantity="one">이 아티스트의 곡을 모두 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">선택한 작곡가의 곡을 모두 삭제할까요?</item>
+        <item quantity="one">이 작곡가의 곡을 모두 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">폴더 %d개</item>
+        <item quantity="one">폴더 1개</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">휴대전화의 폴더 %d개와 폴더 내 모든 곡을 삭제할까요?</item>
+        <item quantity="one">휴대전화에서 폴더 1개와 폴더 내 모든 곡을 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">선택한 장르의 곡을 모두 삭제할까요?</item>
+        <item quantity="one">이 장르의 곡을 모두 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">숨겨진 폴더 %d개도 함께 삭제됩니다.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">항목 %d개를 삭제할까요?</item>
+        <item quantity="one">항목 1개를 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">%d자까지 입력할 수 있습니다.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">앨범은 %d개까지 추가할 수 있습니다. 추가할 앨범 수를 줄이거나 즐겨찾기에서 다른 앨범을 삭제하세요.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">아티스트는 %d명까지 추가할 수 있습니다. 추가할 아티스트 수를 줄이거나 즐겨찾기에서 다른 아티스트를 삭제하세요.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">플레이리스트는 %d개까지 추가할 수 있습니다. 즐겨찾기 탭에서 일부 플레이리스트를 삭제하세요.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">스트리밍 곡은 %d개까지 추가할 수 있습니다. 추가할 곡 수를 줄이거나 좋아요한 곡에서 다른 곡을 삭제하세요.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">곡은 %d개까지 추가할 수 있습니다. 추가할 곡 수를 줄이거나 좋아요한 곡에서 다른 곡을 삭제하세요.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">플레이리스트 %d개를 내보냈어요.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">플레이리스트 %d개를 가져왔어요.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">플레이리스트는 %d개까지 선택할 수 있어요.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">플레이리스트 %d개를 삭제할까요?</item>
+        <item quantity="one">플레이리스트 1개를 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">곡 %d개</item>
+        <item quantity="one">곡 1개</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">즐겨찾기에 %d곡만 추가했습니다. 일부 곡은 이미 즐겨찾기에 추가되어 있었습니다.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">곡 %d개를 [즐겨듣는 곡]에 추가했어요.</item>
+        <item quantity="one">곡 1개를 [즐겨듣는 곡]에 추가했어요.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">플레이리스트에 곡 %d개를 추가했습니다.</item>
+        <item quantity="one">플레이리스트에 곡 1개를 추가했어요.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">현재 재생목록에 곡 %d개를 추가했어요.</item>
+        <item quantity="one">현재 재생목록에 곡 %d개를 추가했어요.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">곡 %d개를 삭제할까요?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">수면 시간: %d시간</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">수면 시간: %d분</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d일</item>
+        <item quantity="one">%d일</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">%d시간</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d분</item>
+        <item quantity="one">%d분</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d일</item>
+        <item quantity="one">%d일</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">%d시간</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d분</item>
+        <item quantity="one">%d분</item>
+    </plurals>
+</resources>

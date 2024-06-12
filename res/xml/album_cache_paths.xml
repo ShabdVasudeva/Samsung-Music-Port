@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path
+        name="cache"
+        path="./album_cache" />
+    <external-cache-path
+        name="external_cache"
+        path="./album_cache" />
+</paths>

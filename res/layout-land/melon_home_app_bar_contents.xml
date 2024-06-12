@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiRecyclerView
+        android:id="@id/app_bar_contents_recycler_view"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/melon_home_mix_grid_item_size" />
+</FrameLayout>

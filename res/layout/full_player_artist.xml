@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.music.widget.FixedWidthTextView
+    android:textSize="@dimen/full_player_title_sub_text"
+    android:textColor="@color/full_player_title_sub"
+    android:gravity="center"
+    android:focusable="false"
+    android:layout_width="0.0dip"
+    android:layout_height="0.0dip"
+    android:minHeight="@dimen/full_player_title_sub_text_height"
+    android:includeFontPadding="false"
+    android:fontFamily="roboto-regular"
+    android:accessibilityTraversalAfter="@id/title"
+    music:maxFontLevel="small"
+    style="@style/Font.NewSEC.400.Marquee"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:music="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:name="full_player_seekbar_thumb_pressed_to_unpressed"
+    android:tint="@color/basics_icon_white"
+    android:height="@dimen/full_player_seekbar_thumb_height"
+    android:width="@dimen/full_player_seekbar_thumb_height"
+    android:viewportWidth="51.0"
+    android:viewportHeight="51.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:name="thumb"
+        android:pivotX="25.5"
+        android:pivotY="25.5"
+        android:scaleX="0.0"
+        android:scaleY="0.0">
+        <path
+            android:fillColor="#ff000000"
+            android:pathData="M25.5,25.5m-25.5,0a25.5,25.5 0,1 1,51 0a25.5,25.5 0,1 1,-51 0" />
+    </group>
+</vector>

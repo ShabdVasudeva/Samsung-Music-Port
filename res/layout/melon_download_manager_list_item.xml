@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@android:color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/download_manager_item_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/thumbnail_layout"
+        android:background="@drawable/thumbnail_rounded_outline"
+        android:layout_width="@dimen/download_manager_item_album_art_size"
+        android:layout_height="@dimen/download_manager_item_album_art_size"
+        android:layout_marginTop="@dimen/download_manager_item_album_art_margin_top"
+        android:layout_marginStart="@dimen/download_manager_item_album_art_margin_start"
+        android:layout_marginEnd="@dimen/download_manager_item_album_art_margin_end"
+        app:layout_constraintEnd_toStartOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@id/thumbnail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="@dimen/mu_list_item_text1_winset"
+        android:textColor="@color/basics_text_main"
+        android:ellipsize="end"
+        android:id="@id/title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        app:layout_constraintBottom_toTopOf="@id/artist"
+        app:layout_constraintEnd_toStartOf="@id/cancel"
+        app:layout_constraintStart_toEndOf="@id/thumbnail_layout"
+        app:layout_constraintTop_toTopOf="@id/thumbnail_layout"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="@dimen/mu_list_item_text2_winset"
+        android:textColor="@color/basics_text_sub"
+        android:ellipsize="end"
+        android:id="@id/artist"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="@id/thumbnail_layout"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        app:layout_constraintStart_toStartOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC" />
+    <ImageView
+        android:id="@id/cancel"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="@dimen/download_manager_item_cancel_button_size"
+        android:layout_height="@dimen/download_manager_item_cancel_button_size"
+        android:src="@drawable/music_list_ic_delete"
+        android:layout_marginStart="@dimen/download_manager_item_cancel_button_margin_start"
+        android:layout_marginEnd="@dimen/download_manager_item_cancel_button_margin_end"
+        app:layout_constraintBottom_toBottomOf="@id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/title"
+        app:layout_constraintTop_toTopOf="@id/title"
+        app:tint="@color/basics_text_main" />
+    <ProgressBar
+        android:id="@id/progress_bar"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/download_manager_item_progress_height"
+        android:layout_marginTop="@dimen/download_manager_item_progress_margin_top"
+        android:max="100"
+        android:indeterminate="false"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        app:layout_constraintStart_toStartOf="@id/thumbnail_layout"
+        app:layout_constraintTop_toBottomOf="@id/thumbnail_layout"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal" />
+    <ImageView
+        android:id="@id/pause"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="@dimen/download_manager_item_cancel_button_size"
+        android:layout_height="@dimen/download_manager_item_cancel_button_size"
+        android:src="@drawable/music_list_ic_pause"
+        app:layout_constraintBottom_toBottomOf="@id/progress_bar"
+        app:layout_constraintEnd_toEndOf="@id/cancel"
+        app:layout_constraintStart_toStartOf="@id/cancel"
+        app:layout_constraintTop_toTopOf="@id/progress_bar"
+        app:tint="@color/basics_text_main" />
+    <TextView
+        android:textSize="@dimen/download_manager_item_progress_text"
+        android:textColor="@color/basics_text_sub"
+        android:id="@id/percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/progress_bar"
+        app:layout_constraintTop_toBottomOf="@id/progress_bar"
+        style="@style/Font.NewSEC" />
+    <TextView
+        android:textSize="@dimen/download_manager_item_progress_text"
+        android:textColor="@color/basics_text_sub"
+        android:id="@id/file_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/percent"
+        app:layout_constraintEnd_toEndOf="@id/progress_bar"
+        app:layout_constraintTop_toTopOf="@id/percent"
+        style="@style/Font.NewSEC" />
+</androidx.constraintlayout.widget.ConstraintLayout>

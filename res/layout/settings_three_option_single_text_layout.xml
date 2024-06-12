@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/setting_option_1"
+        layout="@layout/settings_radio_button_list_item" />
+    <View
+        android:orientation="vertical"
+        android:id="@id/setting_option_divider1"
+        android:background="@drawable/settings_option_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginStart="@dimen/settings_radio_button_list_item_divider_margin_start"
+        android:layout_marginEnd="@dimen/settings_list_item_divider_start_end_margin" />
+    <include
+        android:id="@id/setting_option_2"
+        layout="@layout/settings_radio_button_list_item" />
+    <View
+        android:orientation="vertical"
+        android:id="@id/setting_option_divider2"
+        android:background="@drawable/settings_option_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginStart="@dimen/settings_radio_button_list_item_divider_margin_start"
+        android:layout_marginEnd="@dimen/settings_list_item_divider_start_end_margin" />
+    <include
+        android:id="@id/setting_option_3"
+        layout="@layout/settings_radio_button_list_item" />
+</LinearLayout>

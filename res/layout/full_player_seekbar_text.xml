@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.music.widget.ResizableTextView
+    android:textSize="@dimen/full_player_duration_text"
+    android:textColor="@color/basics_text_white"
+    android:importantForAccessibility="no"
+    music:textSizeDelta="@dimen/full_player_easymode_duration_text_delta"
+    style="@style/Font.NewSEC.400"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:music="http://schemas.android.com/apk/res-auto" />

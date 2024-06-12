@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Group
+        android:id="@id/label_group"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:constraint_referenced_ids="title_label,divider1,label" />
+    <androidx.constraintlayout.widget.Group
+        android:id="@id/publisher_group"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:constraint_referenced_ids="title_publisher,divider2,publisher_group" />
+    <TextView
+        android:id="@id/title_label"
+        android:layout_marginTop="18.0dip"
+        android:text="@string/milk_store_album_label"
+        android:paddingStart="24.0dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Melon.Dialog.AlbumDetails.HeaderText" />
+    <View
+        android:id="@id/divider1"
+        android:background="#ff505050"
+        android:layout_width="1.0dip"
+        android:layout_height="12.0dip"
+        android:layout_marginStart="4.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/title_label"
+        app:layout_constraintStart_toEndOf="@id/title_label"
+        app:layout_constraintTop_toTopOf="@id/title_label" />
+    <TextView
+        android:ellipsize="end"
+        android:id="@id/label"
+        android:maxLines="1"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="24.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/title_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/divider1"
+        app:layout_constraintTop_toTopOf="@id/title_label"
+        style="@style/Melon.Dialog.AlbumDetails.HeaderText" />
+    <TextView
+        android:id="@id/title_publisher"
+        android:layout_marginTop="6.0dip"
+        android:text="@string/milk_store_album_distributed_by"
+        android:paddingStart="24.0dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_label"
+        style="@style/Melon.Dialog.AlbumDetails.HeaderText" />
+    <View
+        android:id="@id/divider2"
+        android:background="#ff505050"
+        android:layout_width="1.0dip"
+        android:layout_height="12.0dip"
+        android:layout_marginStart="4.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/title_publisher"
+        app:layout_constraintStart_toEndOf="@id/title_publisher"
+        app:layout_constraintTop_toTopOf="@id/title_publisher" />
+    <TextView
+        android:ellipsize="end"
+        android:id="@id/publisher"
+        android:maxLines="1"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="24.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/title_publisher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/divider2"
+        app:layout_constraintTop_toTopOf="@id/title_publisher"
+        style="@style/Melon.Dialog.AlbumDetails.HeaderText" />
+    <com.samsung.android.app.musiclibrary.ui.widget.MusicScrollView
+        android:id="@id/scroll_view"
+        android:paddingTop="24.0dip"
+        android:paddingBottom="24.0dip"
+        android:scrollbars="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_publisher"
+        app:max_height="303.0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16.0dip"
+                android:textColor="@color/basics_text_dialog_body"
+                android:id="@id/description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/milk_store_album_detail_popup_have_no_description"
+                android:lineSpacingExtra="4.0dip"
+                android:paddingStart="24.0dip"
+                android:paddingEnd="24.0dip"
+                style="@style/Font.NewSEC.400" />
+        </LinearLayout>
+    </com.samsung.android.app.musiclibrary.ui.widget.MusicScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

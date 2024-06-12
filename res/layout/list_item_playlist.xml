@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:id="@id/item_view"
+    android:background="@drawable/basics_ripple_list"
+    android:focusable="true"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="56.0dip"
+    app:animateIds="thumbnail, thumbnail_stroke, text1, badge"
+    app:clickableId="item_view"
+    app:clipIds="thumbnail"
+    app:dividerAnchor="text1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:orientation="vertical"
+        android:id="@id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:flexible_guide="begin"
+        app:layout_constraintGuide_begin="@dimen/mu_list_item_space_outer_default" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:orientation="vertical"
+        android:id="@id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:flexible_guide="end"
+        app:layout_constraintGuide_end="@dimen/mu_list_item_space_end_playlist" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiCheckBox
+        android:id="@id/checkbox"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/mu_list_item_checkbox_space_outer"
+        app:flexible_margin="start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.Checkbox" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiImageView
+        android:id="@id/thumbnail"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/mu_list_item_checkbox_space_outer"
+        app:flexible_goneMargin="start"
+        app:flexible_margin="start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/checkbox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginStart="@dimen/mu_list_item_space_outer_default"
+        style="@style/ListItem.Thumbnail" />
+    <View
+        android:id="@id/thumbnail_stroke"
+        style="@style/ListItem.ThumbnailStoke" />
+    <include
+        android:id="@id/badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_item_badge_space_bottom"
+        android:layout_marginStart="@dimen/list_item_badge_space_start"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="@id/thumbnail"
+        app:layout_constraintStart_toStartOf="@id/thumbnail"
+        layout="@layout/new_badge_icon" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:id="@id/text1"
+        android:layout_marginTop="@dimen/mu_list_item_text_space_top_winset"
+        android:layout_marginBottom="@dimen/mu_list_item_text_space_bottom_winset"
+        android:layout_marginStart="@dimen/mu_list_thumbnail_small_space_end"
+        android:layout_marginEnd="20.0dip"
+        app:flexible_margin="both"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/barrier"
+        app:layout_constraintStart_toEndOf="@id/thumbnail_stroke"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginBottom="@dimen/mu_list_item_text_space_bottom_winset"
+        app:maxFontLevel="large"
+        style="@style/ListItem.Text.Line1" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="start"
+        app:constraint_referenced_ids="text2,reorder" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="13.0sp"
+        android:textColor="@color/basics_text_sub"
+        android:id="@id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4.0dip"
+        app:flexible_margin="end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.400" />
+    <ImageView
+        android:id="@id/reorder"
+        android:focusableInTouchMode="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.Reorder" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

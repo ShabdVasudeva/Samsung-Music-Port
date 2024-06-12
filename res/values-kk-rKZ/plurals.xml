@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d альбом</item>
+        <item quantity="one">%d альбом</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Альбомдар</item>
+        <item quantity="one">Альбом</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Саздар</item>
+        <item quantity="one">Трек</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d трек</item>
+        <item quantity="one">%d трек</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d секунд</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">%d күн көрсетпеу</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d күн көрсетпеу</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Сіз %1$s %2$d рет қолдана аласыз.</item>
+        <item quantity="one">1 рет %s қолдана аласыз.</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">%d мерзімі өткен трек жойылады. Жүктеулер журналын Melon ақпараты > Сатып алу журналы бөлімінде тексере аласыз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мерзімі өткен трек жойылады. Жүктеулер журналын Melon ақпараты > Сатып алу журналы бөлімінде тексере аласыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">%d тректің DCF мерзімін ұзарту мүмкін болмады. Файлдарды қайта жүктеп алмас бұрын, төмендегі тізімнен қайтадан көруге немесе жоюға болады.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тректің DCF мерзімін ұзарту мүмкін болмады. Файлдарды қайта жүктеп алмас бұрын, төмендегі тізімнен қайтадан көруге немесе жоюға болады.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">%d элементтен артық импорттау мүмкін емес.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d элементтен артық импорттау мүмкін емес.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">%d әнді жүктеу күтілуде…</item>
+        <item quantity="one">1 әнді жүктеу күтілуде…</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d альбом мен олардың ішіндегі барлық тректерді телефоныңыздан жою керек пе?</item>
+        <item quantity="one">1 альбом мен оның ішіндегі барлық тректерді телефоныңыздан жою керек пе?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Осы орындаушылардың барлық тректерін жою керек пе?</item>
+        <item quantity="one">Осы орындаушының барлық тректерін жою керек пе?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Осы композиторлардың барлық тректерін жою керек пе?</item>
+        <item quantity="one">Осы композитордың барлық тректерін жою керек пе?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d қалталары</item>
+        <item quantity="one">1 қалта</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d қалта мен олардың ішіндегі барлық тректерді телефоныңыздан жою керек пе?</item>
+        <item quantity="one">1 қалта мен оның ішіндегі барлық тректерді телефоныңыздан жою керек пе?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Осы жанрлардағы барлық тректерді жою керек пе?</item>
+        <item quantity="one">Осы жанрдағы барлық тректерді жою керек пе?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d жасырын қалта да жойылады.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d жасырын қалта да жойылады.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">%d элементті жою керек пе?</item>
+        <item quantity="one">1 элементті жою керек пе?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">%d таңбадан артық енгізу мүмкін емес.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d таңбадан артық енгізу мүмкін емес.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">%d альбомнан артық қосу мүмкін емес. Азырақ альбом қосыңыз немесе кейбіреуін “Таңдаулылар” тізімен жойыңыз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d альбомнан артық қосу мүмкін емес. Азырақ альбом қосыңыз немесе кейбіреуін “Таңдаулылар” тізімен жойыңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">%d орындаушыдан артық қосу мүмкін емес. Азырақ орындаушы қосыңыз немесе кейбіреуін “Таңдаулылар” тізімен жойыңыз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d орындаушыдан артық қосу мүмкін емес. Азырақ орындаушы қосыңыз немесе кейбіреуін “Таңдаулылар” тізімен жойыңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">Тек %d әндер тізіміне дейін қосуға болады. Біраз әндер тізімін “Таңдаулылар” қойындысынан жойыңыз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Тек %d әндер тізіміне дейін қосуға болады. Біраз әндер тізімін “Таңдаулылар” қойындысынан жойыңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">%d ағындық тректен артық қосу мүмкін емес. Азырақ трек қосыңыз немесе кейбіреуін “Таңдаулы тректер” тізімен жойыңыз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ағындық тректен артық қосу мүмкін емес. Азырақ трек қосыңыз немесе кейбіреуін “Таңдаулы тректер” тізімен жойыңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">%d тректен артық қосу мүмкін емес. Азырақ трек қосыңыз немесе кейбіреуін “Таңдаулы тректер” тізімен жойыңыз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тректен артық қосу мүмкін емес. Азырақ трек қосыңыз немесе кейбіреуін “Таңдаулы тректер” тізімен жойыңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">Экспортталған %d әндер тізімі.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Экспортталған %d әндер тізімі.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">Импортталған %d әндер тізімі.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Импортталған %d әндер тізімі.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">%d әндер тізімінен артық таңдау мүмкін емес.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d әндер тізімінен артық таңдау мүмкін емес.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d әндер тізімін жою керек пе?</item>
+        <item quantity="one">1 әндер тізімін жою керек пе?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d трек</item>
+        <item quantity="one">1 трек</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">“Таңдаулылар” тізіміне тек %d ғана трек қосылды. Қалғаны “Таңдаулылар” тізімінде бұрыннан болған.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">“Таңдаулылар” тізіміне тек %d ғана трек қосылды. Қалғаны “Таңдаулылар” тізімінде бұрыннан болған.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">Таңдаулыларға %d трек қосылды</item>
+        <item quantity="one">Таңдаулыларға 1 трек қосылды</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">Әндер тізіміне %d трек қосылды.</item>
+        <item quantity="one">Әндер тізіміне 1 трек қосылды</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d трек кезекке қосылды.</item>
+        <item quantity="one">%d трек кезекке қосылды.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d тректі жою керек пе?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тректі жою керек пе?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Ұйқы уақыты: %d сағат</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ұйқы уақыты: %d сағат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Ұйқы уақыты: %d минут</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ұйқы уақыты: %d минут</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

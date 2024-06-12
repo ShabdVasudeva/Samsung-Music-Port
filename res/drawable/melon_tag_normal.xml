@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="@dimen/melon_grid_item_tag_radius" />
+    <solid
+        android:color="@color/melon_item_tag_background" />
+</shape>

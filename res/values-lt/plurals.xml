@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albumai (-ų)</item>
+        <item quantity="one">%d albumas</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumai</item>
+        <item quantity="one">Albumas</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Takeliai</item>
+        <item quantity="one">Įrašas</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d dainos (-ų)</item>
+        <item quantity="one">%d įrašas</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d sek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sek.</item>
+        <item quantity="many">%d sek.</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">Neberodyti %d d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Neberodyti %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Neberodyti %d d.</item>
+        <item quantity="many">Neberodyti %d d.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s galite naudoti %2$d kartus.</item>
+        <item quantity="one">%s galite naudoti 1 kartą.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Prasukti pirmyn %d sekundžių</item>
+        <item quantity="one">Prasukti pirmyn %d sekundę</item>
+        <item quantity="few">Prasukti pirmyn %d sekundes</item>
+        <item quantity="many">Prasukti pirmyn %d sekundės</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Atsukti atgal %d sekundžių</item>
+        <item quantity="one">Atsukti atgal %d sekundę</item>
+        <item quantity="few">Atsukti atgal %d sekundes</item>
+        <item quantity="many">Atsukti atgal %d sekundės</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">Bus ištrinta %d negaliojančių įrašų. Savo atsisiuntimų istoriją galite peržiūrėti eidami į „Melon“ informacija > Pirkinių istorija.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bus ištrintas %d negaliojantis įrašas. Savo atsisiuntimų istoriją galite peržiūrėti eidami į „Melon“ informacija > Pirkinių istorija.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Bus ištrinti %d negaliojantys įrašai. Savo atsisiuntimų istoriją galite peržiūrėti eidami į „Melon“ informacija > Pirkinių istorija.</item>
+        <item quantity="many">Bus ištrinta %d negaliojančių įrašų. Savo atsisiuntimų istoriją galite peržiūrėti eidami į „Melon“ informacija > Pirkinių istorija.</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">Nepavyko pratęsti %d įrašų DCF laikotarpio. Galite bandyti dar kartą arba ištrinkite failus iš toliau esančio sąrašo, tada juos atsisiųskite dar kartą.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nepavyko pratęsti %d įrašo DCF laikotarpio. Galite bandyti dar kartą arba ištrinkite failus iš toliau esančio sąrašo, tada juos atsisiųskite dar kartą.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nepavyko pratęsti %d įrašų DCF laikotarpio. Galite bandyti dar kartą arba ištrinkite failus iš toliau esančio sąrašo, tada juos atsisiųskite dar kartą.</item>
+        <item quantity="many">Nepavyko pratęsti %d įrašų DCF laikotarpio. Galite bandyti dar kartą arba ištrinkite failus iš toliau esančio sąrašo, tada juos atsisiųskite dar kartą.</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">Negalima importuoti daugiau nei %d elementų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima importuoti daugiau nei %d elemento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima importuoti daugiau nei %d elementų.</item>
+        <item quantity="many">Negalima importuoti daugiau nei %d elemento.</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">Laukiama %d dainų atsisiuntimo…</item>
+        <item quantity="one">Laukiama 1 dainos atsisiuntimo…</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d naujų pranešimų</item>
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Trinti %d albumus (-ų) ir visus juose esančius įrašus iš jūsų telefono?</item>
+        <item quantity="one">Trinti 1 albumą ir visus jame esančius įrašus iš jūsų telefono?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Trinti visus šių atlikėjų įrašus?</item>
+        <item quantity="one">Trinti visus šio atlikėjo įrašus?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Trinti visus šių kompozitorių įrašus?</item>
+        <item quantity="one">Trinti visus šio kompozitoriaus įrašus?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d aplankai (-ų)</item>
+        <item quantity="one">1 aplankas</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Trinti %d aplankus (-ų) ir visus juose esančius įrašus iš jūsų telefono?</item>
+        <item quantity="one">Trinti 1 aplanką ir visus jame esančius įrašus iš jūsų telefono?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Trinti visus šių žanrų įrašus?</item>
+        <item quantity="one">Trinti visus šio žanro įrašus?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d paslėpti (-ų) aplankai (-ų) taip pat bus ištrinti (-a).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paslėptas aplankas taip pat bus ištrintas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d paslėpti aplankai taip pat bus ištrinti.</item>
+        <item quantity="many">%d paslėptų aplankų taip pat bus ištrinta.</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Ištrinti %d elementus (-ų)?</item>
+        <item quantity="one">Trinti 1 elementą?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima įvesti daugiau nei %d simbolio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d simbolio.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">Negalima pridėti daugiau nei %d albumų. Pridėkite mažiau albumų arba pašalinkite kelis jų iš „Mėgstamiausių“.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pridėti daugiau nei %d albumą. Pridėkite mažiau albumų arba pašalinkite kelis jų iš „Mėgstamiausių“.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pridėti daugiau nei %d albumų. Pridėkite mažiau albumų arba pašalinkite kelis jų iš „Mėgstamiausių“.</item>
+        <item quantity="many">Negalima pridėti daugiau nei %d albumų. Pridėkite mažiau albumų arba pašalinkite kelis jų iš „Mėgstamiausių“.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">Negalima pridėti daugiau nei %d atlikėjų. Pridėkite mažiau atlikėjų arba pašalinkite kelis jų iš „Mėgstamiausių“.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pridėti daugiau nei %d atlikėją. Pridėkite mažiau atlikėjų arba pašalinkite kelis jų iš „Mėgstamiausių“.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pridėti daugiau nei %d atlikėjų. Pridėkite mažiau atlikėjų arba pašalinkite kelis jų iš „Mėgstamiausių“.</item>
+        <item quantity="many">Negalima pridėti daugiau nei %d atlikėjų. Pridėkite mažiau atlikėjų arba pašalinkite kelis jų iš „Mėgstamiausių“.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">Galite pridėti ne daugiau kaip %d grojaraščių. Pašalinkite kelis grojaraščius iš parankinių skirtuko.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Galite pridėti ne daugiau kaip %d grojaraštį. Pašalinkite kelis grojaraščius iš parankinių skirtuko.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Galite pridėti ne daugiau kaip %d grojaraščius. Pašalinkite kelis grojaraščius iš parankinių skirtuko.</item>
+        <item quantity="many">Galite pridėti ne daugiau kaip %d grojaraščių. Pašalinkite kelis grojaraščius iš parankinių skirtuko.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">Negalima pridėti daugiau nei %d transliuojamų įrašų. Pridėkite mažiau įrašų arba pašalinkite kelis jų iš „Mėgtamiausių įrašų“.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pridėti daugiau nei %d transliuojamą įrašą. Pridėkite mažiau įrašų arba pašalinkite kelis jų iš „Mėgtamiausių įrašų“.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pridėti daugiau nei %d transliuojamų įrašų. Pridėkite mažiau įrašų arba pašalinkite kelis jų iš „Mėgtamiausių įrašų“.</item>
+        <item quantity="many">Negalima pridėti daugiau nei %d transliuojamų įrašų. Pridėkite mažiau įrašų arba pašalinkite kelis jų iš „Mėgtamiausių įrašų“.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">Negalima pridėti daugiau nei %d įrašų. Pridėkite mažiau įrašų arba pašalinkite kelis jų iš „Mėgtamiausių įrašų“.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pridėti daugiau nei %d įrašą. Pridėkite mažiau įrašų arba pašalinkite kelis jų iš „Mėgtamiausių įrašų“.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pridėti daugiau nei %d įrašų. Pridėkite mažiau įrašų arba pašalinkite kelis jų iš „Mėgtamiausių įrašų“.</item>
+        <item quantity="many">Negalima pridėti daugiau nei %d įrašų. Pridėkite mažiau įrašų arba pašalinkite kelis jų iš „Mėgtamiausių įrašų“.</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">Eksportuoti grojaraščiai: %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eksportuoti grojaraščiai: %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Eksportuoti grojaraščiai: %d.</item>
+        <item quantity="many">Eksportuoti grojaraščiai: %d.</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">Importuoti grojaraščiai: %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Importuoti grojaraščiai: %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Importuoti grojaraščiai: %d.</item>
+        <item quantity="many">Importuoti grojaraščiai: %d.</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">Negalima pasirinkti daugiau nei %d grojaraščių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pasirinkti daugiau nei %d grojaraščio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pasirinkti daugiau nei %d grojaraščių.</item>
+        <item quantity="many">Negalima pasirinkti daugiau nei %d grojaraščio.</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Trinti %d grojarašč.?</item>
+        <item quantity="one">Trinti 1 grojaraštį?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d dainos (-ų)</item>
+        <item quantity="one">1 takelis</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">Prie mėgstamiausių pridėti tik %d įrašai. Likusieji jau buvo prie mėgstamiausių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tik %d įrašas pridėtas prie mėgstamiausių. Likusieji jau buvo prie mėgstamiausių.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Prie mėgstamiausių pridėti tik %d įrašai. Likusieji jau buvo prie mėgstamiausių.</item>
+        <item quantity="many">Prie mėgstamiausių pridėti tik %d įrašai. Likusieji jau buvo prie mėgstamiausių.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">Prie mėgstamiausių pridėtų garso takelių: %d</item>
+        <item quantity="one">1 garso takelis pridėtas prie mėgstamiausių</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">Takeliai pridėti prie grojaraščio: %d</item>
+        <item quantity="one">1 takelis pridėtas prie grojaraščio</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">Į eilę įtraukta takelių: %d.</item>
+        <item quantity="one">Eilėje pridėta takelių: %d.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Trinti %d įrašų?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d įrašą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d įrašus?</item>
+        <item quantity="many">Trinti %d įrašų?</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Miegojimo laikas: %d val.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Miegojimo laikas: %d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Miegojimo laikas: %d val.</item>
+        <item quantity="many">Miegojimo laikas: %d val.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Miegojimo laikas: %d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Miegojimo laikas: %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Miegojimo laikas: %d min.</item>
+        <item quantity="many">Miegojimo laikas: %d min.</item>
+    </plurals>
+</resources>

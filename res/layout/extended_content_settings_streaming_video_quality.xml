@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:id="@id/nested_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/settings_content_space_bottom">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/streaming_video_quality_description"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/setting_description_top_bottom_margin"
+            android:paddingStart="@dimen/audio_quality_side_padding"
+            android:paddingEnd="@dimen/audio_quality_side_padding">
+            <TextView
+                android:textSize="@dimen/setting_description_font_size"
+                android:textColor="@color/basics_text_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/streaming_video_quality_guide_description"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="@dimen/setting_description_line_space"
+                style="@style/Font.NewSEC.400" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@id/video_quality_mobile_category"
+            android:paddingStart="@dimen/audio_quality_side_padding"
+            android:paddingEnd="@dimen/audio_quality_side_padding"
+            style="@style/Settings.DetailSubHeader">
+            <TextView
+                android:textSize="@dimen/setting_sub_header_font_size"
+                android:textColor="@color/basics_text_subheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/streaming_quality_mobile_data_option"
+                android:includeFontPadding="false"
+                style="@style/Font.NewSEC.600" />
+            <ImageView
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:src="@drawable/settings_sub_header_grouping_line"
+                android:layout_weight="1.0"
+                android:layerType="software"
+                android:layout_marginStart="@dimen/settings_sub_header_grouping_line_left_margin" />
+        </LinearLayout>
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:roundCorner="all"
+            app:roundMode="music">
+            <include
+                android:id="@id/video_quality_mobile_option"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/settings_three_option_single_text_layout" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout>
+        <LinearLayout
+            android:paddingStart="@dimen/audio_quality_side_padding"
+            android:paddingEnd="@dimen/audio_quality_side_padding"
+            style="@style/Settings.DetailSubHeader">
+            <TextView
+                android:textSize="@dimen/setting_sub_header_font_size"
+                android:textColor="@color/basics_text_subheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/streaming_quality_wifi_option"
+                android:includeFontPadding="false"
+                style="@style/Font.NewSEC.600" />
+            <ImageView
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:src="@drawable/settings_sub_header_grouping_line"
+                android:layout_weight="1.0"
+                android:layerType="software"
+                android:layout_marginStart="@dimen/settings_sub_header_grouping_line_left_margin" />
+        </LinearLayout>
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:roundCorner="all"
+            app:roundMode="music">
+            <include
+                android:id="@id/video_quality_wifi_option"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/settings_three_option_single_text_layout" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiFrameLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settings_last_description_top_bottom_margin"
+            android:layout_marginBottom="@dimen/settings_last_description_top_bottom_margin"
+            android:paddingStart="@dimen/audio_quality_side_padding"
+            android:paddingEnd="@dimen/audio_quality_side_padding">
+            <TextView
+                android:textSize="@dimen/setting_description_font_size"
+                android:textColor="@color/basics_text_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/video_quality_next_highest_available"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="@dimen/setting_description_line_space"
+                style="@style/Font.NewSEC.400" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

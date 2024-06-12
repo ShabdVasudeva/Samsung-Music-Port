@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference
+        android:title="@string/import_playlists_kt"
+        android:key="import_playlists"
+        android:summary="@string/import_playlists_settings_summary_kt" />
+    <androidx.preference.Preference
+        android:title="@string/export_playlists_kt"
+        android:key="export_playlists"
+        android:summary="@string/export_playlists_settings_summary_kt" />
+    <SwitchPreferenceCompat
+        android:title="@string/auto_backup_all_playlists"
+        android:key="auto_backup_all_playlists"
+        android:summary="default" />
+</PreferenceScreen>

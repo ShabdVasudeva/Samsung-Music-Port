@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="oval"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/white_opacity_90" />
+    <stroke
+        android:width="@dimen/melon_age_rating_stroke"
+        android:color="@color/basics_track_status_title_text" />
+</shape>

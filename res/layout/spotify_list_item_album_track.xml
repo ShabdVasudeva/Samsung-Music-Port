@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="@dimen/mu_list_item_space_outer_default" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/text_layout"
+        android:paddingTop="@dimen/mu_list_item_text_space_top_winset"
+        android:paddingBottom="@dimen/mu_list_item_text_space_bottom_winset"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginStart="0.0dip">
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+            android:textSize="@dimen/mu_list_item_text1_winset"
+            android:id="@id/track_number"
+            app:maxFontLevel="large"
+            style="@style/ListItem.Text.TrackNumber" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <include
+                    android:id="@id/text_adult"
+                    android:visibility="gone"
+                    layout="@layout/spotify_list_item_adult" />
+                <include
+                    android:id="@id/title_icon"
+                    layout="@layout/list_item_title_tag" />
+                <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+                    android:textSize="@dimen/mu_list_item_text1_winset"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/text1"
+                    app:maxFontLevel="large"
+                    style="@style/Font.NewSEC.400.ListItem.Line1" />
+            </LinearLayout>
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+                android:textSize="@dimen/mu_list_item_text2_winset"
+                android:id="@id/text2"
+                app:maxFontLevel="large"
+                style="@style/Font.NewSEC.400.ListItem.Line2" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_end="@dimen/mu_list_item_space_outer_default" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="@dimen/mu_list_item_album_detail_divider_inset_start"
+        app:layout_constraintGuide_end="@dimen/mu_list_item_space_outer_default" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

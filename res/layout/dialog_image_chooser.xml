@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/image_chooser_dialog_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/gallery_icon"
+        android:layout_width="@dimen/image_chooser_icon_size"
+        android:layout_height="@dimen/image_chooser_icon_size"
+        app:layout_constraintBottom_toTopOf="@id/gallery_text"
+        app:layout_constraintEnd_toEndOf="@id/gallery_layout"
+        app:layout_constraintStart_toStartOf="@id/gallery_layout"
+        app:layout_constraintTop_toTopOf="@id/gallery_layout"
+        app:layout_constraintVertical_chainStyle="packed" />
+    <TextView
+        android:textSize="@dimen/image_chooser_text_size"
+        android:textColor="@color/bottom_sheet_dialog_text"
+        android:id="@id/gallery_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/image_chooser_text_top_margin"
+        app:layout_constraintBottom_toBottomOf="@id/gallery_layout"
+        app:layout_constraintEnd_toEndOf="@id/gallery_layout"
+        app:layout_constraintStart_toStartOf="@id/gallery_layout"
+        app:layout_constraintTop_toBottomOf="@id/gallery_icon"
+        style="@style/Font.NewSEC.400" />
+    <View
+        android:id="@id/gallery_layout"
+        android:background="@drawable/basics_ripple_bottom_button"
+        android:layout_width="@dimen/image_chooser_icon_background_width"
+        android:layout_height="@dimen/image_chooser_icon_background_height"
+        android:layout_marginTop="@dimen/image_chooser_top_margin"
+        android:layout_marginBottom="@dimen/image_chooser_bottom_margin"
+        android:layout_marginStart="@dimen/image_chooser_horizontal_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/camera_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@id/camera_icon"
+        android:layout_width="@dimen/image_chooser_icon_size"
+        android:layout_height="@dimen/image_chooser_icon_size"
+        app:layout_constraintBottom_toTopOf="@id/camera_text"
+        app:layout_constraintEnd_toEndOf="@id/camera_layout"
+        app:layout_constraintStart_toStartOf="@id/camera_layout"
+        app:layout_constraintTop_toTopOf="@id/camera_layout"
+        app:layout_constraintVertical_chainStyle="packed" />
+    <TextView
+        android:textSize="@dimen/image_chooser_text_size"
+        android:textColor="@color/bottom_sheet_dialog_text"
+        android:id="@id/camera_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/image_chooser_text_top_margin"
+        app:layout_constraintBottom_toBottomOf="@id/camera_layout"
+        app:layout_constraintEnd_toEndOf="@id/camera_layout"
+        app:layout_constraintStart_toStartOf="@id/camera_layout"
+        app:layout_constraintTop_toBottomOf="@id/camera_icon"
+        style="@style/Font.NewSEC.400" />
+    <View
+        android:id="@id/camera_layout"
+        android:background="@drawable/basics_ripple_bottom_button"
+        android:layout_width="@dimen/image_chooser_icon_background_width"
+        android:layout_height="@dimen/image_chooser_icon_background_height"
+        android:layout_marginTop="@dimen/image_chooser_top_margin"
+        android:layout_marginBottom="@dimen/image_chooser_bottom_margin"
+        android:layout_marginStart="@dimen/image_chooser_horizontal_margin"
+        android:layout_marginEnd="@dimen/image_chooser_horizontal_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/remove_image_layout"
+        app:layout_constraintStart_toEndOf="@id/gallery_layout"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/remove_image_layout"
+        android:background="@drawable/basics_ripple_bottom_button"
+        android:visibility="gone"
+        android:layout_width="@dimen/image_chooser_icon_background_width"
+        android:layout_height="@dimen/image_chooser_icon_background_height"
+        android:layout_marginTop="@dimen/image_chooser_top_margin"
+        android:layout_marginBottom="@dimen/image_chooser_bottom_margin"
+        android:layout_marginEnd="@dimen/image_chooser_horizontal_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/camera_layout"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@id/remove_icon_background"
+            android:background="@drawable/button_background"
+            android:layout_width="@dimen/image_chooser_icon_size"
+            android:layout_height="@dimen/image_chooser_icon_size"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@id/remove_image_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+        <View
+            android:id="@id/remove_icon_background_mask"
+            android:background="@drawable/chooser_icon_mask"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:backgroundTint="@color/content_area_deprecated"
+            app:layout_constraintBottom_toBottomOf="@id/remove_icon_background"
+            app:layout_constraintEnd_toEndOf="@id/remove_icon_background"
+            app:layout_constraintStart_toStartOf="@id/remove_icon_background"
+            app:layout_constraintTop_toTopOf="@id/remove_icon_background" />
+        <TextView
+            android:textSize="@dimen/image_chooser_text_size"
+            android:textColor="@color/bottom_sheet_dialog_text"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/remove_image_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/image_chooser_text_top_margin"
+            android:text="@string/remove_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/remove_icon_background"
+            style="@style/Font.NewSEC.400" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

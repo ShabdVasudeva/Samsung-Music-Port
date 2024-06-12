@@ -1,0 +1,38 @@
+.class public final synthetic Lcom/google/android/gms/internal/ads/bh2;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.2.0"
+
+# interfaces
+.implements Ljava/util/concurrent/Callable;
+
+
+# instance fields
+.field public final synthetic a:Lcom/google/android/gms/internal/ads/ch2;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/google/android/gms/internal/ads/ch2;)V
+    .registers 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/bh2;->a:Lcom/google/android/gms/internal/ads/ch2;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final call()Ljava/lang/Object;
+    .registers 2
+
+    new-instance p0, Lcom/google/android/gms/internal/ads/dh2;
+
+    new-instance v0, Lorg/json/JSONObject;
+
+    invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
+
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/dh2;-><init>(Lorg/json/JSONObject;)V
+
+    return-object p0
+.end method

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albom</item>
+        <item quantity="one">%d ta albom</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albomlar</item>
+        <item quantity="one">Albom</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Treklar</item>
+        <item quantity="one">Trek</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d trek</item>
+        <item quantity="one">%dta trek</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d soniya</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soniya</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">%d kun davomida ko‘rsatilmasin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kun davomida ko‘rsatilmasin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$sdan %2$d marta foydalanishingiz mumkin.</item>
+        <item quantity="one">%sdan 1 marta foydalanishingiz mumkin.</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">%d ta muddati o‘tgan trek o‘chirib tashlanadi. Melon ma’lumotlari > Xarid jurnalida yuklab olish jurnalini tekshirishingiz mumkin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta muddati o‘tgan trek o‘chirib tashlanadi. Melon ma’lumotlari > Xarid jurnalida yuklab olish jurnalini tekshirishingiz mumkin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">DCF davrini %d ta trek uchun uzaytirib bo‘lmadi. Qayta urinib ko‘rishingiz yoki fayllarni qayta yuklab olishdan oldin qayta yuklab olishingiz mumkin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">DCF davrini %d ta trek uchun uzaytirib bo‘lmadi. Qayta urinib ko‘rishingiz yoki fayllarni qayta yuklab olishdan oldin qayta yuklab olishingiz mumkin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">%d tadan ortiq elementni import qilib bo‘lmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq elementni import qilib bo‘lmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">%d ta qo‘shiq yuklab olinishi kutilmoqda…</item>
+        <item quantity="one">1 ta qo‘shiq yuklab olinishi kutilmoqda…</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d ta albom va undagi barcha treklar telefoningizdan o‘chirib tashlansinmi?</item>
+        <item quantity="one">1 ta albom va undagi barcha treklar telefoningizdan o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Ushbu ijrochilarning barcha treklar o‘chirib tashlansinmi?</item>
+        <item quantity="one">Ushbu ijrochining barcha treklari o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Ushbu kompozitorlarning barcha treklar o‘chirib tashlansinmi?</item>
+        <item quantity="one">Ushbu kompozitorning barcha treklari o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d jild</item>
+        <item quantity="one">1 jild</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d ta jild va undagi barcha treklar telefoningizdan o‘chirib tashlansinmi?</item>
+        <item quantity="one">1 ta jild va undagi barcha treklar telefoningizdan o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Ushbu janrlardagi barcha treklar o‘chirib tashlansinmi?</item>
+        <item quantity="one">Ushbu janrdagi barcha treklar o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d ta yashirin jild ham o‘chirib tashlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta yashirin jild ham o‘chirib tashlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">%d ta element o‘chirilsinmi?</item>
+        <item quantity="one">1 ta element o‘chirilsinmi?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">%d tadan ortiq belgi kiritib bo‘lmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq belgi kiritib bo‘lmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">%d tadan ortiq albom qo‘shib bo‘lmaydi. Kamroq albom qo‘shing yoki ayrimlarini Tanlanganlardan olib tashlang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq albom qo‘shib bo‘lmaydi. Kamroq albom qo‘shing yoki ayrimlarini Tanlanganlardan olib tashlang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">%d tadan ortiq ijrochi qo‘shib bo‘lmaydi. Kamroq ijrochi qo‘shing yoki ayrimlarini Tanlanganlardan olib tashlang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq ijrochi qo‘shib bo‘lmaydi. Kamroq ijrochi qo‘shing yoki ayrimlarini Tanlanganlardan olib tashlang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">Siz faqat %d tagacha musiqa ro‘yxati qo‘shishingiz mumkin. Tanlanganlar ilovasidan ayrim musiqa ro‘yxatlarini olib tashlang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siz faqat %d tagacha musiqa ro‘yxati qo‘shishingiz mumkin. Tanlanganlar ilovasidan ayrim musiqa ro‘yxatlarini olib tashlang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">%d tadan ortiq oqimli uzatish treki qo‘shib bo‘lmaydi. Kamroq treklar qo‘shing yoki ayrimlarini Tanlangan treklardan olib tashlang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq oqimli uzatish treki qo‘shib bo‘lmaydi. Kamroq treklar qo‘shing yoki ayrimlarini Tanlangan treklardan olib tashlang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">%d tadan ortiq trek qo‘shib bo‘lmaydi. Kamroq treklar qo‘shing yoki ayrimlarini Tanlangan treklardan olib tashlang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq trek qo‘shib bo‘lmaydi. Kamroq treklar qo‘shing yoki ayrimlarini Tanlangan treklardan olib tashlang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">%d ta musiqa ro‘yxati eksport qilindi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta musiqa ro‘yxati eksport qilindi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">%d ta musiqa ro‘yxati import qilindi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta musiqa ro‘yxati import qilindi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">%d tadan ortiq musiqa ro‘yxatini tanlab bo‘lmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq musiqa ro‘yxatini tanlab bo‘lmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d ta musiqalar ro‘yxati o‘chirib tashlansinmi?</item>
+        <item quantity="one">1 ta ijro ro‘yxati o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d trek</item>
+        <item quantity="one">1 trek</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">Faqat %d ta trek Tanlanganlarga qo‘shildi. Qolganlari Tanlanganlarda oldindan mavjud edi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Faqat %d ta trek Tanlanganlarga qo‘shildi. Qolganlari Tanlanganlarda oldindan mavjud edi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">%dta trek tanlanganlarga qo‘shildi</item>
+        <item quantity="one">1ta trek tanlanganlarga qo‘shildi</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">%dta trek musiqalar ro‘yxatiga qo‘shildi.</item>
+        <item quantity="one">1ta trek musiqalar ro‘yxatiga qo‘shildi</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d ta trek navbatga qo‘shildi.</item>
+        <item quantity="one">%d ta trek navbatga qo‘yildi.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d ta trek o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta trek o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Uxlash vaqti: %d soat</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uxlash vaqti: %d soat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Uxlash vaqti: %d daqiqa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uxlash vaqti: %d daqiqa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

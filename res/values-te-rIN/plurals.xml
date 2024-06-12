@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ఆల్బమ్లు</item>
+        <item quantity="one">%d ఆల్బమ్</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">ఆల్బమ్‌లు</item>
+        <item quantity="one">ఆల్బమ్</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ట్రాక్‌లు</item>
+        <item quantity="one">ట్రాక్</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ట్రాక్‌లు</item>
+        <item quantity="one">%d ట్రాక్</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d సెకన్లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">%d రోజుల పాటు చూపవద్దు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d రోజు పాటు చూపవద్దు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$sను %2$d సార్లు ఉపయోగించగలరు.</item>
+        <item quantity="one">మీరు %sను 1 సారి ఉపయోగించవచ్చు.</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">గడువు ముగిసిన %d ట్రాక్‌లు తొలగించబడతాయి. మీరు మీ డౌన్‌లోడ్ చరిత్రను Melon సమాచారం > కొనుగోలు చరిత్రలో తనిఖీ చేయవచ్చు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">గడువు ముగిసిన %d ట్రాక్ తొలగించబడుతుంది. మీరు మీ డౌన్‌లోడ్ చరిత్రను Melon సమాచారం > కొనుగోలు చరిత్రలో తనిఖీ చేయవచ్చు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">%d ట్రాక్‌ల కోసం DCF వ్యవధిని పొడిగించడం సాధ్యం కాదు. మీరు మళ్లీ ప్రయత్నించవచ్చు లేదా దిగువ ఉన్న జాబితా నుండి ఫైల్‌లు మళ్లీ డౌన్‌లోడ్ అవ్వక ముందు తొలగించవచ్చు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ట్రాక్ కోసం DCF వ్యవధిని పొడిగించడం సాధ్యం కాదు. మీరు మళ్లీ ప్రయత్నించవచ్చు లేదా దిగువ ఉన్న జాబితా నుండి ఫైల్‌లు మళ్లీ డౌన్‌లోడ్ అవ్వక ముందు తొలగించవచ్చు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">%d కంటే ఎక్కువ అంశాలను దిగుమతి చేయలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అంశాన్ని దిగుమతి చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">%d పాటలను డౌన్‌లోడ్ చేయడానికి వేచి ఉంది…</item>
+        <item quantity="one">1 పాటని డౌన్‌లోడ్ చేయడానికి వేచి ఉంది…</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">మీ ఫోన్ నుండి %d ఆల్బమ్‌లను మరియు వీటిలోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">మీ ఫోన్ నుండి 1 ఆల్బమ్‌ను మరియు ఇందులోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">ఈ కళాకారుల యొక్క అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">ఈ కళాకారుడి యొక్క అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">ఈ కంపోజర్‌ల యొక్క అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">ఈ కంపోజర్ యొక్క అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d ఫోల్డర్లు</item>
+        <item quantity="one">1 ఫోల్డర్</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">మీ ఫోన్ నుండి %d ఫోల్డర్‌లను మరియు వీటిలోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">మీ ఫోన్ నుండి 1 ఫోల్డర్‌ను మరియు ఇందులోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">ఈ శైలుల్లోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">ఈ శైలిలోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d దాచిన ఫోల్డర్‌లు కూడా తొలగించబడతాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d దాచిన ఫోల్డర్ కూడా తొలగించబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">%d అంశాలను తొలగించాలా?</item>
+        <item quantity="one">1 అంశాన్ని తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">%d కంటే ఎక్కువ అక్షరాలను నమోదు చేయలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అక్షరాన్ని నమోదు చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">%d కంటే ఎక్కువ ఆల్బమ్‌లను జోడించారు. తక్కువ ఆల్బమ్‌లను జోడించండి లేదా ఇష్టమైనవాటి నుండి కొన్నింటిని తీసివేయండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ ఆల్బమ్‌ను జోడించారు. తక్కువ ఆల్బమ్‌లను జోడించండి లేదా ఇష్టమైనవాటి నుండి కొన్నింటిని తీసివేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">%d కంటే ఎక్కువ కళాకారులను జోడించారు. తక్కువ కళాకారులను జోడించండి లేదా ఇష్టమైనవాటి నుండి కొన్నింటిని తీసివేయండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ కళాకారుని జోడించారు. తక్కువ కళాకారులను జోడించండి లేదా ఇష్టమైనవాటి నుండి కొన్నింటిని తీసివేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">మీరు గరిష్టంగా %d ప్లేజాబితాలను మాత్రమే జోడించగలరు. ఇష్టాల ట్యాబ్ నుండి కొన్ని ప్లేజాబితాలను తీసివేయండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీరు గరిష్టంగా %d ప్లేజాబితాను మాత్రమే జోడించగలరు. ఇష్టాల ట్యాబ్ నుండి కొన్ని ప్లేజాబితాలను తీసివేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">%d కంటే ఎక్కువ ప్రసారం అవుతున్న ట్రాక్‌లను జోడించలేరు. తక్కువ ట్రాక్‌లను జోడించండి లేదా ఇష్టమైనవాటి నుండి కొన్నింటిని తీసివేయండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ ప్రసారం అవుతున్న ట్రాక్‌ను జోడించలేరు. తక్కువ ట్రాక్‌లను జోడించండి లేదా ఇష్టమైనవాటి నుండి కొన్నింటిని తీసివేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">%d కంటే ఎక్కువ ట్రాక్‌లను జోడించలేరు. తక్కువ ట్రాక్‌లను జోడించండి లేదా ఇష్టమైనవాటి నుండి కొన్నింటిని తీసివేయండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ ట్రాక్‌ను జోడించలేరు. తక్కువ ట్రాక్‌లను జోడించండి లేదా ఇష్టమైనవాటి నుండి కొన్నింటిని తీసివేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">%d ప్లేజాబితాలు ఎగుమతి చేయబడ్డాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ప్లేజాబితా ఎగుమతి చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">%d ప్లేజాబితాలు దిగుమతి చేయబడ్డాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ప్లేజాబితా దిగుమతి చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">%d కంటే ఎక్కువ ప్లేజాబితాలను ఎంచుకోలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ ప్లేజాబితాని ఎంచుకోలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d ప్లేజాబితాలను తొలగించాలా?</item>
+        <item quantity="one">1 ప్లేజాబితాను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d ట్రాక్‌లు</item>
+        <item quantity="one">1 ట్రాక్‌</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">ఇష్టాలకు %d ట్రాక్‌లు మాత్రమే జోడించబడ్డాయి. మిగిలినవి ఇప్పటికే ఇష్టాలలో ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇష్టాలకు %d ట్రాక్ మాత్రమే జోడించబడింది. మిగిలినవి ఇప్పటికే ఇష్టాలలో ఉన్నాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">%d ట్రాక్‌లు ఇష్టమైనవాటికి జోడించబడ్డాయి.</item>
+        <item quantity="one">1 ట్రాక్ ఇష్టమైనవాటికి జోడించబడింది.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">%d ట్రాక్‌లు ప్లేజాబితాకు జోడించబడ్డాయి.</item>
+        <item quantity="one">1 ట్రాక్ ప్లేజాబితాకు జోడించబడింది.</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d ట్రాక్‌లు వరుసకు జోడించబడ్డాయి.</item>
+        <item quantity="one">వరుసక్రమానికి %d ట్రాక్ జోడించబడింది.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ట్రాక్‌ను తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">నిద్ర సమయం: %d గంటలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">నిద్ర సమయం: %d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">నిద్ర సమయం: %d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">నిద్ర సమయం: %d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/video_play_control"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/video_title_container"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/music_video_player_controls_text_container_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@id/video_close"
+            android:padding="@dimen/music_video_player_controls_button_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/music_video_player_controls_title_margin_right"
+            android:src="@drawable/video_ic_close"
+            android:contentDescription="@string/tts_close"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:textSize="@dimen/music_video_player_controls_title_text_size"
+            android:textColor="#fffafafa"
+            android:ellipsize="marquee"
+            android:id="@id/video_title_bar"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/music_video_player_controls_title_margin_left"
+            android:layout_marginRight="@dimen/music_video_player_controls_title_margin_right"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/video_close"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@id/rotation_button"
+        android:padding="@dimen/music_video_player_controls_button_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/music_video_player_controls_title_margin_right"
+        android:layout_marginRight="@dimen/music_video_player_controls_title_margin_right"
+        android:src="@drawable/video_ic_rotate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/video_title_container" />
+    <ImageView
+        android:id="@id/play_pause_btn"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/video_player_play_pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/video_seek_bar_container"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/music_video_player_controls_seek_container_height"
+        android:layout_marginBottom="@dimen/music_video_player_controls_seek_container_bottom_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <include
+            android:id="@id/video_seek_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/music_video_player_controls_seek_height"
+            android:layout_marginLeft="@dimen/music_video_player_controls_seek_margin_left_right"
+            android:layout_marginRight="@dimen/music_video_player_controls_seek_margin_left_right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            layout="@layout/full_player_seekbar" />
+        <TextView
+            android:textSize="@dimen/music_video_player_controls_time_text_size"
+            android:textColor="#fffafafa"
+            android:id="@id/current_time"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/music_video_player_controls_time_height"
+            android:layout_marginLeft="@dimen/music_video_player_controls_time_margin"
+            android:text="0:00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <TextView
+            android:textSize="@dimen/music_video_player_controls_time_text_size"
+            android:textColor="#fffafafa"
+            android:id="@id/end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/music_video_player_controls_time_height"
+            android:layout_marginRight="@dimen/music_video_player_controls_time_margin"
+            android:text="--:--"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.SeslProgressBar
+        android:id="@id/loading_progress_bar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="?android:progressBarStyleLarge" />
+</androidx.constraintlayout.widget.ConstraintLayout>

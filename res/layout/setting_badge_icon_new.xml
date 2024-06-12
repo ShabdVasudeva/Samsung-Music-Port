@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/badge_layout"
+    android:layout_width="@dimen/action_bar_main_badge_width"
+    android:layout_height="@dimen/action_bar_main_badge_width"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/badge"
+        android:background="@drawable/tw_noti_badge_mtrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/action_bar_badge_bg_color" />
+    <TextView
+        android:textSize="@dimen/action_bar_badge_text_size"
+        android:textColor="@color/basics_icon_white"
+        android:gravity="center"
+        android:id="@id/badge_text"
+        android:layout_width="@dimen/action_bar_main_badge_width"
+        android:layout_height="@dimen/action_bar_main_badge_height"
+        android:text="@string/new_badge"
+        android:contentDescription="@string/new_badge_talkback" />
+</FrameLayout>

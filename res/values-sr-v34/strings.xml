@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_desc_call_phone">Користе се за верификацију броја телефона за услугу Melon</string>
+    <string name="rename">Преименуј</string>
+</resources>

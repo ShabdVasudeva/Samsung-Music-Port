@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:id="@id/controller_root"
+    android:tag="layout-sw500dp/full_player_0"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:defaultFocusHighlightEnabled="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/background_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.samsung.android.app.musiclibrary.ui.widget.TransitionView
+        android:id="@id/background_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/player_toolbar"
+        app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_fit_start"
+        app:layout_constraintTop_toTopOf="@id/guideline_fit_top"
+        style="@style/Toolbar" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/queue_toolbar"
+        android:alpha="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideline_fit_start"
+        app:layout_constraintTop_toTopOf="@id/guideline_fit_top"
+        app:layout_constraintWidth_percent="@dimen/full_player_center_guideline_bias"
+        style="@style/Toolbar" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/album_top_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="@dimen/full_player_top_margin_percent" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/album_top_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="album_top_guideline,player_toolbar" />
+    <android.widget.Space
+        android:id="@id/full_player_album_start_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/full_player_center_guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+    <android.widget.Space
+        android:id="@id/full_player_album_end_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        app:layout_constraintTop_toTopOf="parent" />
+    <include
+        layout="@layout/full_player_album" />
+    <android.widget.Space
+        android:id="@id/full_player_controller_start"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/full_player_bottom_margin"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toEndOf="@id/full_player_center_guideline"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        app:layout_constraintWidth_percent="@dimen/full_player_margin_width_weight" />
+    <android.widget.Space
+        android:id="@id/full_player_controller_end"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/full_player_bottom_margin"
+        app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        app:layout_constraintWidth_percent="@dimen/full_player_margin_width_weight" />
+    <include
+        layout="@layout/full_player_controller" />
+    <android.widget.Space
+        android:id="@id/full_player_bottom_margin"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/guideline_fit_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="@dimen/full_player_bottom_margin_percent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <android.widget.Space
+        android:id="@id/title_guideline"
+        android:tag="binding_1"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/favorite_button"
+        app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        app:layout_constraintStart_toEndOf="@id/full_player_center_guideline"
+        app:layout_constraintTop_toBottomOf="@id/gesture_view" />
+    <android.widget.Space
+        android:id="@id/title_top_margin"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/title"
+        app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        app:layout_constraintHeight_percent="@dimen/full_player_title_margin_top_percent"
+        app:layout_constraintStart_toEndOf="@id/full_player_center_guideline"
+        app:layout_constraintTop_toTopOf="@id/title_guideline"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_chainStyle="packed" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/title_top_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="title_top_margin,player_toolbar" />
+    <include
+        android:id="@id/adult"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/full_player_adult_icon_space"
+        app:layout_constraintBottom_toBottomOf="@id/title"
+        app:layout_constraintEnd_toStartOf="@id/title"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@id/title_guideline"
+        app:layout_constraintTop_toTopOf="@id/title"
+        layout="@layout/full_player_adult_icon" />
+    <include
+        android:id="@id/title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/artist"
+        app:layout_constraintEnd_toEndOf="@id/title_guideline"
+        app:layout_constraintStart_toEndOf="@id/adult"
+        app:layout_constraintTop_toBottomOf="@id/title_top_margin"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_goneMarginTop="0.0dip"
+        layout="@layout/full_player_title" />
+    <include
+        android:id="@id/artist"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/full_player_artist_margin_top"
+        app:layout_constraintBottom_toBottomOf="@id/title_guideline"
+        app:layout_constraintEnd_toEndOf="@id/title_guideline"
+        app:layout_constraintStart_toStartOf="@id/title_guideline"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintWidth_default="wrap"
+        layout="@layout/full_player_artist" />
+    <android.widget.Space
+        android:id="@id/full_player_center_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideline_fit_start"
+        app:layout_constraintTop_toTopOf="parent" />
+    <include
+        android:id="@id/now_playing_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_fit_bottom"
+        app:layout_constraintEnd_toEndOf="@id/full_player_center_guideline"
+        app:layout_constraintTop_toBottomOf="@id/player_toolbar"
+        app:layout_constraintWidth_percent="@dimen/full_player_center_guideline_bias"
+        layout="@layout/full_player_queue" />
+    <include
+        android:id="@id/lyric_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/seek_bar"
+        app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        app:layout_constraintStart_toEndOf="@id/full_player_center_guideline"
+        app:layout_constraintTop_toTopOf="@id/guideline_fit_top"
+        layout="@layout/lyrics_panel_common" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_top"
+        style="@style/Guideline.Fit.Top" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_start"
+        style="@style/Guideline.Fit.Start" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_end"
+        style="@style/Guideline.Fit.End" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_bottom"
+        style="@style/Guideline.Fit.Bottom" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

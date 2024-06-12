@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/widget_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/widget_background_default"
+        android:alpha="0.0" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingStart="@dimen/app_widget_land_container_space"
+        android:paddingEnd="@dimen/app_widget_land_container_space">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="@dimen/app_widget_land_container_left_ratio">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/album_root"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:id="@id/album_top_space"
+                    android:layout_width="1.0dip"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="@dimen/app_widget_land_album_vertical_space_ratio" />
+                <ImageView
+                    android:gravity="bottom"
+                    android:id="@id/album_art"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0.0dip"
+                    android:src="@drawable/widget_land_album_cover_default"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="@dimen/app_widget_land_album_ratio"
+                    android:contentDescription="@string/tts_go_to_music" />
+                <TextView
+                    android:id="@id/album_bottom_space"
+                    android:layout_width="1.0dip"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="@dimen/app_widget_land_album_vertical_space_ratio" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@id/content_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginStart="@dimen/app_widget_land_text_space"
+                android:layout_marginEnd="@dimen/app_widget_land_text_space">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@id/text_adult"
+                        android:layout_marginEnd="@dimen/app_widget_adult_icon_padding_end"
+                        style="@style/ListItem.Status.Adult" />
+                    <TextView
+                        android:id="@id/title"
+                        style="@style/AppWidget.Title.Shadow" />
+                </LinearLayout>
+                <TextView
+                    android:id="@id/artist"
+                    style="@style/AppWidget.Artist.Shadow" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="@dimen/app_widget_land_container_right_ratio"
+            android:layoutDirection="ltr"
+            android:layout_marginStart="@dimen/app_widget_land_control_space">
+            <ImageButton
+                android:id="@id/shuffle_btn"
+                android:src="@drawable/ic_widget_shuffle_on_dark_shadow"
+                style="@style/AppWidget.ImageButton.Small" />
+            <TextView
+                android:id="@id/button_space_1"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+            <ImageButton
+                android:id="@id/prev_btn"
+                android:src="@drawable/ic_widget_back_dark_shadow"
+                android:contentDescription="@string/tts_previous"
+                style="@style/AppWidget.ImageButton" />
+            <TextView
+                android:id="@id/button_space_2"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+            <ImageButton
+                android:id="@id/play_pause_btn"
+                android:src="@drawable/ic_widget_play_dark_shadow"
+                style="@style/AppWidget.ImageButton" />
+            <TextView
+                android:id="@id/button_space_3"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+            <ImageButton
+                android:id="@id/next_btn"
+                android:src="@drawable/ic_widget_forward_dark_shadow"
+                android:contentDescription="@string/tts_next"
+                style="@style/AppWidget.ImageButton" />
+            <TextView
+                android:id="@id/button_space_4"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+            <ImageButton
+                android:id="@id/repeat_btn"
+                android:src="@drawable/ic_widget_repeat_off_dark_shadow"
+                android:layout_marginEnd="@dimen/app_widget_land_control_space"
+                style="@style/AppWidget.ImageButton.Small" />
+            <ImageButton
+                android:layout_gravity="top"
+                android:id="@id/setting_btn"
+                android:visibility="gone"
+                android:layout_width="@dimen/app_widget_land_icon_setting"
+                android:layout_height="@dimen/app_widget_land_icon_setting"
+                android:src="@drawable/ic_widget_setting_dark_shadow"
+                android:contentDescription="@string/settings"
+                style="@style/AppWidget.ImageButton" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

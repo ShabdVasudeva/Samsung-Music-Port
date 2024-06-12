@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/coordinator_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiAppBarLayout
+            android:id="@id/app_bar_layout"
+            style="@style/AppbarLayout.UseCustom">
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiCollapsingToolbarLayout
+                android:id="@id/collapsing_toolbar_layout"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed|noScrollHold"
+                app:overlap="true"
+                style="@style/CollapsingToolbarLayout.UseCustom">
+                <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16.0dip"
+                    android:paddingStart="@dimen/album_detail_album_info_padding_horizontal_kt"
+                    android:paddingEnd="@dimen/album_detail_album_info_padding_horizontal_kt"
+                    app:clipIds="thumbnail, thumbnail_stroke"
+                    app:layout_collapseMode="parallax"
+                    app:layout_collapseParallaxMultiplier="0.5">
+                    <View
+                        android:id="@id/thumbnail_stroke"
+                        style="@style/InfoView.ThumbnailStroke" />
+                    <ImageView
+                        android:id="@id/thumbnail"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        style="@style/InfoView.Thumbnail" />
+                    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+                        android:id="@id/title"
+                        android:layout_marginTop="12.0dip"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/thumbnail"
+                        style="@style/Spotify.Details.InfoView.Title" />
+                    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+                        android:id="@id/desc"
+                        android:visibility="gone"
+                        android:layout_marginTop="2.0dip"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/title"
+                        style="@style/Spotify.Details.InfoView.Desc" />
+                    <include
+                        android:id="@id/spotify_install_button"
+                        android:layout_width="180.0dip"
+                        android:layout_height="@dimen/mu_list_header_icon_size"
+                        android:layout_marginTop="10.0dip"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/desc"
+                        layout="@layout/spotify_button_install" />
+                </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+            </com.samsung.android.app.musiclibrary.ui.widget.OneUiCollapsingToolbarLayout>
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiAppBarLayout>
+        <include
+            android:id="@id/listContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            layout="@layout/basics_list_container" />
+        <include
+            android:id="@id/progressContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            layout="@layout/basics_progress_container" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout
+        android:id="@id/no_network_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_fit_top"
+        style="@style/Toolbar" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/guideline_fit_top"
+        style="@style/Guideline.Fit.Top" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

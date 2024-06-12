@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.music.melon.list.home.BannerLayout
+    android:id="@id/root"
+    android:layout_width="280.0dip"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:background="@color/popup_bg"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:layout_constraintBottom_toBottomOf="@id/banner_img"
+            app:layout_constraintEnd_toEndOf="@id/banner_img"
+            app:layout_constraintStart_toStartOf="@id/banner_img"
+            app:layout_constraintTop_toTopOf="@id/banner_img" />
+        <View
+            android:background="@drawable/music_ic_music"
+            android:layout_width="88.0dip"
+            android:layout_height="88.0dip"
+            android:scaleType="center"
+            app:layout_constraintBottom_toBottomOf="@id/banner_img"
+            app:layout_constraintEnd_toEndOf="@id/banner_img"
+            app:layout_constraintStart_toStartOf="@id/banner_img"
+            app:layout_constraintTop_toTopOf="@id/banner_img" />
+        <ImageView
+            android:id="@id/banner_img"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/promotional_banner"
+            app:layout_constraintDimensionRatio="h, 1:1.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginStart="15.0dip"
+            android:layout_marginEnd="16.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/banner_img"
+            app:layout_constraintStart_toStartOf="@id/banner_img"
+            app:layout_constraintTop_toBottomOf="@id/banner_img">
+            <CheckBox
+                android:id="@id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:buttonTint="@color/basics_primary_209_4_7" />
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+                android:textSize="14.0sp"
+                android:textColor="@color/basics_text_main"
+                android:ellipsize="end"
+                android:gravity="start|center"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:text="@string/do_not_show_again"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:layout_marginStart="13.0dip"
+                app:maxFontLevel="large"
+                style="@style/Font.NewSEC.400" />
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+                android:textSize="17.0sp"
+                android:textColor="@color/basics_primary_dark_209_4_4"
+                android:gravity="end|center"
+                android:id="@id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/tts_close"
+                android:maxLines="1"
+                android:textAllCaps="true"
+                app:maxFontLevel="large"
+                style="@style/Font.NewSEC.600" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.samsung.android.app.music.melon.list.home.BannerLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d آلبوم</item>
+        <item quantity="one">%d آلبوم</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">آلبوم ها</item>
+        <item quantity="one">آلبوم</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">آهنگ</item>
+        <item quantity="one">آهنگ</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ترانه</item>
+        <item quantity="one">%d آهنگ</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d ثانیه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">%d روز نشان داده نشود</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d روز نشان داده نشود</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">از %1$s %2$d بار دیگر می‌توانید استفاده کنید.</item>
+        <item quantity="one">از %s فقط 1 بار می‌توانید استفاده کنید.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d ثانیه سریع به‌جلو بردن</item>
+        <item quantity="one">%d ثانیه سریع به‌جلو بردن</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d ثانیه به‌عقب بردن</item>
+        <item quantity="one">%d ثانیه به‌عقب بردن</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">%d آهنگ منقضی حذف خواهد شد. شما می‌توانید تاریخچه دانلود خود را در اطلاعات Melon > تاریخچه خرید بررسی کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d آهنگ منقضی حذف خواهد شد. شما می‌توانید تاریخچه دانلود خود را در اطلاعات Melon > تاریخچه خرید بررسی کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">مدت زمان DCF برای %d آهنگ تمدید نشد. می‌توانید دوباره امتحان کنید، یا قبل از اینکه دوباره فایل‌ها را دانلود کنید آنها را از لیست زیر حذف نمایید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">مدت زمان DCF برای %d آهنگ تمدید نشد. می‌توانید دوباره امتحان کنید، یا قبل از اینکه دوباره فایل‌ها را دانلود کنید آنها را از لیست زیر حذف نمایید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">وارد کردن بیشتر از %d مورد ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وارد کردن بیشتر از %d مورد ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">در انتظار دانلود %d آهنگ…</item>
+        <item quantity="one">در انتظار برای دانلود ۱ آهنگ…</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d اعلان جدید</item>
+        <item quantity="one">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d آلبوم و همه آهنگ‌های موجود در آن‌ها از تلفن حذف شود؟</item>
+        <item quantity="one">۱ آلبوم و همه آهنگ‌های موجود در آن از تلفن حذف شود؟</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">همه آهنگ‌های این خوانندگان حذف شوند؟</item>
+        <item quantity="one">همه آهنگ‌های این خواننده حذف شود؟</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">همه آهنگ‌های این آهنگ‌سازان حذف شوند؟</item>
+        <item quantity="one">همه آهنگ‌های این آهنگ‌ساز حذف شود؟</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d پوشه</item>
+        <item quantity="one">١ پوشه</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d پوشه و همه آهنگ‌های موجود در آن‌ها از تلفن حذف شود؟</item>
+        <item quantity="one">۱ پوشه و همه آهنگ‌های موجود در آن از تلفن حذف شود؟</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">همه آهنگ‌های این سبک‌ها حذف شود؟</item>
+        <item quantity="one">همه آهنگ‌های این سبک حذف شود؟</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d پوشه مخفی نیز حذف خواهند شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پوشه مخفی نیز حذف خواهد شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">%d مورد حذف شود؟</item>
+        <item quantity="one">۱ مورد حذف شود؟</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">افزودن بیش از %d آلبوم ممکن نیست. تعداد آلبوم‌های کمتری اضافه کنید یا چند مورد از ”موارد دلخواه“ را حذف کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">افزودن بیش از %d آلبوم ممکن نیست. تعداد آلبوم‌های کمتری اضافه کنید یا چند مورد از ”موارد دلخواه“ را حذف کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">افزودن بیش از %d هنرمند ممکن نیست. تعداد هنرمندان کمتری اضافه کنید یا چند مورد از ”موارد دلخواه“ را حذف کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">افزودن بیش از %d هنرمند ممکن نیست. تعداد هنرمندان کمتری اضافه کنید یا چند مورد از ”موارد دلخواه“ را حذف کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">حداکثر %d لیست پخش می‌توانید اضافه کنید. چند لیست پخش را از زبانه موارد دلخواه حذف کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">حداکثر %d لیست پخش می‌توانید اضافه کنید. چند لیست پخش را از زبانه موارد دلخواه حذف کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">افزودن بیش از %d آهنگ جریانی ممکن نیست. تعداد آهنگ کمتری اضافه کنید یا چند مورد از ”آهنگ‌های دلخواه“ را حذف کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">افزودن بیش از %d آهنگ جریانی ممکن نیست. تعداد آهنگ کمتری اضافه کنید یا چند مورد از ”آهنگ‌های دلخواه“ را حذف کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">افزودن بیش از %d آهنگ ممکن نیست. تعداد آهنگ کمتری اضافه کنید یا چند مورد از ”آهنگ‌های دلخواه“ را حذف کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">افزودن بیش از %d آهنگ ممکن نیست. تعداد آهنگ کمتری اضافه کنید یا چند مورد از ”آهنگ‌های دلخواه“ را حذف کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">%d لیست پخش صادر شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d لیست پخش صادر شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">%d لیست پخش وارد شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d لیست پخش وارد شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">انتخاب بیشتر از %d لیست پخش ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">انتخاب بیشتر از %d لیست پخش ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d لیست پخش حذف شود؟</item>
+        <item quantity="one">۱ لیست پخش حذف شود؟</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d ترانه</item>
+        <item quantity="one">1 تراک</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">فقط %d آهنگ به ”موارد دلخواه“ شما اضافه شد. بقیه آهنگ‌ها از قبل در ”موارد دلخواه“ بود.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">فقط %d آهنگ به ”موارد دلخواه“ شما اضافه شد. بقیه آهنگ‌ها از قبل در ”موارد دلخواه“ بود.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">%d آهنگ به موارد دلخواه اضافه شد.</item>
+        <item quantity="one">۱ آهنگ به موارد دلخواه اضافه شد</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">%d تراک به لیست پخش اضافه شد.</item>
+        <item quantity="one">1 تراک به لیست پخش اضافه شد</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d آهنگ به صف اضافه شد.</item>
+        <item quantity="one">%d آهنگ به صف اضافه شد.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d آهنگ حذف شود؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d آهنگ حذف شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">زمان خواب: %d ساعت</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">زمان خواب: %d ساعت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">زمان خواب: %d دقیقه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">زمان خواب: %d دقیقه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

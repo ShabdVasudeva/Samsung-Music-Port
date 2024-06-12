@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiRecyclerView
+        android:id="@id/recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:chunkingBackground="true" />
+    <ViewStub
+        android:id="@id/empty_view_stub"
+        android:layout="@layout/default_empty_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <include
+        layout="@layout/list_loading_container" />
+</FrameLayout>

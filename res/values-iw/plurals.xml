@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d אלבומים</item>
+        <item quantity="one">%d אלבום</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">אלבומים</item>
+        <item quantity="one">אלבום</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">שירים</item>
+        <item quantity="one">רצועה</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d שירים</item>
+        <item quantity="one">%d שירים</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d שניות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d שנייה</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שניות</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">אל תציג למשך %d ימים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אל תציג למשך %d יום</item>
+        <item quantity="two">אל תציג למשך %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">אל תציג למשך %d ימים</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">באפשרותך להשתמש ב-%1$s ‏%2$d פעמים.</item>
+        <item quantity="one">באפשרותך להשתמש ב-%s פעם אחת.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">הרצה %d שניות קדימה</item>
+        <item quantity="one">הרצה שנייה אחת (%d) קדימה</item>
+        <item quantity="two">הרצה %d שניות קדימה</item>
+        <item quantity="many">הרצה %d שניות קדימה</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">הרצה %d שניות אחורה</item>
+        <item quantity="one">הרצה שנייה אחת (%d) אחורה</item>
+        <item quantity="two">הרצה %d שניות אחורה</item>
+        <item quantity="many">הרצה %d שניות אחורה</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">"%d רצועות שתוקפן פג יימחקו. תוכל לבדוק את היסטוריית ההורדות שלך במידע של Melon > 'היסטוריית רכישות'."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d רצועה שתוקפה פג תימחק. תוכל לבדוק את היסטוריית ההורדות שלך במידע של Melon > 'היסטוריית רכישות'."</item>
+        <item quantity="two">"%d רצועות שתוקפן פג יימחקו. תוכל לבדוק את היסטוריית ההורדות שלך במידע של Melon > 'היסטוריית רכישות'."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%d רצועות שתוקפן פג יימחקו. תוכל לבדוק את היסטוריית ההורדות שלך במידע של Melon > 'היסטוריית רכישות'."</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">לא ניתן להאריך את תקופת ה-DCF עבור %d רצועות. תוכל לנסות שוב, או למחוק קבצים מן הרשימה הבאה לפני שאתה מוריד אותם מחדש.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להאריך את תקופת ה-DCF עבור רצועה %d. תוכל לנסות שוב, או למחוק קבצים מן הרשימה הבאה לפני שאתה מוריד אותם מחדש.</item>
+        <item quantity="two">לא ניתן להאריך את תקופת ה-DCF עבור %d רצועות. תוכל לנסות שוב, או למחוק קבצים מן הרשימה הבאה לפני שאתה מוריד אותם מחדש.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להאריך את תקופת ה-DCF עבור %d רצועות. תוכל לנסות שוב, או למחוק קבצים מן הרשימה הבאה לפני שאתה מוריד אותם מחדש.</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">לא ניתן לייבא יותר מ-%d פריטים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן לייבא יותר מ-%d פריט.</item>
+        <item quantity="two">לא ניתן לייבא יותר מ-%d פריטים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן לייבא יותר מ-%d פריטים.</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">ממתין להורדה של %d שירים…</item>
+        <item quantity="one">ממתין להורדה של שיר אחד…</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">התראה חדשה אחת (%d)</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">האם למחוק מהטלפון שלך %d אלבומים ואת כל הרצועות שהם מכילים?</item>
+        <item quantity="one">האם למחוק מהטלפון שלך אלבום אחד ואת כל הרצועת שיש בו?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">למחוק את כל הרצועות מאת אמנים אלה?</item>
+        <item quantity="one">למחוק את כל הרצועות מאת אמן זה?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">למחוק את כל הרצועות מאת מלחינים אלה?</item>
+        <item quantity="one">למחוק את כל הרצועות מאת מלחין זה?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d תיקיות</item>
+        <item quantity="one">תיקייה אחת</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">האם למחוק מהטלפון שלך %d תיקיות ואת כל הרצועות שבתוכן?</item>
+        <item quantity="one">האם למחוק מהטלפון שלך תיקייה אחת ואת כל הרצועת שיש בה?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">למחוק את כל הרצועות בסגנונות אלה?</item>
+        <item quantity="one">למחוק את כל הרצועות מסגנון זה?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d תיקיות מוסתרות יימחקו אף הן.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d קובץ מוסתר יימחק אף הוא.</item>
+        <item quantity="two">%d קבצים מוסתרים יימחקו אף הם.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קבצים מוסתרים יימחקו אף הם.</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">למחוק %d פריטים?</item>
+        <item quantity="one">האם למחוק פריט אחד?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">לא ניתן להזין יותר מ-%d תווים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להזין יותר מ-%d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להזין יותר מ-%d תווים.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">לא ניתן להוסיף יותר מ-%d אלבומים‎‏‎. הוסף פחות אלבומים או הסר חלק מהם מן המועדפים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להוסיף יותר מאלבום %d. הוסף פחות אלבומים או הסר חלק מהם מן המועדפים.</item>
+        <item quantity="two">לא ניתן להוסיף יותר מ-%d אלבומים‎‏‎. הוסף פחות אלבומים או הסר חלק מהם מן המועדפים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להוסיף יותר מ-%d אלבומים‎‏‎. הוסף פחות אלבומים או הסר חלק מהם מן המועדפים.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">לא ניתן להוסיף יותר מ-%d אמנים. הוסף פחות אמנים או הסר חלק מהם מן המועדפים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להוסיף יותר מאמן %d‎‏‎. הוסף פחות אמנים או הסר חלק מהם מן המועדפים.</item>
+        <item quantity="two">לא ניתן להוסיף יותר מ-%d אמנים. הוסף פחות אמנים או הסר חלק מהם מן המועדפים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להוסיף יותר מ-%d אמנים. הוסף פחות אמנים או הסר חלק מהם מן המועדפים.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">"ניתן להוסיף לכל היותר %d רשימות השמעה. הסר רשימות השמעה אחדות מהכרטיסייה 'מועדפים'."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ניתן להוסיף רק %d רשימת השמעה. הסר רשימות השמעה אחדות מהכרטיסייה 'מועדפים'."</item>
+        <item quantity="two">"ניתן להוסיף לכל היותר %d רשימות השמעה. הסר רשימות השמעה אחדות מהכרטיסייה 'מועדפים'."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"ניתן להוסיף לכל היותר %d רשימות השמעה. הסר רשימות השמעה אחדות מהכרטיסייה 'מועדפים'."</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">לא ניתן להוסיף יותר מ-%d רצועות הזרמה‎‏‎. הוסף פחות רצועות או הסר חלק מהן מן הרצועות המועדפות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להוסיף יותר מרצועת הזרמה %d. הוסף פחות רצועות או הסר חלק מהן מן הרצועות המועדפות.</item>
+        <item quantity="two">לא ניתן להוסיף יותר מ-%d רצועות הזרמה‎‏‎. הוסף פחות רצועות או הסר חלק מהן מן הרצועות המועדפות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להוסיף יותר מ-%d רצועות הזרמה‎‏‎. הוסף פחות רצועות או הסר חלק מהן מן הרצועות המועדפות.</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">לא ניתן להוסיף יותר מ-%d רצועות‎‏‎. הוסף פחות רצועות או הסר חלק מהן מן הרצועות המועדפות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להוסיף יותר מרצועה %d. הוסף פחות רצועות או הסר חלק מהן מן הרצועות המועדפות.</item>
+        <item quantity="two">לא ניתן להוסיף יותר מ-%d רצועות‎‏‎. הוסף פחות רצועות או הסר חלק מהן מן הרצועות המועדפות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להוסיף יותר מ-%d רצועות‎‏‎. הוסף פחות רצועות או הסר חלק מהן מן הרצועות המועדפות.</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">בוצע יצוא של %d רשימות השמעה.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בוצע יצוא של %d רשימת השמעה.</item>
+        <item quantity="two">בוצע יצוא של %d רשימות השמעה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בוצע יצוא של %d רשימות השמעה.</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">בוצע יבוא של %d רשימות השמעה.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בוצע יצוא של %d רשימת השמעה.</item>
+        <item quantity="two">בוצע יבוא של %d רשימות השמעה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בוצע יבוא של %d רשימות השמעה.</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">ניתן לבחור לכל היותר %d רשימות השמעה.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן לבחור לכל היותר %d רשימת השמעה.</item>
+        <item quantity="two">ניתן לבחור לכל היותר %d רשימות השמעה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן לבחור לכל היותר %d רשימות השמעה.</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">למחוק %d רשימות השמעה?</item>
+        <item quantity="one">למחוק רשימת השמעה אחת?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d שירים</item>
+        <item quantity="one">שיר אחד</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">"%d רצועות בלבד נוספו ל'מועדפים'. שאר הרצועות כבר היו ב'מועדפים'."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"רצועה %d בלבד נוספה ל'מועדפים'. שאר הרצועות כבר היו ב'מועדפים'."</item>
+        <item quantity="two">"%d רצועות בלבד נוספו ל'מועדפים'. שאר הרצועות כבר היו ב'מועדפים'."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%d רצועות בלבד נוספו ל'מועדפים'. שאר הרצועות כבר היו ב'מועדפים'."</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">%d רצועות נוספו למועדפים</item>
+        <item quantity="one">1 רצועה נוספה למועדפים</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">%d רצועות נוספו לרשימת ההשמעה.</item>
+        <item quantity="one">רצועה אחת נוספה לרשימת ההשמעה</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d רצועות נוספו לתור.</item>
+        <item quantity="one">רצועה %d נוספה לתור.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">האם למחוק %d רצועות?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק %d רצועה?</item>
+        <item quantity="two">האם למחוק %d רצועות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d רצועות?</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">זמן שינה: %d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זמן שינה: שעה %d</item>
+        <item quantity="two">זמן שינה: %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זמן שינה: %d שעות</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">זמן שינה: %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זמן שינה: דקה %d</item>
+        <item quantity="two">זמן שינה: %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זמן שינה: %d דקות</item>
+    </plurals>
+</resources>

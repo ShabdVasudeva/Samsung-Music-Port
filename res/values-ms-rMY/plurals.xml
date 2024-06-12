@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Album</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Lagu</item>
+        <item quantity="one">Lagu</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d lagu</item>
+        <item quantity="one">%d lagu</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d saat</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">Jangan tunjukkan untuk %d hari</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Anda boleh guna %1$s %2$d kali.</item>
+        <item quantity="one">Anda boleh guna %s 1 kali.</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">%d lagu tamat tempoh akan dipadamkan. Anda boleh menyemak sejarah muat turun anda dalam Maklumat Melon > Sejarah pembelian.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">Tidak dapat melanjutkan tempoh DCF untuk %d lagu. Anda boleh mencuba lagi, atau memadamkan fail daripada senarai di bawah, kemudian muat turun semula lagu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">Tidak dapat mengimport lebih daripada %d item.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">Menunggu untuk memuat turun lagu %d…</item>
+        <item quantity="one">Menunggu untuk memuat turun 1 lagu…</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Padam %d album dan semua lagu dalamnya daripada telefon anda?</item>
+        <item quantity="one">Padam 1 album dan semua lagu dalamnya daripada telefon anda?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Padam semua lagu oleh artis ini?</item>
+        <item quantity="one">Padam semua lagu artis ini?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Padam semua lagu oleh komposer ini?</item>
+        <item quantity="one">Padam semua lagu oleh komposer ini?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d pelipat</item>
+        <item quantity="one">1 pelipat</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Padam %d pelipat dan semua lagu dalamnya daripada telefon anda?</item>
+        <item quantity="one">Padam 1 pelipat dan semua lagu dalamnya daripada telefon anda?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Padam semua lagu dalam aliran ini?</item>
+        <item quantity="one">Padam semua lagu aliran ini?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%d pelipat tersembunyi juga akan dipadamkan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Padamkan %d item?</item>
+        <item quantity="one">Padam 1 item?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">Tidak dapat memasukkan lebih daripada %d aksara.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">Tidak dapat menambahkan lebih daripada %d album. Kurangkan album atau alih keluar beberapa daripada Kegemaran.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">Tidak dapat menambahkan lebih daripada %d artis. Kurangkan artis atau alih keluar beberapa daripada Kegemaran.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">Anda hanya boleh menambahkan sehingga %d senarai main. Alih keluar beberapa senarai main daripada tab Kegemaran.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">Tidak dapat menambahkan lebih daripada %d lagu penstriman. Kurangkan lagu atau alih keluar beberapa daripada Lagu kegemaran.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">Tidak dapat menambahkan lebih daripada %d lagu. Kurangkan lagu atau alih keluar beberapa daripada Lagu kegemaran.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">%d senarai main dieksport.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">%d senarai main diimport.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">Tidak dapat memilih lebih daripada %d senarai main.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Padam %d senarai main?</item>
+        <item quantity="one">Padam 1 senarai main?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d lagu</item>
+        <item quantity="one">1 lagu</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">Hanya %d lagu ditambahkan kepada Kegemaran. Sesetengah lagu sudah berada dalam Kegemaran.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">%d lagu ditambah pada kegemaran</item>
+        <item quantity="one">1 lagu ditambah pada kegemaran</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">%d lagu ditambah pada senarai main.</item>
+        <item quantity="one">1 lagu ditambah pada senarai main</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d lagu ditambah pada baris giliran.</item>
+        <item quantity="one">%d lagu ditambah pada giliran.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Padam %d lagu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Masa tidur: %d jam</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Masa tidur: %d minit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

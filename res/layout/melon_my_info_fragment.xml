@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:id="@id/guideline_fit_start"
+        app:flexible_guide="begin"
+        style="@style/Guideline.Fit.Start" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:id="@id/guideline_fit_top"
+        style="@style/Guideline.Fit.Top" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:id="@id/guideline_fit_end"
+        app:flexible_guide="end"
+        style="@style/Guideline.Fit.End" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:id="@id/guideline_fit_bottom"
+        style="@style/Guideline.Fit.Bottom" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiRecyclerView
+        android:id="@id/recycler_view"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:chunkingBackground="true"
+        app:fillBottom="true"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_fit_bottom"
+        app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_fit_start"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:roundCorner="all" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_fit_start"
+        app:layout_constraintTop_toTopOf="@id/guideline_fit_top"
+        style="@style/Toolbar" />
+    <TextView
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="end"
+        android:id="@id/melon_api_info_for_debug"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_fit_bottom"
+        app:layout_constraintEnd_toEndOf="@id/guideline_fit_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_fit_start"
+        style="@style/Font.NewSEC.400" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

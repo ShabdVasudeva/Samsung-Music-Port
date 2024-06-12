@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:tag="layout/set_as_activity_0"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/meta_edit_toolbar_frame_height"
+        android:layout_marginBottom="@dimen/meta_edit_toolbar_frame_margin_bottom"
+        bind:layout_constraintEnd_toEndOf="parent"
+        bind:layout_constraintStart_toStartOf="parent"
+        bind:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/toolbar"
+            android:layout_width="fill_parent"
+            bind:layout_constraintEnd_toEndOf="parent"
+            bind:layout_constraintStart_toStartOf="parent"
+            bind:layout_constraintTop_toTopOf="parent"
+            style="@style/Toolbar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:id="@id/content"
+        android:tag="binding_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/meta_edit_toolbar_frame_height"
+        android:layout_marginBottom="@dimen/winset_bottom_bar_height"
+        android:fillViewport="true"
+        bind:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        bind:layout_constraintEnd_toEndOf="parent"
+        bind:layout_constraintStart_toStartOf="parent"
+        bind:layout_constraintTop_toBottomOf="@id/toolbar">
+        <include
+            android:id="@id/set_as_container"
+            layout="@layout/set_as_item_container" />
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_gravity="bottom"
+        android:id="@id/bottom_navigation"
+        android:tag="binding_2"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/winset_bottom_bar_height"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintEnd_toEndOf="parent"
+        bind:layout_constraintStart_toStartOf="parent"
+        bind:menu="@menu/set_as"
+        style="@style/BottomBarStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

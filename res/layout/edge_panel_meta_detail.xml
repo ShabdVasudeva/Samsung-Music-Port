@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/edge_panel_help_text_size"
+        android:textColor="@color/edge_panel_detail_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edge_panel_help_now_playing_margin_top"
+        android:layout_marginBottom="@dimen/edge_panel_help_now_playing_margin_bottom"
+        android:text="@string/now_playing"
+        style="@style/Font.NewSEC.400" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/edge_panel_divider"
+        android:src="@color/edge_panel_divider" />
+    <LinearLayout
+        android:gravity="top"
+        android:id="@id/edge_artist_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edge_panel_help_info_margin_top">
+        <TextView
+            android:textSize="@dimen/edge_panel_help_text_size"
+            android:textColor="@color/edge_panel_detail_subject"
+            android:gravity="center_vertical"
+            android:background="@drawable/basics_ripple_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/artist"
+            android:layout_marginEnd="@dimen/edge_panel_help_info_margin_horizontal"
+            style="@style/Font.NewSEC.400" />
+        <TextView
+            android:textSize="@dimen/edge_panel_help_text_size"
+            android:textColor="@color/edge_panel_detail_text"
+            android:gravity="center_vertical"
+            android:layout_gravity="start|center"
+            android:id="@id/edge_artist"
+            android:background="@drawable/basics_ripple_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Font.NewSEC.400" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="top"
+        android:id="@id/edge_album_info_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edge_panel_help_info_margin_between">
+        <TextView
+            android:textSize="@dimen/edge_panel_help_text_size"
+            android:textColor="@color/edge_panel_detail_subject"
+            android:gravity="center_vertical"
+            android:background="@drawable/basics_ripple_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/album"
+            android:layout_marginEnd="@dimen/edge_panel_help_info_margin_horizontal"
+            style="@style/Font.NewSEC.400" />
+        <TextView
+            android:textSize="@dimen/edge_panel_help_text_size"
+            android:textColor="@color/edge_panel_detail_text"
+            android:gravity="center_vertical"
+            android:layout_gravity="start|center"
+            android:id="@id/edge_album"
+            android:background="@drawable/basics_ripple_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Font.NewSEC.400" />
+    </LinearLayout>
+</LinearLayout>

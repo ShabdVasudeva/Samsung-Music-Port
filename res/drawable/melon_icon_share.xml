@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    android:src="@drawable/ab_btn_share"
+    android:tint="@color/basics_icon"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

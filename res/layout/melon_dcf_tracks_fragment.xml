@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/title_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Toolbar" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/coordinator_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/bottom_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_toolbar">
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiAppBarLayout
+            android:id="@id/app_bar_layout"
+            style="@style/AppbarLayout.UseCustom">
+            <include
+                layout="@layout/melon_dcf_tracks_header" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiAppBarLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@id/toolbar"
+                android:layout_width="fill_parent"
+                style="@style/Toolbar" />
+            <include
+                android:id="@id/listContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0"
+                layout="@layout/basics_list_container" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/bottom_buttons"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="56.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/coordinator_layout">
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="#ff007ede"
+            android:gravity="center"
+            android:id="@id/extend"
+            android:background="?android:selectableItemBackground"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:text="@string/milk_get_license"
+            android:layout_weight="1.0"
+            style="@style/Font.NewSEC.600" />
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="#ff007ede"
+            android:gravity="center"
+            android:id="@id/delete"
+            android:background="?android:selectableItemBackground"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:text="@string/menu_delete"
+            android:layout_weight="1.0"
+            style="@style/Font.NewSEC.600" />
+    </LinearLayout>
+    <include
+        android:id="@id/progressContainer"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_toolbar"
+        layout="@layout/basics_progress_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

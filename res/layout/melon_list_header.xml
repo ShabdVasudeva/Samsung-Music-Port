@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:id="@id/list_header_container"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="56.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:orientation="vertical"
+        android:id="@id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:flexible_guide="begin"
+        app:layout_constraintGuide_begin="20.0dip" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:orientation="vertical"
+        android:id="@id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:flexible_guide="end"
+        app:layout_constraintGuide_end="20.0dip" />
+    <FrameLayout
+        android:id="@id/filter"
+        android:background="?android:selectableItemBackground"
+        android:focusable="true"
+        android:visibility="gone"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="parent">
+        <include
+            layout="@layout/sort_dropdown" />
+    </FrameLayout>
+    <ImageView
+        android:id="@id/icon_select_mode"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/music_dropdown_ic_check"
+        android:contentDescription="@string/option_menu_select"
+        android:layout_marginStart="10.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/filter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginStart="0.0dip"
+        app:tint="#ff9b9b9b" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiImageView
+        android:id="@id/icon_shuffle"
+        android:visibility="gone"
+        android:layout_marginEnd="14.0dip"
+        app:flexible_margin="end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/icon_play_all"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.Header.Icon.Shuffle" />
+    <ImageView
+        android:id="@id/icon_play_all"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.Header.Icon.PlayAll" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

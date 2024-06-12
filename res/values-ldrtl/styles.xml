@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MiniPlayer.NextButton" parent="@style/MiniPlayer">
+        <item name="layout_constraintLeft_toRightOf">@id/mini_play_pause_btn</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+    <style name="MiniPlayer.PrevButton" parent="@style/MiniPlayer">
+        <item name="layout_constraintLeft_toRightOf">@id/queue_btn</item>
+        <item name="layout_constraintRight_toLeftOf">@id/mini_play_pause_btn</item>
+    </style>
+    <style name="MiniPlayer.QueueButton" parent="@style/MiniPlayer">
+        <item name="android:layout_marginRight">@dimen/mini_player_control_button_margin_horizontal</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toLeftOf">@id/prev_btn</item>
+    </style>
+    <style name="Player.AlbumLayoutDirection" parent="@style/Player">
+        <item name="layout_constraintLeft_toRightOf">@id/full_player_album_end_guideline</item>
+        <item name="layout_constraintRight_toLeftOf">@id/full_player_album_start_guideline</item>
+    </style>
+    <style name="SeekBar.FullPlayer.Direction" parent="@style/SeekBar.FullPlayer">
+        <item name="layout_constraintLeft_toRightOf">@id/full_player_controller_end</item>
+        <item name="layout_constraintRight_toLeftOf">@id/full_player_controller_start</item>
+    </style>
+</resources>

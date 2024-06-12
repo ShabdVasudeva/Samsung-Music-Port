@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:id="@id/title"
+        android:layout_width="0.0dip"
+        android:layout_marginTop="@dimen/melon_lyric_dialog_title_margin_top"
+        app:layout_constraintBottom_toTopOf="@id/artist"
+        app:layout_constraintEnd_toStartOf="@id/end"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toEndOf="@id/start"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.600.DialogDescription" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:id="@id/artist"
+        android:layout_width="0.0dip"
+        android:layout_marginTop="@dimen/melon_lyric_dialog_artist_margin_top"
+        app:layout_constraintEnd_toStartOf="@id/end"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toEndOf="@id/start"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.400.DialogDescription" />
+    <com.samsung.android.app.musiclibrary.ui.widget.MusicScrollView
+        android:id="@id/scroll_view"
+        android:clipToPadding="false"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/melon_lyric_dialog_scroll_margin_vertical"
+        android:layout_marginBottom="@dimen/melon_lyric_dialog_scroll_margin_vertical"
+        android:fillViewport="true"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/artist"
+        app:max_height="303.0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/melon_dialog_space_horizontal"
+            android:paddingEnd="@dimen/melon_dialog_space_horizontal">
+            <TextView
+                android:id="@id/lyrics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4.0dip"
+                style="@style/Font.NewSEC.400.DialogDescription" />
+        </LinearLayout>
+    </com.samsung.android.app.musiclibrary.ui.widget.MusicScrollView>
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="@dimen/melon_dialog_space_horizontal" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_end="@dimen/melon_dialog_space_horizontal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_drawer_item_bottom_padding">10.0dip</dimen>
+    <dimen name="action_drawer_item_icon_padding">8.0dip</dimen>
+    <dimen name="action_drawer_item_icon_right_margin">12.0dip</dimen>
+    <dimen name="action_drawer_item_icon_size">40.0dip</dimen>
+    <dimen name="action_drawer_item_text_size">16.0sp</dimen>
+    <dimen name="action_drawer_item_top_padding">10.0dip</dimen>
+    <dimen name="confirmation_overlay_image_size">80.0dip</dimen>
+    <dimen name="diag_button_size">54.0dip</dimen>
+</resources>

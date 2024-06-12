@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/widget_list_view"
+    android:paddingTop="@dimen/ext_app_widget_list_padding_vertical"
+    android:paddingBottom="@dimen/ext_app_widget_list_padding_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:paddingStart="@dimen/ext_app_widget_list_start_space"
+    android:paddingEnd="@dimen/ext_app_widget_list_end_space"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@dimen/ext_app_widget_list_text_end_space">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@id/text_adult"
+                android:focusable="false"
+                android:layout_marginEnd="@dimen/app_widget_adult_icon_padding_end"
+                style="@style/ListItem.Status.Adult" />
+            <TextView
+                android:textSize="@dimen/ext_app_widget_list_title"
+                android:textColor="@color/app_widget_title"
+                android:id="@id/widget_list_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Font.NewSEC.600.Marquee" />
+        </LinearLayout>
+        <TextView
+            android:textSize="@dimen/ext_app_widget_list_artist"
+            android:textColor="@color/app_widget_artist"
+            android:id="@id/widget_list_artist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/widget_list_title"
+            style="@style/Font.NewSEC.400.Marquee" />
+    </LinearLayout>
+    <ImageView
+        android:id="@id/now_playing"
+        android:background="@drawable/ic_music_list_now_playing"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/app_widget_list_playing_icon_209_2_3" />
+</LinearLayout>

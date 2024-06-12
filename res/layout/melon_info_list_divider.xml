@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:chunkingBackground="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:orientation="vertical"
+        android:id="@id/item_guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:flexible_guide="begin"
+        app:layout_constraintGuide_begin="@dimen/my_info_item_divider_margin_horizontal" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:orientation="vertical"
+        android:id="@id/item_guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:flexible_guide="end"
+        app:layout_constraintGuide_end="@dimen/my_info_item_divider_right_margin_horizontal" />
+    <View
+        android:background="@color/basics_list_divider"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/my_info_item_divider_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/item_guideline_end"
+        app:layout_constraintStart_toStartOf="@id/item_guideline_start"
+        app:layout_constraintTop_toTopOf="parent" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

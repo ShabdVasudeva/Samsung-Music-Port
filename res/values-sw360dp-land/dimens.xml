@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="legacy_sound_alive_eq_ext_dbscale_layout">158.0dip</dimen>
+    <dimen name="legacy_sound_alive_eq_line_margin">16.0dip</dimen>
+    <dimen name="legacy_sound_alive_eq_line_width">354.0dip</dimen>
+    <dimen name="legacy_sound_alive_eq_seekbar_height">201.0dip</dimen>
+    <dimen name="legacy_sound_alive_ext_line_margin">56.0dip</dimen>
+    <dimen name="legacy_sound_alive_ext_line_width">354.0dip</dimen>
+    <dimen name="legacy_sound_alive_ext_seekbar_height">202.0dip</dimen>
+    <dimen name="legacy_sound_alive_ext_seekbar_padding_top">24.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_day_height">28.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_height">32.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_width">32.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_height">32.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_view_height">168.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_week_height">28.0dip</dimen>
+    <dimen name="sesl_date_picker_gap_between_header_and_weekend">9.0dip</dimen>
+    <dimen name="sesl_date_picker_gap_between_weekend_and_calender">7.0dip</dimen>
+    <dimen name="sesl_date_picker_selected_day_circle_radius">12.0dip</dimen>
+    <dimen name="sesl_spinning_date_picker_height">244.0dip</dimen>
+    <dimen name="sesl_spinning_date_picker_height_dialog">244.0dip</dimen>
+</resources>

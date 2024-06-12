@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<runtime-manifest
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <activity
+        android:name="com.sec.android.app.music.common.activity.MusicMainActivity">
+        <policy
+            android:label="@string/short_app_name"
+            android:enabled="true"
+            android:priority="4"
+            minValue="60000"
+            type="ONEUI" />
+    </activity>
+    <application>
+        <policy
+            android:label="@string/brand_name"
+            android:enabled="true"
+            android:priority="3"
+            minValue="50100"
+            type="ONEUI" />
+        <policy
+            android:label="@string/brand_name_for_jpn"
+            android:enabled="true"
+            android:priority="2"
+            type="SALESCODE"
+            value="DCM" />
+        <policy
+            android:label="@string/brand_name_for_jpn"
+            android:enabled="true"
+            android:priority="2"
+            type="SALESCODE"
+            value="KDI" />
+        <policy
+            android:label="@string/brand_name_for_jpn"
+            android:enabled="true"
+            android:priority="2"
+            type="SALESCODE"
+            value="SBM" />
+        <policy
+            android:label="@string/brand_name_for_jpn"
+            android:enabled="true"
+            android:priority="2"
+            type="SALESCODE"
+            value="RKT" />
+        <policy
+            android:label="@string/brand_name_for_jpn"
+            android:enabled="true"
+            android:priority="2"
+            type="SALESCODE"
+            value="UQM" />
+        <policy
+            android:label="@string/brand_name_for_jpn"
+            android:enabled="true"
+            android:priority="2"
+            type="SALESCODE"
+            value="XJP" />
+        <policy
+            android:label="@string/brand_name_for_jpn"
+            android:enabled="true"
+            android:priority="2"
+            type="SALESCODE"
+            value="JCO" />
+        <policy
+            android:label="@string/brand_name_for_jpn"
+            android:enabled="true"
+            android:priority="2"
+            type="SALESCODE"
+            value="SJP" />
+        <policy
+            android:label="@string/brand_name_for_jpn"
+            android:enabled="true"
+            android:priority="2"
+            type="SALESCODE"
+            value="JP" />
+    </application>
+</runtime-manifest>

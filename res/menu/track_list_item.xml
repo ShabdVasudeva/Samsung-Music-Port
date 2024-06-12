@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/menu_add_to"
+        android:title="@string/add" />
+    <item
+        android:id="@id/menu_delete"
+        android:title="@string/menu_delete" />
+    <item
+        android:id="@id/menu_share"
+        android:title="@string/menu_share" />
+    <item
+        android:id="@id/menu_track_details"
+        android:title="@string/menu_track_details" />
+    <item
+        android:id="@id/menu_go_album"
+        android:title="@string/album" />
+    <item
+        android:id="@id/menu_go_artist"
+        android:title="@string/artist" />
+    <item
+        android:id="@id/legacy_menu_set_as"
+        android:title="@string/legacy_set_as" />
+</menu>

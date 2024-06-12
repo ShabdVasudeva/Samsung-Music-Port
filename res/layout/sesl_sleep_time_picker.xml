@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/sleep_time_picker_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/basic_guideline"
+            android:focusable="false"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:layout_constraintGuide_percent="0.5" />
+        <androidx.core.widget.NestedScrollView
+            android:orientation="horizontal"
+            android:id="@id/sleep_time_picker_bottom_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/sleepTimePicker"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/sesl_sleep_visual_edit_outer_circle_size"
+                    android:layout_marginBottom="@dimen/sesl_circular_seekbar_bottom_margin">
+                    <include
+                        android:layout_gravity="center"
+                        android:id="@id/circular_seekbar_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/sesl_sleep_time_picker_layout" />
+                    <include
+                        layout="@layout/sesl_bed_time_wakeup_time_top_bottom_layout" />
+                </FrameLayout>
+                <TextView
+                    android:textSize="@dimen/sesl_sleep_time_duration_text_size"
+                    android:textColor="@color/sesl_sleep_goal_duration_text_color"
+                    android:id="@id/sleep_goal_text_id"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/sesl_sleep_goal_margin_bottom"
+                    android:textAlignment="center"
+                    style="@style/SleepDurationText" />
+                <TextView
+                    android:textSize="@dimen/sesl_sleep_time_duration_text_size"
+                    android:textColor="?colorPrimary"
+                    android:id="@id/sleep_duration_text_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sesl_sleep_duration"
+                    android:textAlignment="center"
+                    style="@style/SleepDurationText" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

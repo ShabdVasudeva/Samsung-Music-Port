@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/black_opacity_100"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.MusicViewPager
+        android:id="@id/pager"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:textSize="11.0dip"
+        android:textColor="#fffafafa"
+        android:id="@id/page_index"
+        android:padding="19.0dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView
+        android:id="@id/cancel"
+        android:padding="16.0dip"
+        android:layout_width="56.0dip"
+        android:layout_height="56.0dip"
+        android:src="@drawable/music_ic_ab_delete"
+        android:contentDescription="@string/tts_close"
+        android:layout_marginEnd="4.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <include
+        android:id="@id/progressContainer"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/pager"
+        app:layout_constraintEnd_toEndOf="@id/pager"
+        app:layout_constraintStart_toStartOf="@id/pager"
+        app:layout_constraintTop_toTopOf="@id/pager"
+        layout="@layout/basics_progress_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

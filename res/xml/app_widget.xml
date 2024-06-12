@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    android:minWidth="@dimen/app_widget_min_width"
+    android:minHeight="@dimen/app_widget_min_height"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/app_widget"
+    android:configure="com.samsung.android.app.music.service.v3.observers.widget.HomeWidgetSettingActivity"
+    android:previewImage="@drawable/app_widget_preview"
+    android:resizeMode="horizontal"
+    android:initialKeyguardLayout="@layout/app_widget"
+    android:widgetCategory="home_screen|keyguard"
+    android:widgetFeatures="reconfigurable"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

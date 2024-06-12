@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="InfoView.Thumbnail" parent="@style/InfoView">
+        <item name="android:background">@drawable/basics_list_thumbnail_big_mask</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:foreground">@drawable/basics_list_thumbnail_big_ripple</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="layout_constraintDimensionRatio">W,1:1</item>
+        <item name="layout_constraintWidth_percent">0.25</item>
+    </style>
+</resources>

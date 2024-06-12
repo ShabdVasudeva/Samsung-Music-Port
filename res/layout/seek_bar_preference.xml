@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/preference_item_padding_vertical"
+    android:paddingBottom="@dimen/preference_item_padding_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:listPreferredItemHeight"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="?android:listPreferredItemPaddingStart"
+        android:paddingEnd="?android:listPreferredItemPaddingEnd">
+        <TextView
+            android:textAppearance="?android:textAppearanceListItem"
+            android:ellipsize="end"
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/seek_bar_preference_title_margin_bottom"
+            android:maxLines="5"
+            android:textAlignment="viewStart"
+            android:paddingEnd="@dimen/preference_title_padding_end" />
+        <TextView
+            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textColor="@color/basics_primary_dark_209_4_4"
+            android:layout_gravity="center_horizontal"
+            android:id="@android:id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </LinearLayout>
+    <com.samsung.android.app.musiclibrary.ui.widget.MusicSeekBar
+        android:id="@android:id/progress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginStart="25.0dip"
+        android:layout_marginEnd="25.0dip"
+        app:seslSeekBarMode="expand"
+        app:seslThumbRadius="10.0dip"
+        app:seslTrackMaxWidth="22.0dip"
+        app:seslTrackMinWidth="14.0dip" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.viewpager2.widget.ViewPager2
+    android:id="@id/gesture_view"
+    android:layout_width="0.0dip"
+    android:layout_height="0.0dip"
+    android:importantForAccessibility="no"
+    android:layoutDirection="ltr"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="@id/guideline_fit_top"
+    app:layout_constraintVertical_bias="@dimen/full_player_album_vertical_bias"
+    style="@style/Player.AlbumLayoutDirection"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

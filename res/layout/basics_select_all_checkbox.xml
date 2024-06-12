@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/select_all_container"
+    android:layout_width="fill_parent"
+    android:layout_height="?actionBarSize"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/click_area"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingStart="18.0dip"
+        android:paddingEnd="18.0dip"
+        android:defaultFocusHighlightEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <CheckBox
+            android:id="@id/checkbox"
+            android:background="@drawable/ripple_button_oval"
+            android:layout_width="@dimen/checkbox_width_winset"
+            android:layout_height="@dimen/checkbox_width_winset"
+            android:translationY="2.0dip"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toTopOf="@id/select_all_checkbox_below_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            style="@style/ListItem.Checkbox" />
+        <TextView
+            android:textSize="12.0dip"
+            android:textColor="@color/basics_select_all_check_box_blow_text_209_10_8"
+            android:id="@id/select_all_checkbox_below_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all"
+            android:translationY="-2.0dip"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/checkbox"
+            app:layout_constraintStart_toStartOf="@id/checkbox"
+            app:layout_constraintTop_toBottomOf="@id/checkbox"
+            style="@style/Font.NewSEC.400" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="21.0sp"
+        android:textColor="@color/basics_action_bar_title_text_209_10_8"
+        android:ellipsize="end"
+        android:id="@id/select_all_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/select_tracks"
+        android:maxLines="1"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/click_area"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="wrap"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.600" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <android.widget.Space
+        android:id="@id/content_space"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_content_0"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintEnd_toStartOf="@id/control_space"
+        bind:layout_constraintStart_toStartOf="parent"
+        bind:layout_constraintTop_toTopOf="parent"
+        bind:layout_constraintWidth_percent="0.5" />
+    <android.widget.Space
+        android:id="@id/control_space"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_content_1"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        bind:layout_constraintBottom_toBottomOf="parent"
+        bind:layout_constraintEnd_toEndOf="parent"
+        bind:layout_constraintStart_toEndOf="@id/content_space"
+        bind:layout_constraintTop_toTopOf="parent"
+        bind:layout_constraintWidth_percent="0.5" />
+    <ImageView
+        android:gravity="bottom"
+        android:id="@id/album_art"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_content_2"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:src="@drawable/widget_album_cover_default"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/tts_go_to_music"
+        android:layout_marginStart="@dimen/app_widget_setting_preview_start_space"
+        bind:layout_constraintBottom_toBottomOf="@id/content_space"
+        bind:layout_constraintEnd_toStartOf="@id/title"
+        bind:layout_constraintHeight_percent="@dimen/app_widget_land_album_ratio"
+        bind:layout_constraintHorizontal_chainStyle="spread_inside"
+        bind:layout_constraintStart_toStartOf="@id/content_space"
+        bind:layout_constraintTop_toTopOf="@id/content_space" />
+    <TextView
+        android:id="@id/title"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_content_3"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/app_widget_setting_preview_middle_space"
+        android:layout_marginEnd="@dimen/app_widget_setting_preview_middle_space"
+        bind:layout_constraintBottom_toTopOf="@id/artist"
+        bind:layout_constraintEnd_toEndOf="@id/content_space"
+        bind:layout_constraintStart_toEndOf="@id/album_art"
+        bind:layout_constraintTop_toTopOf="@id/content_space"
+        bind:layout_constraintVertical_chainStyle="packed"
+        style="@style/AppWidget.Title" />
+    <TextView
+        android:id="@id/artist"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_content_4"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/artist"
+        android:layout_marginStart="@dimen/app_widget_setting_preview_middle_space"
+        bind:layout_constraintBottom_toBottomOf="@id/content_space"
+        bind:layout_constraintEnd_toEndOf="@id/title"
+        bind:layout_constraintStart_toEndOf="@id/album_art"
+        bind:layout_constraintTop_toBottomOf="@id/title"
+        style="@style/AppWidget.Artist" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/control_container"
+        android:tag="layout-sw600dp-land/app_widget_setting_preview_content_5"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/app_widget_setting_preview_middle_space"
+        android:layout_marginEnd="@dimen/app_widget_setting_preview_end_space"
+        bind:layout_constraintBottom_toBottomOf="@id/control_space"
+        bind:layout_constraintEnd_toEndOf="@id/control_space"
+        bind:layout_constraintStart_toStartOf="@id/control_space"
+        bind:layout_constraintTop_toTopOf="@id/control_space">
+        <include
+            layout="@layout/app_widget_setting_controller" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

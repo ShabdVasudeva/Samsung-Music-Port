@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:paddingTop="16.0dip"
+    android:paddingBottom="10.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:chunkingBackground="true"
+    app:roundCorner="all"
+    app:roundMode="music"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="14.0dip"
+        android:textColor="@color/basics_inline_cue_text"
+        android:id="@id/description"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="40.0dip"
+        android:layout_marginStart="24.0dip"
+        android:layout_marginEnd="24.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.400" />
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginEnd="8.0dip"
+        app:flexWrap="wrap"
+        app:justifyContent="flex_end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description">
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4.0dip">
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+                android:id="@id/button1"
+                android:importantForAccessibility="no"
+                app:buttonShapeEnabled="true"
+                app:maxFontLevel="large"
+                style="@style/Help.InlineCue.Button" />
+            <View
+                android:id="@id/button1Click"
+                android:background="@drawable/basics_ripple_dialog_action_button"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                app:layout_constraintBottom_toBottomOf="@id/button1"
+                app:layout_constraintEnd_toEndOf="@id/button1"
+                app:layout_constraintStart_toStartOf="@id/button1"
+                app:layout_constraintTop_toTopOf="@id/button1" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+                android:id="@id/button2"
+                android:importantForAccessibility="no"
+                app:buttonShapeEnabled="true"
+                app:maxFontLevel="large"
+                style="@style/Help.InlineCue.Button" />
+            <View
+                android:id="@id/button2Click"
+                android:background="@drawable/basics_ripple_dialog_action_button"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                app:layout_constraintBottom_toBottomOf="@id/button2"
+                app:layout_constraintEnd_toEndOf="@id/button2"
+                app:layout_constraintStart_toStartOf="@id/button2"
+                app:layout_constraintTop_toTopOf="@id/button2" />
+        </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

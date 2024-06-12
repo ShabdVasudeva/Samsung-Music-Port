@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+    android:textSize="@dimen/melon_track_dialog_item_text_size"
+    android:textColor="@color/basics_text_main"
+    android:id="@id/text"
+    android:background="@drawable/basics_ripple_button"
+    android:paddingTop="@dimen/dialog_body_text_padding_top_winset_kt"
+    android:paddingBottom="@dimen/dialog_body_text_padding_bottom_winset_kt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/melon_dialog_space_horizontal"
+    android:paddingEnd="@dimen/melon_dialog_space_horizontal"
+    app:maxFontLevel="large"
+    style="@style/Font.NewSEC.400"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

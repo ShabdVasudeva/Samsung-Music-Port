@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/basics_system_background_209_4_1"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Toolbar" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="@dimen/setting_description_font_size"
+        android:textColor="@color/basics_text_description"
+        android:id="@id/description"
+        android:paddingTop="@dimen/mu_actionbar_space_bottom"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24.0dip"
+        android:layout_marginEnd="24.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        style="@style/Font.NewSEC.400" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="12.0sp"
+        android:textColor="#ffb00020"
+        android:id="@id/warning"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        app:layout_constraintEnd_toEndOf="@id/description"
+        app:layout_constraintStart_toStartOf="@id/description"
+        app:layout_constraintTop_toBottomOf="@id/description"
+        style="@style/Font.NewSEC.400" />
+    <FrameLayout
+        android:id="@id/listContainer"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="20.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/warning">
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiRecyclerView
+            android:layout_gravity="center"
+            android:id="@id/recycler_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:chunkingBackground="true"
+            app:fillBottom="true"
+            app:roundCorner="all" />
+    </FrameLayout>
+    <include
+        android:id="@id/progressContainer"
+        app:layout_constraintBottom_toBottomOf="@id/listContainer"
+        app:layout_constraintEnd_toEndOf="@id/listContainer"
+        app:layout_constraintStart_toStartOf="@id/listContainer"
+        app:layout_constraintTop_toTopOf="@id/listContainer"
+        layout="@layout/basics_progress_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

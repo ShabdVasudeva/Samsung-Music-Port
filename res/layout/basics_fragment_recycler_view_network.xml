@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/basics_system_background_209_4_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/listContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiRecyclerView
+            android:layout_gravity="center"
+            android:id="@id/recycler_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:chunkingBackground="true" />
+    </FrameLayout>
+    <include
+        layout="@layout/basics_progress_container" />
+    <FrameLayout
+        android:id="@id/no_network_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

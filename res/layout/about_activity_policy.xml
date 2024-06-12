@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/about_activity_background_209_4_1"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        android:backgroundTint="@color/about_activity_background_209_4_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline_fit_top"
+        style="@style/Toolbar" />
+    <FrameLayout
+        android:id="@id/content"
+        android:background="@color/about_activity_background_209_4_1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true">
+            <TextView
+                android:textSize="@dimen/about_policy_detail_msg_text"
+                android:textColor="@color/about_policy_detail_msg_text"
+                android:autoLink="web"
+                android:id="@id/about_policy_detail_text"
+                android:visibility="gone"
+                android:longClickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/about_policy_margin_vertical"
+                android:layout_marginBottom="@dimen/about_policy_margin_vertical"
+                android:lineSpacingExtra="@dimen/about_policy_detail_text_line_space"
+                android:textIsSelectable="true"
+                android:textDirection="locale"
+                android:layout_marginStart="@dimen/about_policy_margin_horizontal"
+                android:layout_marginEnd="@dimen/about_policy_margin_horizontal" />
+        </ScrollView>
+        <androidx.appcompat.widget.SeslProgressBar
+            android:layout_gravity="center"
+            android:id="@id/loading_progress_bar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:progressBarStyleLarge" />
+        <WebView
+            android:id="@id/about_policy_detail_webview"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <include
+            layout="@layout/basics_progress_container" />
+        <FrameLayout
+            android:id="@id/no_network_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ആല്‍ബം</item>
+        <item quantity="one">%d ആൽബം</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">ആല്‍ബങ്ങള്‍</item>
+        <item quantity="one">ആല്‍ബം</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ട്രാക്കുകള്‍‌</item>
+        <item quantity="one">ട്രാക്ക്</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ട്രാക്കുകള്‍</item>
+        <item quantity="one">%d ഗാനം</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d സെക്കന്‍റ്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d സെക്കന്‍റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">%d ദിവസത്തേക്ക് കാണിക്കരുത്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ദിവസത്തേക്ക് കാണിക്കരുത്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$d തവണ കൂടി %2$s നിങ്ങള്‍ക്കുപയോഗിക്കാന്‍‌ കഴിയും.</item>
+        <item quantity="one">%s 1 സമയത്ത് നിങ്ങള്‍ക്കുപയോഗിക്കാന്‍‌ കഴിയും.</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">കാലഹരണപ്പെട്ട %d ട്രാക്കുകൾ ഇല്ലാതാക്കപ്പെടും. Melon വിവരങ്ങൾ > വാങ്ങൽ ചരിത്രം എന്നതിൽ നിങ്ങളുടെ ഡൗൺ‍‌ലോഡ് ചരിത്രം നിങ്ങൾക്ക് പരിശോധിക്കാവുന്നതാണ്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">കാലഹരണപ്പെട്ട %d ട്രാക്ക് ഇല്ലാതാക്കപ്പെടും. Melon വിവരങ്ങൾ > വാങ്ങൽ ചരിത്രം എന്നതിൽ നിങ്ങളുടെ ഡൗൺ‍‌ലോഡ് ചരിത്രം നിങ്ങൾക്ക് പരിശോധിക്കാവുന്നതാണ്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">%d ട്രാക്കുകൾക്കുള്ള DCF കാലയളവ് ദീർഘിപ്പിക്കാനായില്ല. നിങ്ങൾക്ക് വീണ്ടും ശ്രമിക്കാം, അല്ലെങ്കിൽ ഫയലുകൾ വീണ്ടും ഡൗൺ‍‌ലോഡ് ചെയ്യുന്നതിന് മുമ്പ് അവയെ താഴെയുള്ള പട്ടികയിൽ നിന്ന് ഇല്ലാതാക്കാം.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ട്രാക്കിനുള്ള DCF കാലയളവ് ദീർഘിപ്പിക്കാനായില്ല. നിങ്ങൾക്ക് വീണ്ടും ശ്രമിക്കാം, അല്ലെങ്കിൽ ഫയലുകൾ വീണ്ടും ഡൗൺ‍‌ലോഡ് ചെയ്യുന്നതിന് മുമ്പ് അവയെ താഴെയുള്ള പട്ടികയിൽ നിന്ന് ഇല്ലാതാക്കാം.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">ഇനങ്ങൾ %d-ൽ കൂടുതൽ ഇംപോർട്ട് ചെയ്യാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇനം %d-ൽ കൂടുതൽ ഇംപോർട്ട് ചെയ്യാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">%d ഗാനങ്ങൾ ഡൗൺലോഡ് ചെയ്യാനായി കാക്കുന്നു…</item>
+        <item quantity="one">1 ഗാനം ഡൗൺലോഡ് ചെയ്യാനായി കാക്കുന്നു…</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">നിങ്ങളുടെ ഫോണിൽ നിന്ന് %d ആൽബങ്ങളും അതിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">നിങ്ങളുടെ ഫോണിൽ നിന്ന് 1 ആൽബവും അതിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">ഈ ആർട്ടിസ്റ്റുകളുടെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">ഈ ആർട്ടിസ്റ്റിന്‍റെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">ഈ സംഗീത സംവിധായകരുടെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">ഈ സംഗീത സംവിധായകന്‍റെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%d ഫോള്‍ഡറുകള്‍</item>
+        <item quantity="one">1 ഫോള്‍ഡര്‍</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">നിങ്ങളുടെ ഫോണിൽ നിന്ന് %d ഫോൾഡറുകളും അതിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">നിങ്ങളുടെ ഫോണിൽ നിന്ന് 1 ഫോൾഡറും അതിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">ഈ കലാവിഭാഗങ്ങളിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">ഈ കലാവിഭാഗത്തിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">മറയ്ക്കപ്പെട്ട %d ഫോൾഡറുകളും ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">മറയ്ക്കപ്പെട്ട %d ഫോൾഡറും ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">%d ഇനങ്ങൾ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">1 ഇനം ഇല്ലാതാക്കട്ടെ?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">അക്ഷരങ്ങൾ %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">അക്ഷരം %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">ആൽബങ്ങൾ %d-ൽ കൂടുതൽ ചേർക്കാനാവില്ല. ആൽബങ്ങൾ കുറവ് ചേർക്കുക അല്ലെങ്കിൽ പ്രിയപ്പെട്ടവയിൽ നിന്ന് ചിലത് നീക്കംചെയ്യുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ആൽബം %d-ൽ കൂടുതൽ ചേർക്കാനാവില്ല. ആൽബങ്ങൾ കുറവ് ചേർക്കുക അല്ലെങ്കിൽ പ്രിയപ്പെട്ടവയിൽ നിന്ന് ചിലത് നീക്കംചെയ്യുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">ആർട്ടിസ്റ്റുകളെ %d-ൽ കൂടുതൽ ചേർക്കാനാവില്ല. ആർട്ടിസ്റ്റുകളെ കുറവ് ചേർക്കുക അല്ലെങ്കിൽ പ്രിയപ്പെട്ടവയിൽ നിന്ന് ചിലത് നീക്കംചെയ്യുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ആർട്ടിസ്റ്റിനെ %d-ൽ കൂടുതൽ ചേർക്കാനാവില്ല. ആർട്ടിസ്റ്റുകളെ കുറവ് ചേർക്കുക അല്ലെങ്കിൽ പ്രിയപ്പെട്ടവയിൽ നിന്ന് ചിലത് നീക്കംചെയ്യുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">നിങ്ങൾക്ക് %d പ്ലേലിസ്റ്റുകൾ വരെ മാത്രം ചേർക്കാം. പ്രിയപ്പെട്ടവ എന്ന ടാബിൽ നിന്ന് ഏതാനും പ്ലേലിസ്റ്റുകൾ നീക്കംചെയ്യുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങൾക്ക് %d പ്ലേലിസ്റ്റ് വരെ മാത്രം ചേർക്കാം. പ്രിയപ്പെട്ടവ എന്ന ടാബിൽ നിന്ന് ഏതാനും പ്ലേലിസ്റ്റുകൾ നീക്കംചെയ്യുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">സ്ട്രീമിംഗ് ട്രാക്കുകൾ %d-ൽ കൂടുതൽ ചേർക്കാനാവില്ല. ട്രാക്കുകൾ കുറവ് ചേർക്കുക അല്ലെങ്കിൽ പ്രിയപ്പെട്ട ട്രാക്കുകളിൽ നിന്ന് ചിലത് നീക്കംചെയ്യുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">സ്ട്രീമിംഗ് ട്രാക്ക് %d-ൽ കൂടുതൽ ചേർക്കാനാവില്ല. ട്രാക്കുകൾ കുറവ് ചേർക്കുക അല്ലെങ്കിൽ പ്രിയപ്പെട്ട ട്രാക്കുകളിൽ നിന്ന് ചിലത് നീക്കംചെയ്യുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">ട്രാക്കുകൾ %d-ൽ കൂടുതൽ ചേർക്കാനാവില്ല. ട്രാക്കുകൾ കുറവ് ചേർക്കുക അല്ലെങ്കിൽ പ്രിയപ്പെട്ട ട്രാക്കുകളിൽ നിന്ന് ചിലത് നീക്കംചെയ്യുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ട്രാക്ക് %d-ൽ കൂടുതൽ ചേർക്കാനാവില്ല. ട്രാക്കുകൾ കുറവ് ചേർക്കുക അല്ലെങ്കിൽ പ്രിയപ്പെട്ട ട്രാക്കുകളിൽ നിന്ന് ചിലത് നീക്കംചെയ്യുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">%d പ്ലേലിസ്റ്റുകൾ എക്സ്പോർട്ട് ചെയ്തു.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പ്ലേലിസ്റ്റ് എക്സ്പോർട്ട് ചെയ്തു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">%d പ്ലേലിസ്റ്റുകൾ ഇംപോർട്ട് ചെയ്തു.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പ്ലേലിസ്റ്റ് ഇംപോർട്ട് ചെയ്തു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">പ്ലേലിസ്റ്റുകൾ %d-ൽ കൂടുതൽ തിരഞ്ഞെടുക്കാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">പ്ലേലിസ്റ്റ് %d-ൽ കൂടുതൽ തിരഞ്ഞെടുക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d പ്ലേലിസ്റ്റുകൾ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">1 പ്ലേലിസ്റ്റ് ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%d ട്രാക്കുകള്‍</item>
+        <item quantity="one">1 ട്രാക്ക്</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">പ്രിയപ്പെട്ടവയിൽ ചേർത്തത് %d ട്രാക്കുകളെ മാത്രമായിരുന്നു. ശേഷിക്കുന്നവ നേരത്തേതന്നെ പ്രിയപ്പെട്ടവയിൽ ഉണ്ടായിരുന്നു.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">പ്രിയപ്പെട്ടവയിൽ ചേർത്തത് %d ട്രാക്കിനെ മാത്രമായിരുന്നു. ശേഷിക്കുന്നവ നേരത്തേതന്നെ പ്രിയപ്പെട്ടവയിൽ ഉണ്ടായിരുന്നു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">%d ഗാനങ്ങൾ പ്രിയപ്പെട്ടവയിൽ ചേർത്തു</item>
+        <item quantity="one">1 ഗാനം പ്രിയപ്പെട്ടവയിൽ ചേർത്തു</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">%d ഗാനങ്ങൾ പ്ലേലിസ്റ്റിൽ ചേർത്തു.</item>
+        <item quantity="one">പ്ലേലിസ്റ്റിലേക്ക് 1 ഗാനം ചേർത്തു</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d ഗാനങ്ങളെ ക്യൂവിൽ ചേർത്തു.</item>
+        <item quantity="one">%d ട്രാക്കിനെ ക്യൂവിൽ ചേർത്തു.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d ട്രാക്കുകൾ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ട്രാക്ക് ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">ഉറക്ക സമയം: %d മണിക്കൂർ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഉറക്ക സമയം: %d മണിക്കൂർ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">ഉറക്ക സമയം: %d മിനിറ്റ്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഉറക്ക സമയം: %d മിനിറ്റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.RecyclerViewItemLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/company_information_text_min_height_kt"
+    app:fitHeight="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:id="@id/no_item_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/no_playlist_create_playlist"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxFontLevel="large"
+        style="@style/Font.NewSEC.400.NoItem.Sub" />
+</com.samsung.android.app.musiclibrary.ui.widget.RecyclerViewItemLayout>

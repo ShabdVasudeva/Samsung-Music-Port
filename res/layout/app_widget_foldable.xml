@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/widget_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/widget_background_default" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/content_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            layout="@layout/app_widget_foldable_container" />
+    </LinearLayout>
+</FrameLayout>

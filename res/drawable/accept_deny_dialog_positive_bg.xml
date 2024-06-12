@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple
+            android:color="?android:colorAccent" />
+    </item>
+    <item>
+        <ripple
+            android:color="?android:colorControlHighlight">
+            <item>
+                <shape
+                    android:tint="@color/btn_colored_background_material"
+                    android:shape="oval">
+                    <solid
+                        android:color="@android:color/white" />
+                    <size
+                        android:height="@dimen/diag_button_size"
+                        android:width="@dimen/diag_button_size" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</layer-list>

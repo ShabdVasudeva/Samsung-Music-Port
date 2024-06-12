@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:id="@id/nested_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+            android:id="@id/message"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/melon_import_dialog_space_message_top"
+            android:layout_marginStart="@dimen/winset_dialog_padding"
+            android:layout_marginEnd="@dimen/winset_dialog_padding"
+            app:layout_constrainedHeight="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/Font.NewSEC.400.DialogBodyText" />
+        <com.samsung.android.app.musiclibrary.ui.widget.OneUiRecyclerView
+            android:id="@id/recyclerView"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/melon_import_dialog_space_list_top"
+            android:layout_marginBottom="@dimen/winset_dialog_padding"
+            app:layout_constrainedHeight="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/message" />
+    </com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>
+</androidx.core.widget.NestedScrollView>

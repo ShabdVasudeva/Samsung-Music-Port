@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/list_button"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/full_player_option_layout_height"
+        app:layout_constraintBottom_toBottomOf="@id/favorite_button"
+        app:layout_constraintEnd_toStartOf="@id/listGuide"
+        app:layout_constraintHorizontal_weight="@dimen/full_player_button_touch_area_common_weight"
+        app:layout_constraintStart_toStartOf="@id/seek_bar"
+        layout="@layout/full_player_list_button" />
+    <androidx.legacy.widget.Space
+        android:id="@id/listGuide"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/favorite_button"
+        app:layout_constraintHorizontal_weight="@dimen/full_player_prev_rew_touch_area_width_weight"
+        app:layout_constraintStart_toEndOf="@id/list_button" />
+    <com.samsung.android.app.music.player.fullplayer.HeartView
+        android:id="@id/favorite_animation"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/full_player_favorite_vi_height"
+        android:layout_marginBottom="@dimen/full_player_favorite_vi_margin_bottom"
+        app:layout_constraintBottom_toBottomOf="@id/favorite_button"
+        app:layout_constraintEnd_toEndOf="@id/add_to_playlist_button"
+        app:layout_constraintStart_toStartOf="@id/list_button" />
+    <include
+        android:id="@id/favorite_button"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/full_player_option_layout_height"
+        app:layout_constraintBottom_toTopOf="@id/full_player_option_margin_bottom"
+        app:layout_constraintEnd_toStartOf="@id/addButtonGuide"
+        app:layout_constraintHorizontal_weight="@dimen/full_player_button_touch_area_common_weight"
+        app:layout_constraintStart_toEndOf="@id/listGuide"
+        app:layout_constraintTop_toBottomOf="@id/artist"
+        app:layout_constraintVertical_bias="@dimen/full_player_controller_bias"
+        app:layout_constraintVertical_chainStyle="packed"
+        layout="@layout/full_player_favorite_button" />
+    <androidx.legacy.widget.Space
+        android:id="@id/addButtonGuide"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/add_to_playlist_button"
+        app:layout_constraintHorizontal_weight="@dimen/full_player_prev_rew_touch_area_width_weight"
+        app:layout_constraintStart_toEndOf="@id/favorite_button" />
+    <include
+        android:id="@id/add_to_playlist_button"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/full_player_option_layout_height"
+        app:layout_constraintBottom_toBottomOf="@id/favorite_button"
+        app:layout_constraintEnd_toEndOf="@id/seek_bar"
+        app:layout_constraintHorizontal_weight="@dimen/full_player_button_touch_area_common_weight"
+        app:layout_constraintStart_toEndOf="@id/addButtonGuide"
+        layout="@layout/full_player_add_to_button" />
+    <android.widget.Space
+        android:id="@id/full_player_option_margin_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/seek_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="@dimen/full_player_option_margin_bottom_percent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/favorite_button" />
+    <include
+        android:id="@id/seek_bar"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/full_player_seekbar_layout_height"
+        app:layout_constraintBottom_toTopOf="@id/full_player_seekbar_margin_bottom"
+        app:layout_constraintTop_toBottomOf="@id/full_player_option_margin_bottom"
+        layout="@layout/full_player_seekbar"
+        style="@style/SeekBar.FullPlayer.Direction" />
+    <include
+        android:id="@id/current_time"
+        android:layout_width="@dimen/full_player_seekbar_time_default_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/full_player_seekbar_margin_horizontal"
+        android:layout_marginTop="@dimen/full_player_seekbar_time_margin_top"
+        app:layout_constraintLeft_toLeftOf="@id/seek_bar"
+        app:layout_constraintTop_toTopOf="@id/seek_bar"
+        layout="@layout/full_player_seekbar_text" />
+    <include
+        android:id="@id/total_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/full_player_seekbar_time_margin_top"
+        android:layout_marginRight="@dimen/full_player_seekbar_margin_horizontal"
+        app:layout_constraintRight_toRightOf="@id/seek_bar"
+        app:layout_constraintTop_toTopOf="@id/seek_bar"
+        layout="@layout/full_player_seekbar_text" />
+    <android.widget.Space
+        android:id="@id/full_player_seekbar_margin_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/play_pause_btn"
+        app:layout_constraintHeight_percent="0.027"
+        app:layout_constraintTop_toBottomOf="@id/seek_bar" />
+    <androidx.constraintlayout.widget.Group
+        android:id="@id/time_small_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="current_time,total_time" />
+    <include
+        android:id="@id/shuffle_button"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/full_player_controller_height"
+        app:layout_constraintBottom_toBottomOf="@id/play_pause_btn"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_weight="@dimen/full_player_button_touch_area_common_weight"
+        app:layout_constraintLeft_toLeftOf="@id/seek_bar"
+        app:layout_constraintRight_toLeftOf="@id/prev_btn"
+        layout="@layout/full_player_shuffle" />
+    <include
+        android:id="@id/prev_btn"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/full_player_controller_height"
+        app:layout_constraintBottom_toBottomOf="@id/play_pause_btn"
+        app:layout_constraintHorizontal_weight="@dimen/full_player_prev_rew_touch_area_width_weight"
+        app:layout_constraintLeft_toRightOf="@id/shuffle_button"
+        app:layout_constraintRight_toLeftOf="@id/play_pause_btn"
+        layout="@layout/full_player_prev" />
+    <include
+        android:id="@id/play_pause_btn"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/full_player_controller_height"
+        app:layout_constraintBottom_toTopOf="@id/full_player_bottom_margin"
+        app:layout_constraintHorizontal_weight="@dimen/full_player_prev_rew_touch_area_width_weight"
+        app:layout_constraintLeft_toRightOf="@id/prev_btn"
+        app:layout_constraintRight_toLeftOf="@id/next_btn"
+        app:layout_constraintTop_toBottomOf="@id/full_player_seekbar_margin_bottom"
+        layout="@layout/full_player_play" />
+    <include
+        android:id="@id/next_btn"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/full_player_controller_height"
+        app:layout_constraintBottom_toBottomOf="@id/play_pause_btn"
+        app:layout_constraintHorizontal_weight="@dimen/full_player_prev_rew_touch_area_width_weight"
+        app:layout_constraintLeft_toRightOf="@id/play_pause_btn"
+        app:layout_constraintRight_toLeftOf="@id/repeat_button"
+        layout="@layout/full_player_next" />
+    <include
+        android:id="@id/repeat_button"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/full_player_controller_height"
+        app:layout_constraintBottom_toBottomOf="@id/play_pause_btn"
+        app:layout_constraintHorizontal_weight="@dimen/full_player_button_touch_area_common_weight"
+        app:layout_constraintLeft_toRightOf="@id/next_btn"
+        app:layout_constraintRight_toRightOf="@id/seek_bar"
+        layout="@layout/full_player_repeat" />
+</merge>

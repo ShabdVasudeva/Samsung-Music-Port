@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar
+    android:id="@id/loading_progress_bar"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="?android:progressBarStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

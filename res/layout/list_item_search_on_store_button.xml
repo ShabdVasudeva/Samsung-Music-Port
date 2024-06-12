@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:id="@id/item_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:clickableId="item_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:textSize="15.0dip"
+        android:id="@id/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginBottom="15.0dip"
+        android:minWidth="180.0dip"
+        android:minHeight="36.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/RaisedButton" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

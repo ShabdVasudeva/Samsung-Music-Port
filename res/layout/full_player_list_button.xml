@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.MusicImageButton
+    android:src="@drawable/music_player_ic_queue"
+    android:contentDescription="@string/queue"
+    style="@style/Player.ImageButton"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

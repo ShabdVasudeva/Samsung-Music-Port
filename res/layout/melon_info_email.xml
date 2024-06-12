@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:gravity="center_vertical"
+    android:paddingTop="@dimen/melon_info_user_account_padding_vertical"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:selectableItemBackground"
+    android:minHeight="@dimen/melon_info_user_account_height"
+    app:chunkingBackground="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:orientation="vertical"
+        android:id="@id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:flexible_guide="begin"
+        app:layout_constraintGuide_begin="@dimen/melon_login_start_space" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiGuideLine
+        android:orientation="vertical"
+        android:id="@id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:flexible_guide="end"
+        app:layout_constraintGuide_end="@dimen/melon_login_start_space" />
+    <ImageView
+        android:id="@id/icon_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.KakaoIconBg" />
+    <ImageView
+        android:layout_width="16.0dip"
+        android:layout_height="17.0dip"
+        android:src="@drawable/ic_kakao_big"
+        app:layout_constraintBottom_toBottomOf="@id/icon_background"
+        app:layout_constraintEnd_toEndOf="@id/icon_background"
+        app:layout_constraintStart_toStartOf="@id/icon_background"
+        app:layout_constraintTop_toTopOf="@id/icon_background" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:id="@id/melon_email"
+        android:layout_marginStart="@dimen/mu_list_thumbnail_small_space_end"
+        app:flexible_margin="start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/logout"
+        app:layout_constraintStart_toEndOf="@id/icon_background"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.MelonInfo" />
+    <com.samsung.android.app.musiclibrary.ui.widget.OneUiTextView
+        android:id="@id/logout"
+        android:text="@string/melon_logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toEndOf="@id/melon_email"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ListItem.MelonInfo.Button" />
+    <View
+        android:background="@color/basics_list_divider"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/my_info_item_divider_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toStartOf="@id/melon_email"
+        app:layout_constraintTop_toBottomOf="parent" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

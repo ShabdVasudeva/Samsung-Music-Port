@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@id/text_adult"
+    android:visibility="gone"
+    android:layout_marginRight="@dimen/mu_list_item_adult_space_end"
+    style="@style/ListItem.Status.Adult"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

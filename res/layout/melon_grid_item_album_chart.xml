@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout
+    android:focusable="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:clickableId="thumbnail"
+    app:clipIds="thumbnail"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/thumbnail"
+        style="@style/GridItem.Thumbnail" />
+    <View
+        android:id="@id/thumbnail_stroke"
+        style="@style/GridItem.ThumbnailStoke" />
+    <CheckBox
+        android:id="@id/checkbox"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/GridItem.Checkbox" />
+    <TextView
+        android:id="@id/track_number"
+        android:layout_width="24.0dip"
+        android:layout_height="18.0dip"
+        android:layout_marginTop="@dimen/mu_grid_item_text_margin_top"
+        android:textAlignment="center"
+        android:layout_marginStart="10.5dip"
+        app:layout_constraintEnd_toStartOf="@id/text1"
+        app:layout_constraintStart_toStartOf="@id/thumbnail_stroke"
+        app:layout_constraintTop_toBottomOf="@id/thumbnail_stroke"
+        style="@style/GridItem.Text.Line1" />
+    <TextView
+        android:id="@id/text1"
+        android:visibility="visible"
+        android:layout_marginTop="@dimen/mu_grid_item_text_margin_top"
+        app:layout_constraintEnd_toEndOf="@id/thumbnail_stroke"
+        app:layout_constraintStart_toEndOf="@id/track_number"
+        app:layout_constraintTop_toBottomOf="@id/thumbnail_stroke"
+        style="@style/GridItem.Text.Line1" />
+    <com.samsung.android.app.music.melon.list.chart.RankView
+        android:textSize="9.0dip"
+        android:id="@id/gap"
+        android:layout_width="wrap_content"
+        android:layout_height="11.0dip"
+        android:layout_marginTop="2.5dip"
+        app:layout_constraintEnd_toEndOf="@id/track_number"
+        app:layout_constraintStart_toStartOf="@id/track_number"
+        app:layout_constraintTop_toBottomOf="@id/track_number" />
+    <TextView
+        android:id="@id/text2"
+        android:layout_marginTop="2.5dip"
+        app:layout_constraintEnd_toEndOf="@id/thumbnail_stroke"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@id/text1"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_goneMarginTop="@dimen/mu_grid_item_text_margin_top"
+        style="@style/GridItem.Text.Line2" />
+    <View
+        android:layout_width="0.0dip"
+        android:layout_height="55.0dip"
+        app:layout_constraintEnd_toEndOf="@id/thumbnail_stroke"
+        app:layout_constraintStart_toStartOf="@id/thumbnail_stroke"
+        app:layout_constraintTop_toBottomOf="@id/thumbnail_stroke" />
+</com.samsung.android.app.musiclibrary.ui.widget.OneUiConstraintLayout>

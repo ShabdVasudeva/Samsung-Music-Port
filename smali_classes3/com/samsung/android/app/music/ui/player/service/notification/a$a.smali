@@ -1,0 +1,43 @@
+.class public final Lcom/samsung/android/app/music/ui/player/service/notification/a$a;
+.super Lcom/samsung/android/app/music/repository/player/log/a;
+.source "PlaybackNotification.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/samsung/android/app/music/ui/player/service/notification/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/samsung/android/app/music/ui/player/service/notification/a$a$c;,
+        Lcom/samsung/android/app/music/ui/player/service/notification/a$a$d;,
+        Lcom/samsung/android/app/music/ui/player/service/notification/a$a$b;,
+        Lcom/samsung/android/app/music/ui/player/service/notification/a$a$a;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 2
+
+    const-string v0, "PlaybackNotification"
+
+    invoke-direct {p0, v0}, Lcom/samsung/android/app/music/repository/player/log/a;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/h;)V
+    .registers 2
+
+    invoke-direct {p0}, Lcom/samsung/android/app/music/ui/player/service/notification/a$a;-><init>()V
+
+    return-void
+.end method

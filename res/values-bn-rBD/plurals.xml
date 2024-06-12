@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%dটি অ্যালবাম</item>
+        <item quantity="one">%dটি অ্যালবাম</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">অ্যালবামগুলো</item>
+        <item quantity="one">অ্যালবাম</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ট্র্যাকগুলো</item>
+        <item quantity="one">ট্র্যাক</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%dটি ট্র্যাক</item>
+        <item quantity="one">%dটি ট্র্যাক</item>
+    </plurals>
+    <plurals name="cross_fade_sec">
+        <item quantity="other">%d সেকেন্ড</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d সেকেন্ড</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="do_not_show_for_n_days">
+        <item quantity="other">%d দিন দেখাবেন না</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d দিন দেখাবেন না</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">আপনি %1$s %2$d বার ব্যবহার করতে পারেন।</item>
+        <item quantity="one">আপনি %s একবার ব্যবহার করতে পারেন।</item>
+    </plurals>
+    <plurals name="melon_dcf_delete_track">
+        <item quantity="other">মেয়াদোত্তীর্ণ %dটি ট্র্যাক মুছে ফেলা হবে। আপনি ‘Melon সম্পর্কে তথ্য > ক্রয়ের ইতিহাস’ অপশনে আপনার ডাউনলোডের ইতিহাস চেক করতে পারেন৷</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">মেয়াদোত্তীর্ণ %dটি ট্র্যাক মুছে ফেলা হবে। আপনি ‘Melon সম্পর্কে তথ্য > ক্রয়ের ইতিহাস’ অপশনে আপনার ডাউনলোডের ইতিহাস চেক করতে পারেন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_dcf_fail_description">
+        <item quantity="other">%dটি ট্র্যাকের জন্য DCF-এর মেয়াদ বাড়ানো যায়নি৷ আপনি আবার চেষ্টা করতে পারেন, অথবা পুনরায় ডাউনলোড করার আগে নিচের তালিকা থেকে ফাইলগুলো মুছতে পারেন।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি ট্র্যাকের জন্য DCF-এর মেয়াদ বাড়ানো যায়নি৷ আপনি আবার চেষ্টা করতে পারেন, অথবা পুনরায় ডাউনলোড করার আগে নিচের তালিকা থেকে ফাইলগুলো মুছতে পারেন।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="melon_import_max_message">
+        <item quantity="other">%dটির বেশি আইটেম ইমপোর্ট করা যাবে না৷</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটির বেশি আইটেম ইমপোর্ট করা যাবে না৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="milk_download_queue_songs_downloading">
+        <item quantity="other">%dটি গান ডাউনলোডের জন্য অপেক্ষমাণ…</item>
+        <item quantity="one">1টি গান ডাউনলোডের জন্য অপেক্ষমাণ…</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">আপনার ফোন থেকে %dটি অ্যালবাম ও এর মধ্যে থাকা সব ট্র্যাক মুছবেন?</item>
+        <item quantity="one">আপনার ফোন থেকে 1টি অ্যালবাম ও এর মধ্যে থাকা সব ট্র্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">এই শিল্পীদের সব ট্র্যাক মুছবেন?</item>
+        <item quantity="one">এই শিল্পীর সব ট্র্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">এই গীতিকারদের সব ট্র্যাক মুছবেন?</item>
+        <item quantity="one">এই গীতিকারের সব ট্র্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="other">%dটি ফোল্ডার</item>
+        <item quantity="one">১টি ফোল্ডার</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">আপনার ফোন থেকে %dটি ফোল্ডার ও এর মধ্যে থাকা সব ট্র্যাক মুছবেন?</item>
+        <item quantity="one">আপনার ফোন থেকে 1টি ফোল্ডার ও এর মধ্যে থাকা সব ট্র্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">এই বিভাগগুলোর সব ট্র্যাক মুছবেন?</item>
+        <item quantity="one">এই বিভাগের সব ট্র্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="n_hidden_folders_deleted_kt">
+        <item quantity="other">%dটি লুকানো ফোল্ডারও মুছে যাবে৷</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি লুকানো ফোল্ডারও মুছে যাবে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">%dটি আইটেম মুছে ফেলবেন?</item>
+        <item quantity="one">1টি আইটেম মুছবেন?</item>
+    </plurals>
+    <plurals name="n_message_create_playlist_max_characters">
+        <item quantity="other">%dটির বেশি অক্ষর লেখা যাবে না৷</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটির বেশি অক্ষর লেখা যাবে না৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_albums">
+        <item quantity="other">%dটির বেশি অ্যালবাম যোগ করা যাবে না৷ আরো কম অ্যালবাম যোগ করুন অথবা প্রিয় থেকে কয়েকটি সরান।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটির বেশি অ্যালবাম যোগ করা যাবে না৷ আরো কম অ্যালবাম যোগ করুন অথবা প্রিয় থেকে কয়েকটি সরান।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_artists">
+        <item quantity="other">%d জনের বেশি শিল্পী যোগ করা যাবে না৷ আরো কম শিল্পী যোগ করুন অথবা প্রিয় থেকে কয়েকজনকে সরান।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d জনের বেশি শিল্পী যোগ করা যাবে না৷ আরো কম শিল্পী যোগ করুন অথবা প্রিয় থেকে কয়েকজনকে সরান।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_playlists">
+        <item quantity="other">আপনি শুধু %dটি পর্যন্ত প্লে-লিস্ট যোগ করতে পারবেন৷ ‘প্রিয়’ ট্যাব থেকে কিছু প্লে-লিস্ট অপসারণ করুন৷</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনি শুধু %dটি পর্যন্ত প্লে-লিস্ট যোগ করতে পারবেন৷ ‘প্রিয়’ ট্যাব থেকে কিছু প্লে-লিস্ট অপসারণ করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_streaming">
+        <item quantity="other">%dটির বেশি স্ট্রিমিং ট্র্যাক যোগ করা যাবে না৷ আরো কম ট্র্যাক যোগ করুন অথবা প্রিয় ট্র্যাক থেকে কয়েকটি সরান।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটির বেশি স্ট্রিমিং ট্র্যাক যোগ করা যাবে না৷ আরো কম ট্র্যাক যোগ করুন অথবা প্রিয় ট্র্যাক থেকে কয়েকটি সরান।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_message_favorite_max_tracks">
+        <item quantity="other">%dটির বেশি ট্র্যাক যোগ করা যাবে না৷ আরো কম ট্র্যাক যোগ করুন অথবা প্রিয় ট্র্যাক থেকে কয়েকটি সরান।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটির বেশি ট্র্যাক যোগ করা যাবে না৷ আরো কম ট্র্যাক যোগ করুন অথবা প্রিয় ট্র্যাক থেকে কয়েকটি সরান।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_exported_kt">
+        <item quantity="other">%dটি প্লে-লিস্ট রপ্তানি করা হয়েছে৷</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি প্লে-লিস্ট রপ্তানি করা হয়েছে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_kt">
+        <item quantity="other">%dটি প্লে-লিস্ট ইমপোর্ট করা হয়েছে৷</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি প্লে-লিস্ট ইমপোর্ট করা হয়েছে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlist_imported_max_message_kt">
+        <item quantity="other">%dটির বেশি প্লে-লিস্ট নির্বাচন করা যাবে না৷</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটির বেশি প্লে-লিস্ট নির্বাচন করা যাবে না৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%dটি প্লেলিস্ট মুছবেন?</item>
+        <item quantity="one">1টি প্লেলিস্ট মুছবেন?</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="other">%dটি ট্র্যাক</item>
+        <item quantity="one">একটি ট্র্যাক</item>
+    </plurals>
+    <plurals name="n_tracks_add_to_favorite_already">
+        <item quantity="other">শুধু %dটি ট্র্যাক প্রিয়তে যোগ করা হয়েছে৷ বাকিগুলো ইতোমধ্যে প্রিয়তে ছিল৷</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">শুধু %dটি ট্র্যাক প্রিয়তে যোগ করা হয়েছে৷ বাকিগুলো ইতোমধ্যে প্রিয়তে ছিল৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_favorite">
+        <item quantity="other">প্রিয়তে %dটি ট্র্যাক যোগ হয়েছে।</item>
+        <item quantity="one">প্রিয়তে 1টি ট্র্যাক যোগ হয়েছে।</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_playlist">
+        <item quantity="other">গানের তালিকাতে %dটি ট্র্যাক যুক্ত হয়েছে।</item>
+        <item quantity="one">গানের তালিকাতে একটি ট্র্যাক যোগ করা হয়েছে।</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">সারিতে %dটি ট্র্যাক যুক্ত হয়েছে।</item>
+        <item quantity="one">সারিতে %dটি ট্র্যাক যুক্ত হয়েছে।</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%dটি ট্র্যাক মুছবেন?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি ট্র্যাক মুছবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">ঘুমের সময়: %d ঘণ্টা</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ঘুমের সময়: %d ঘণ্টা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">ঘুমের সময়: %d মিনিট</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ঘুমের সময়: %d মিনিট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>
