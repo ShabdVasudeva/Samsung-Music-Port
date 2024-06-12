@@ -20,7 +20,7 @@
 
 <h2>Credits</h2>
 
-**all credits to develop this music app is goes to team samsung and Samsung Electronics co ltd.**
+**all credits to develop this music app is goes to developer team samsung and Samsung Electronics co ltd. We Appreciate Their Works 🫡**
 
 - we just mod this application to make it available to all non-samsung devices.
 
