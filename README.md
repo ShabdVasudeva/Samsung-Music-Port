@@ -18,6 +18,9 @@
 - `ApkSigner.jar sign -ks keystore --ks-pass pass:keystorepass --out SamsungMusicBuild.apk OutPutApp.apk`
 - `zipalign -f -v 4 SamsungMusicBuild.apk OutPutApp.apk`
 
+**Download From Web**
+- visit here to [download](https://www.pling.com/p/2164911/)
+
 <h2>Credits</h2>
 
 **all credits to develop this music app is goes to developer team samsung and Samsung Electronics co ltd. We Appreciate Their Works 🫡**
